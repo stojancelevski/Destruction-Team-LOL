@@ -1,0 +1,289 @@
+
+#jumbotron {
+
+    background-image: url("images/banners/Top Boost/HOMEg.png");
+
+    background-repeat: no-repeat;
+    width: 99.9%;
+    height: 50%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body{
+    font-family: myFont;
+    src: url("images/myfont.ttf");
+}
+
+#slikaa {
+    width: 100%;
+    height: 70%;
+}
+.backgroundP{
+    background-image: url("images/Packs/box-placement_matches.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.backgroundH{
+    background-image: url("images/Packs/box-honor_boost.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.backgroundC{
+    background-image: url("images/Packs/box-champion_mastery_boost.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.backgroundM{
+    background-image: url("images/Packs/box-mission_completion.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+#headerfaq {
+    background-image: url("images/faq.jpg");
+}
+
+.jumbotron.bg1 {
+    background-image: url("images/banners/bg_1500.png")
+}
+
+.jumbotron.bg2 {
+    background-image: url("images/banners/bg_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg3 {
+    background-image: url("images/banners/bg_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg4 {
+    background-image: url("images/banners/bg_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg5 {
+    background-image: url("images/banners/bg_5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg6 {
+    background-image: url("images/banners/bg_6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg7 {
+    background-image: url("images/banners/bg_7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg8 {
+    background-image: url("images/banners/bg_8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg9 {
+    background-image: url("images/banners/bg_9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg10 {
+    background-image: url("images/banners/bg_10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg11 {
+    background-image: url("images/banners/bg_11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.bg12 {
+    background-image: url("images/banners/bg_12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wraptext {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 768px) {
+    #slikam {
+        width: 80%;
+        height: 80%;
+    }
+    .modal-xl {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+
+    .modal-xl {
+        width: 90%;
+        max-width: 1200px;
+    }
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+ul.no_bullet {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.leaf:after {
+    content: url('images/ok.png');
+}
+
+li.lang {
+    background: url('images/okg.png') no-repeat left top;
+    padding-left: 44px;
+    padding-top: 3px;
+}
+
+h1.mail:before {
+    content: url("images/mail.png");
+}
+
+#honorSlider .slider-selection {
+    background: #375990;
+}
+
+#winSlider .slider-selection {
+    background: #375990;
+}
+
+#placementSlider .slider-selection {
+    background: #375990;
+}
+
+#missionSlider .slider-selection {
+    background: #375990;
+}
+
+img.img-krug {
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;;
+}
+
+img.img-kocka {
+    height: 50%;
+    width: 50%;
+}
+
+.zoltabg {
+    background: #E9D300;
+}
+
+.zolta {
+    color: #E9D300;
+}
+
+.sinabg {
+    background: #375990;
+}
+
+#sina {
+    color: #375990;
+}
+
+.slider-handle.custom {
+    background: transparent none;
+    /* You can customize the handle and set a background image */
+}
+
+/* Or display content like unicode characters or fontawesome icons */
+.slider-handle.custom::before {
+    line-height: 20px;
+    font-size: 20px;
+    content: url("images/logoP.png"); /*unicode star character*/
+    color: black;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #E9D300;
+    border-radius: 50%;
+    border-top: 16px solid #375990;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.jumbotron.shield {
+    background-image: url("images/baner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron.banertext {
+    text-align: center;
+    color: white;
+    font-family: myFont;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("images/myfont.ttf");
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+textarea {
+    resize: none;
+}
