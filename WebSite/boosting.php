@@ -12,8 +12,8 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="images/Packs/box-division_boost.png" alt="Card image cap">
-                    <div class="card-block" style="text-align: center">
+                    <img class="card-img-top " src="images/Packs/box-division_boost.png" alt="Card image cap">
+                    <div class="card-block " style="text-align: center">
                         <h4 class="card-title" >Division Boosting</h4>
                         <a href="divboost.php" class="btn btn-primary">Find out More</a>
                     </div>
