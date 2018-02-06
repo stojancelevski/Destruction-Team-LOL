@@ -90,7 +90,7 @@
     <div class="row">
         <div class="col-md-3 col-centered">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="images/job/job_1.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">High Elo Players</h5>
                     <p class="card-text">Since we put a lot of effort into improving our elo services, we're only
@@ -105,7 +105,7 @@
         </div>
         <div class="col-md-3">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="images/job/job_2.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Required Availability</h5>
                     <p class="card-text">We require from our elo boosters to play a minimum of 6-8 hours per day. This
@@ -119,7 +119,7 @@
         </div>
         <div class="col-md-3 col-centered">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="images/job/job_3.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Good Manners / Languages</h5>
                     <p class="card-text">It's really important for our elo boosters to have proper communication skills
