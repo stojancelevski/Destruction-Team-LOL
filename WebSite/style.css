@@ -21,10 +21,14 @@ body {
 }
 
 #slikaa {
-    width: 100%;
-    height: 70%;
+    width: 350px;
+    height:250px;
 }
-
+.sticky {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
 .backgroundP {
     background-image: url("images/Packs/box-placement_matches.png");
     background-size: contain;

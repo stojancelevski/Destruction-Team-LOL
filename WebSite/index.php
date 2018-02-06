@@ -130,7 +130,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="http://solarhythmia.com/art-gallery/vectors/800x600/rainbow-kirby-800x600.jpg" id="slikaa" class="img-fluid">
+                <img src="http://solarhythmia.com/art-gallery/vectors/800x600/rainbow-kirby-800x600.jpg" id="slikaa" class="img-fluid sticky">
             </div>
             <div class="col-md-8"><h1 style="text-align: center"><span class="badge badge-secondary">Why Are We the Best ?</span></h1>
                 <ul>
