@@ -12,7 +12,30 @@
 </div>
 <div class="jumbotron">
     <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-5"><br><br><br>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                             src="https://cdn-images-1.medium.com/max/2000/1*M890k1hyDMxTmStLYkDr8w.jpeg"
+                             alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                             src="https://cdn1.nyt.com/images/2014/10/20/business/20koreagames-web2/20koreagames-web2-articleLarge.jpg"
+                             alt="Second slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <br><br><br><br>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -41,7 +64,7 @@
                 <div class="container">
                     <h1 class="display-4">Join our Team</h1>
                     <p>
-                        <b> We're one of the oldest companies that provide elo boosting services all over the world. We
+                        <b> We're one of the companies that provide boosting services all over the world. We
                             have a clear mission, which is to make our customers as happy as possible. Together with our
                             elo boosters we will deliver good, friendly and professional elo boosting services. Thanks
                             to our customers we became the best website to date. Feel free to join our family and become
