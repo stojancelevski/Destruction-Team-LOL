@@ -129,11 +129,11 @@
     <br><br>
     <div class="container">
         <div class="row">
-            <div class="col-4">
-                <img src="http://solarhythmia.com/art-gallery/vectors/800x600/rainbow-kirby-800x600.jpg" id="slikaa">
+            <div class="col-md-4">
+                <img src="http://solarhythmia.com/art-gallery/vectors/800x600/rainbow-kirby-800x600.jpg" id="slikaa" class="img-fluid">
             </div>
-            <div class="col-8">
-                <ul><h1 style="text-align: center"><span class="badge badge-secondary">Why Are We the Best ?</span></h1>
+            <div class="col-md-8"><h1 style="text-align: center"><span class="badge badge-secondary">Why Are We the Best ?</span></h1>
+                <ul>
                     <div id="accordion">
                         <li>
                             <div>
@@ -287,8 +287,8 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-8">
-                <ul><h1 style="text-align: center"><span class="badge badge-secondary">Top Boost features</span></h1>
+            <div class="col-md-8"><h1 style="text-align: center"><span class="badge badge-secondary">Top Boost features</span></h1>
+                <ul>
                     <div id="accordion">
                         <li>
                             <div>
@@ -450,7 +450,7 @@
                     </div>
                 </ul>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <img src="http://www.fonditos3d.com/800x600/seta-de-mario-bros.jpg" id="slikaa">
 
             </div>
@@ -458,12 +458,12 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-md-4">
                 <img src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
                      id="slikaa">
             </div>
-            <div class="col-8">
-                <ul class="no_bullet"><h1 style="text-align: center"><span class="badge badge-danger">Top Boost features</span></h1>
+            <div class="col-md-8"><h1 style="text-align: center"><span class="badge badge-danger">More Apropriate Prices</span></h1>
+                <ul class="no_bullet">
                 <li><h1><a href="https://elo-boost.net/boosting/purchase"><span class="badge badge-primary">Elo Boost</span></a></h1></li>
                 <li><h1><a href="https://eloboost24.eu/boosting"><span class="badge badge-primary">Elo Boost 24</span></a></h1></li>
                 <li><h1><a href="https://rankedboost.com/league-of-legends/elo-boost/solo-queue/"><span class="badge badge-primary">Ranked Boost</span></a></h1></li>

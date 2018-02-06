@@ -135,6 +135,15 @@ body{
         width: 90%;
         max-width: 300px;
     }
+    .centered {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .dropdown:hover > .dropdown-menu {
+        display:none;
+    }
 }
 
 @media (min-width: 768px) {
