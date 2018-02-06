@@ -209,7 +209,7 @@
 <br>
 <div class="card col-12">
     <h3 class="card-header" style="text-align: center">PAYMENT PROCESS</h3>
-    <div id="accordion">
+    <div id="accordion2">
         <div class="card ">
             <div class="card-header" id="headingTvelve" data-toggle="collapse" data-target="#collapseTvelve"
                  aria-expanded="true" aria-controls="collapseTvelve">
@@ -220,7 +220,7 @@
                 </h5>
             </div>
 
-            <div id="collapseTvelve" class="collapse show" aria-labelledby="headingTvelve" data-parent="#accordion">
+            <div id="collapseTvelve" class="collapse show" aria-labelledby="headingTvelve" data-parent="#accordion2">
                 <div class="card-body">
                     We are accepting PaySafeCard, iDeal, credit and debit cards.
                 </div>
@@ -235,7 +235,7 @@
                     </button>
                 </h5>
             </div>
-            <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
+            <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion2">
                 <div class="card-body">
                     Now your order is in our system and would shortly be claimed by a booster. When it happens he will
                     notify you via chat before starting the first game on your account.
@@ -251,7 +251,7 @@
                     </button>
                 </h5>
             </div>
-            <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
+            <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion2">
                 <div class="card-body">
                     We renew our promo on monthly basis or closer to holiday events (Christmas, Halloween etc).
                 </div>
@@ -262,7 +262,7 @@
 <br>
 <div class="card col-12">
     <h3 class="card-header" style="text-align: center">GENERAL QUESTIONS</h3>
-    <div id="accordion">
+    <div id="accordion3">
         <div class="card ">
             <div class="card-header" id="headingFifteen" data-toggle="collapse" data-target="#collapseFifteen"
                  aria-expanded="true" aria-controls="collapseFifteen">
@@ -273,7 +273,7 @@
                 </h5>
             </div>
 
-            <div id="collapseFifteen" class="collapse show" aria-labelledby="headingFifteen" data-parent="#accordion">
+            <div id="collapseFifteen" class="collapse show" aria-labelledby="headingFifteen" data-parent="#accordion3">
                 <div class="card-body">
                     At the moment we work on the following servers: Europe West, Europe Nordic and East, North America,
                     Latin America North and Oceania. It’s possible that we will eventually expand amount of servers we
@@ -290,7 +290,7 @@
                     </button>
                 </h5>
             </div>
-            <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion">
+            <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion3">
                 <div class="card-body">
                     No, we don’t provide boosts for orders lower than 5 wins at once.
                 </div>
