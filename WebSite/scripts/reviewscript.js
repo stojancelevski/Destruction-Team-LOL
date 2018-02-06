@@ -1,7 +1,22 @@
 var url = "https://script.google.com/macros/s/AKfycbw43JwsUCkJceL_R9rnKtfx-BP6G-oauNO-LpyMaz_Zc1V29XXB/exec?type=POST";
 var getUrl = "https://script.google.com/macros/s/AKfycbw43JwsUCkJceL_R9rnKtfx-BP6G-oauNO-LpyMaz_Zc1V29XXB/exec?type=GET";
 var imageRoot = "images/reviewImages/";
+var entityMap = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+    '/': '&#x2F;',
+    '`': '&#x60;',
+    '=': '&#x3D;'
+};
 
+function escapeHtml (string) {
+    return String(string).replace(/[&<>"'`=\/]/g, function (s) {
+        return entityMap[s];
+    });
+}
 
 $(document).ready(function(){
     var content = $("#content");
@@ -77,13 +92,13 @@ else{
                                         loader.show();
 
                                         $.get(url + params + data.message).then(res => {
-                                        console.log('Ok');
+                                            console.log('Ok');
                                         console.log(res);
-                                            alert(res);
+                                        alert(res);
                                         location.reload();
 
                                     },
-                                    err =>{
+                                        err =>{
                                             console.log(err);
                                             alert(err.responseText);
 
@@ -120,9 +135,9 @@ function mapReviews(data)
     }
     else if(data.length == 1)
     {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
+        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
+        $("#firstName").html(escapeHtml(data[data.length-1].name));
+        $("#firstReview").html(escapeHtml(data[data.length-1].text));
         $("#secondCard").hide();
         $("#thirdCard").hide();
         $("#fourthCard").hide();
@@ -131,12 +146,12 @@ function mapReviews(data)
     }
     else if(data.length == 2)
     {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
-        $("#secondImg").attr('src',imageRoot + data[data.length-2].image);
-        $("#secondName").html(data[data.length-2].name);
-        $("#secondReview").html(data[data.length-2].text);
+        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
+        $("#firstName").html(escapeHtml(data[data.length-1].name));
+        $("#firstReview").html(escapeHtml(data[data.length-1].text));
+        $("#secondImg").attr(escapeHtml('src',imageRoot + data[data.length-2].image));
+        $("#secondName").html(escapeHtml(data[data.length-2].name));
+        $("#secondReview").html(escapeHtml(data[data.length-2].text));
         $("#thirdCard").hide();
         $("#fourthCard").hide();
         $("#fifthCard").hide();
@@ -144,75 +159,75 @@ function mapReviews(data)
     }
     else if(data.length ==3)
     {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
-        $("#secondImg").attr('src',imageRoot + data[data.length-2].image);
-        $("#secondName").html(data[data.length-2].name);
-        $("#secondReview").html(data[data.length-2].text);
-        $("#thirdImg").attr('src',imageRoot + data[data.length-3].image);
-        $("#thirdName").html(data[data.length-3].name);
-        $("#thirdReview").html(data[data.length-3].text);
+        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
+        $("#firstName").html(escapeHtml(data[data.length-1].name));
+        $("#firstReview").html(escapeHtml(data[data.length-1].text));
+        $("#secondImg").attr('src',escapeHtml(imageRoot + data[data.length-2].image));
+        $("#secondName").html(escapeHtml(data[data.length-2].name));
+        $("#secondReview").html(escapeHtml(data[data.length-2].text));
+        $("#thirdImg").attr('src',escapeHtml(imageRoot + data[data.length-3].image));
+        $("#thirdName").html(escapeHtml(data[data.length-3].name));
+        $("#thirdReview").html(escapeHtml(data[data.length-3].text));
         $("#fourthCard").hide();
         $("#fifthCard").hide();
         $("#sixthCard").hide();
     }
     else if(data.length == 4)
     {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
-        $("#secondImg").attr('src',imageRoot + data[data.length-2].image);
-        $("#secondName").html(data[data.length-2].name);
-        $("#secondReview").html(data[data.length-2].text);
-        $("#thirdImg").attr('src',imageRoot + data[data.length-3].image);
-        $("#thirdName").html(data[data.length-3].name);
-        $("#thirdReview").html(data[data.length-3].text);
-        $("#fourthImg").attr('src',imageRoot + data[data.length-4].image);
-        $("#fourthName").html(data[data.length-4].name);
-        $("#fourthReview").html(data[data.length-4].text);
+        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
+        $("#firstName").html(escapeHtml(data[data.length-1].name));
+        $("#firstReview").html(escapeHtml(data[data.length-1].text));
+        $("#secondImg").attr('src',escapeHtml(imageRoot + data[data.length-2].image));
+        $("#secondName").html(escapeHtml(data[data.length-2].name));
+        $("#secondReview").html(escapeHtml(data[data.length-2].text));
+        $("#thirdImg").attr('src',escapeHtml(imageRoot + data[data.length-3].image));
+        $("#thirdName").html(escapeHtml(data[data.length-3].name));
+        $("#thirdReview").html(escapeHtml(data[data.length-3].text));
+        $("#fourthImg").attr('src',escapeHtml(imageRoot + data[data.length-4].image));
+        $("#fourthName").html(escapeHtml(data[data.length-4].name));
+        $("#fourthReview").html(escapeHtml(data[data.length-4].text));
         $("#fifthCard").hide();
         $("#sixthCard").hide();
     }
     else if(data.length == 5)
     {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
-        $("#secondImg").attr('src',imageRoot + data[data.length-2].image);
-        $("#secondName").html(data[data.length-2].name);
-        $("#secondReview").html(data[data.length-2].text);
-        $("#thirdImg").attr('src',imageRoot + data[data.length-3].image);
-        $("#thirdName").html(data[data.length-3].name);
-        $("#thirdReview").html(data[data.length-3].text);
-        $("#fourthImg").attr('src',imageRoot + data[data.length-4].image);
-        $("#fourthName").html(data[data.length-4].name);
-        $("#fourthReview").html(data[data.length-4].text);
-        $("#fifthImg").attr('src',imageRoot + data[data.length-5].image);
-        $("#fifthName").html(data[data.length-5].name);
-        $("#fifthReview").html(data[data.length-5].text);
+        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
+        $("#firstName").html(escapeHtml(data[data.length-1].name));
+        $("#firstReview").html(escapeHtml(data[data.length-1].text));
+        $("#secondImg").attr('src',escapeHtml(imageRoot + data[data.length-2].image));
+        $("#secondName").html(escapeHtml(data[data.length-2].name));
+        $("#secondReview").html(escapeHtml(data[data.length-2].text));
+        $("#thirdImg").attr('src',escapeHtml(imageRoot + data[data.length-3].image));
+        $("#thirdName").html(escapeHtml(data[data.length-3].name));
+        $("#thirdReview").html(escapeHtml(data[data.length-3].text));
+        $("#fourthImg").attr('src',escapeHtml(imageRoot + data[data.length-4].image));
+        $("#fourthName").html(escapeHtml(data[data.length-4].name));
+        $("#fourthReview").html(escapeHtml(data[data.length-4].text));
+        $("#fifthImg").attr('src',escapeHtml(imageRoot + data[data.length-5].image));
+        $("#fifthName").html(escapeHtml(data[data.length-5].name));
+        $("#fifthReview").html(escapeHtml(data[data.length-5].text));
         $("#sixthCard").hide();
     }
     else
     {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
-        $("#secondImg").attr('src',imageRoot + data[data.length-2].image);
-        $("#secondName").html(data[data.length-2].name);
-        $("#secondReview").html(data[data.length-2].text);
-        $("#thirdImg").attr('src',imageRoot + data[data.length-3].image);
-        $("#thirdName").html(data[data.length-3].name);
-        $("#thirdReview").html(data[data.length-3].text);
-        $("#fourthImg").attr('src',imageRoot + data[data.length-4].image);
-        $("#fourthName").html(data[data.length-4].name);
-        $("#fourthReview").html(data[data.length-4].text);
-        $("#fifthImg").attr('src',imageRoot + data[data.length-5].image);
-        $("#fifthName").html(data[data.length-5].name);
-        $("#fifthReview").html(data[data.length-5].text);
-        $("#sixthImg").attr('src',imageRoot + data[data.length-6].image);
-        $("#sixthName").html(data[data.length-6].name);
-        $("#sixthReview").html(data[data.length-6].text);
+        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
+        $("#firstName").html(escapeHtml(data[data.length-1].name));
+        $("#firstReview").html(escapeHtml(data[data.length-1].text));
+        $("#secondImg").attr('src',escapeHtml(imageRoot + data[data.length-2].image));
+        $("#secondName").html(escapeHtml(data[data.length-2].name));
+        $("#secondReview").html(escapeHtml(data[data.length-2].text));
+        $("#thirdImg").attr('src',escapeHtml(imageRoot + data[data.length-3].image));
+        $("#thirdName").html(escapeHtml(data[data.length-3].name));
+        $("#thirdReview").html(escapeHtml(data[data.length-3].text));
+        $("#fourthImg").attr('src',escapeHtml(imageRoot + data[data.length-4].image));
+        $("#fourthName").html(escapeHtml(data[data.length-4].name));
+        $("#fourthReview").html(escapeHtml(data[data.length-4].text));
+        $("#fifthImg").attr('src',escapeHtml(imageRoot + data[data.length-5].image));
+        $("#fifthName").html(escapeHtml(data[data.length-5].name));
+        $("#fifthReview").html(escapeHtml(data[data.length-5].text));
+        $("#sixthImg").attr('src',escapeHtml(imageRoot + data[data.length-6].image));
+        $("#sixthName").html(escapeHtml(data[data.length-6].name));
+        $("#sixthReview").html(escapeHtml(data[data.length-6].text));
     }
 
 
