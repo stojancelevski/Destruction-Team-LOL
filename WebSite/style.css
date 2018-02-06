@@ -17,7 +17,6 @@
 
 body {
     font-family: myFont;
-    src: url("images/myfont.ttf");
 }
 
 #slikaa {
@@ -291,7 +290,7 @@ img.img-kocka {
 
 @font-face {
     font-family: myFont;
-    src: url("images/myfont.ttf");
+    src: url("images/myfont.woff");
 }
 
 @-webkit-keyframes spin {
