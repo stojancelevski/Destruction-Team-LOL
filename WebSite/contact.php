@@ -31,7 +31,7 @@
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="message" rows="3"
-                                  placeholder="We are looking only for challenger boosters!- If you are not challenger or at least master please don't contact with us."></textarea>
+                                  placeholder="We are looking only for any type of boosters!!!"></textarea>
                     </div>
                     <input type="submit" class="btn btn-primary" value="Submit"/>
                 </form>
