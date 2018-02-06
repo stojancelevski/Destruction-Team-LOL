@@ -25,9 +25,11 @@ body {
     height:250px;
 }
 .sticky {
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    position:absolute;
+    right:25%;
+    top:0px;
+    width:30%;
+    height:auto;
 }
 .backgroundP {
     background-image: url("images/Packs/box-placement_matches.png");

@@ -93,4 +93,3 @@ function mapReviews(data)
     }
 
 }
-
