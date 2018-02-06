@@ -22,19 +22,19 @@
                         </div>
                         <img class="card-img-top" src="images/logo1.png" alt="Card image cap">
                         <div class="list-group-item" align="center">
-                            <h1 style="align-items: center"><span class="badge badge-secondary">10A$/h</span></h1>
+                            <h2 style="align-items: center"><span class="badge badge-secondary">10A$/h</span></h2>
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/Divisions/diamond_5.png" alt="">
-                                <h1 style="align-items: stretch"><span class="badge badge-primary">Diamond V</span></h1>
+                                <h2 style="align-items: stretch"><span class="badge badge-primary">Diamond V</span></h2>
                                 <hr style="background:#777777;">
-                                <h1>Region:</h1>
-                                <h1 style="align-items:stretch"><span class="badge badge-danger">Oceania</span></h1>
-                                <h1>Position/Roles:</h1>
-                                <h1 style="align-items:stretch"><span class="badge badge-success">AP mid, Support</span>
-                                </h1>
-                                <h1>Hours Spend as coach:<span class="badge badge-secondary">0</span></h1>
+                                <h>Region:</h>
+                                <h2 style="align-items:stretch"><span class="badge badge-danger">Oceania</span></h2>
+                                <h>Position/Roles:</h>
+                                <h2 style="align-items:stretch"><span class="badge badge-success">AP mid, Support</span>
+                                </h2>
+                                <h>Hours Spend as coach:<span class="badge badge-secondary">0</span></h>
                                 <hr style="background:#777777;">
-                                <h2>About:</h2>
+                                <h>About:</2>
                                 <p style="text-align:justify">I do general game coaching in decision making, objective
                                     control as well as i specialise in Support coaching been diamond for multiple
                                     seasons,</p>
@@ -51,19 +51,19 @@
                         </div>
                         <img class="card-img-top" src="images/logo1.png" alt="Card image cap">
                         <div class="list-group-item" align="center">
-                            <h1 style="align-items: center"><span class="badge badge-secondary">20A$/h</span></h1>
+                            <h2 style="align-items: center"><span class="badge badge-secondary">20A$/h</span></h2>
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/diamond_1.png" alt="">
-                                <h1 style="align-items: stretch"><span class="badge badge-primary">Diamond I</span></h1>
+                                <h2 style="align-items: stretch"><span class="badge badge-primary">Diamond I</span></h2>
                                 <hr style="background:#777777;">
-                                <h1>Region:</h1>
-                                <h1 style="align-items:stretch"><span class="badge badge-danger">America</span></h1>
-                                <h1>Position/Roles:</h1>
-                                <h1 style="align-items:stretch"><span
-                                            class="badge badge-success">Jungle, AD carry</span></h1>
-                                <h1>Hours Spend as coach:<span class="badge badge-secondary">2</span></h1>
+                                <h>Region:</h>
+                                <h2 style="align-items:stretch"><span class="badge badge-danger">America</span></h2>
+                                <h>Position/Roles:</h>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Jungle, AD carry</span></h2>
+                                <h>Hours Spend as coach:<span class="badge badge-secondary">2</span></h>
                                 <hr style="background:#777777;">
-                                <h2>About:</h2>
+                                <h>About:</h>
                                 <p style="text-align:justify">If you feel like your teammates are holding you back and
                                     keeping you stuck in elo hell? Maybe you just need a little push for you to be able
                                     to carry those shitty teammates.
@@ -81,19 +81,19 @@
                         </div>
                         <img class="card-img-top" src="images/logo1.png" alt="Card image cap">
                         <div class="list-group-item" align="center">
-                            <h1 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h1>
+                            <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/master_1.png" alt="">
-                                <h1 style="align-items: stretch"><span class="badge badge-primary">Master</span></h1>
+                                <h2 style="align-items: stretch"><span class="badge badge-primary">Master</span></h2>
                                 <hr style="background:#777777;">
-                                <h1>Region:</h1>
-                                <h1 style="align-items:stretch"><span class="badge badge-danger">America</span></h1>
-                                <h1>Position/Roles:</h1>
-                                <h1 style="align-items:stretch"><span class="badge badge-success">AP mid, Jungle,<br> AD carry</span>
-                                </h1>
-                                <h1>Hours Spend as coach:<span class="badge badge-secondary">11</span></h1>
+                                <h>Region:</h>
+                                <h2 style="align-items:stretch"><span class="badge badge-danger">America</span></h2>
+                                <h>Position/Roles:</h>
+                                <h2 style="align-items:stretch"><span class="badge badge-success">AP mid, Jungle,<br> AD carry</span>
+                                </h2>
+                                <h>Hours Spend as coach:<span class="badge badge-secondary">11</span></h>
                                 <hr style="background:#777777;">
-                                <h2>About:</h2>
+                                <h>About:</h>
                                 <p style="text-align:justify"> LEAGUE OF LEGENDS COACHING
 
                                     --------------------------------------------------------------------------------
