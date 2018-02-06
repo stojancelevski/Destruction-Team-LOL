@@ -8,10 +8,10 @@
 <?php include 'navbar.php'; ?>
 <div class="jumbotron bg1"><br>
     <br><br>
-    <div class="container">
-        <div class="row">
+    <div class="container" style="color: white;">
+        <div class="row" >
             <div class="col-md-4">
-                <div class="card" style="width: 20rem;">
+                <div  style="width: 20rem;">
                     <img class="card-img-top " src="images/Packs/box-division_boost.png" alt="Card image cap">
                     <div class="card-block " style="text-align: center">
                         <h4 class="card-title" >Division Boosting</h4>
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 20rem;">
+                <div style="width: 20rem;">
                     <img class="card-img-top" src="images/Packs/box-win_boost.png" alt="Card image cap">
                     <div class="card-block" style="text-align: center">
                         <h4 class="card-title">Win Boost</h4>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 20rem;">
+                <div  style="width: 20rem;">
                     <img class="card-img-top" src="images/Packs/box-placement_matches.png" alt="Card image cap">
                     <div class="card-block" style="text-align: center">
                         <h4 class="card-title">Placement Matches</h4>
@@ -41,7 +41,7 @@
         <br><br>
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 20rem;">
+                <div style="width: 20rem;">
                     <img class="card-img-top" src="images/Packs/box-honor_boost.png" alt="Card image cap">
                     <div class="card-block" style="text-align: center">
                         <h4 class="card-title">Honor Boost</h4>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 20rem;">
+                <div style="width: 20rem;">
                     <img class="card-img-top" src="images/Packs/box-champion_mastery_boost.png" alt="Card image cap">
                     <div class="card-block" style="text-align: center">
                         <h4 class="card-title">Champion Mastery Boost</h4>
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 20rem;">
+                <div style="width: 20rem;">
                     <img class="card-img-top" src="images/Packs/box-mission_completion.png" alt="Card image cap">
                     <div class="card-block" style="text-align: center">
                         <h4 class="card-title">Mission Completion</h4>
@@ -69,6 +69,8 @@
             </div>
         </div>
     </div>
+</div>
+
     <div id="paypal-button"></div>
 
 
