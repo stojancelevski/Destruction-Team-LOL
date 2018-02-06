@@ -19,7 +19,7 @@
             <div class="col-md-6" style="color: #375990">
                 <h5>Enter number of missions <br> you wish to be completed</h5>
                 <input id="slider" data-slider-id='missionSlider' data-slider-handle="custom" type="text"
-                       data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
+                    data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
                 <h5 id="number"></h5>
                 <h4 id="price"></h4>
                 <h6>
@@ -31,18 +31,16 @@
                         <div class="form-group">
                             <div style="padding-top: 5px">
                                 <select class="form-control" name="server" id="server">
-                                    <option>North America</option>
                                     <option>EU West</option>
                                     <option>EU Nordic & East</option>
-                                    <option>Latin America North</option>
                                     <option>Oceania</option>
                                 </select>
                             </div>
                             <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="email" placeholder="Email">
+                                <input type="text" class="form-control" id="champion" placeholder="Champions">
                             </div>
                             <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="discord" placeholder="Discord">
+                                <input type="text" class="form-control" id="email" placeholder="Email">
                             </div>
                             <div id="paypal-button" style="padding-top: 5px">
                             </div>
@@ -70,7 +68,7 @@
 <script src="scripts/mission.js"></script>
 <script>
     function isValid() {
-        return !($("#email").val() == '' && $("#discord").val() == '');
+        return !($("#email").val() == '');
     }
 
     function onChangeEmailOrDiscord(actions) {
@@ -86,15 +84,11 @@
         document.querySelector('#email').addEventListener('change', handler);
     }
 
-    function onChangeDiscord(handler) {
-        document.querySelector('#discord').addEventListener('change', handler);
-    }
-
     function post() {
         return new Promise(function (resolve, reject) {
             var type = "Misson boost, number of missions: " + $("#slider").val();
             var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
-                + $("#email").val() + "&discord=" + $("#discord").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
+                + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
             $.ajax(
                 {
                     url: url,
@@ -134,13 +128,10 @@
                 onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeDiscord(function () {
-                    onChangeEmailOrDiscord(actions);
-                })
             },
             onClick: function () {
                 if (!isValid()) {
-                    alert('Please enter e-mail or discord')
+                    alert('Please enter e-mail')
                 }
             },
             payment: function (data, actions) {

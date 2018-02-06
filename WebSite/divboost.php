@@ -37,28 +37,27 @@
                     </select><br><br>
                     <div style="text-align: center">
                         <span class="badge badge-secondary" style="background-color: #375990">
-                             <h3 id="value" style="color: #E9D300">
+                            <h3 id="value" style="color: #E9D300">
 
-                             </h3>
+                            </h3>
                         </span>
                         <h5>
                             <del class="text text-danger" id="extraval"></del>
                         </h5>
+                        
                         <div>
+                            <input type="text" class="form-control" id="champion" placeholder="Champions">
+                        </div>
+                        <div style="padding-top: 5px">
                             <select name="server" class="form-control" id="server">
-                                <option>North America</option>
                                 <option>EU West</option>
                                 <option>EU Nordic & East</option>
-                                <option>Latin America North</option>
                                 <option>Oceania</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <div style="padding-top: 5px">
                                 <input type="text" class="form-control" id="email" placeholder="Email">
-                            </div>
-                            <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="discord" placeholder="Discord">
                             </div>
                         </div>
                         <div id="paypal-button">
@@ -94,7 +93,7 @@
 <script src="scripts/divisionboost.js"></script>
 <script>
     function isValid() {
-        return !($("#email").val() == '' && $("#discord").val() == '');
+        return !($("#email").val() == '');
     }
 
     function onChangeEmailOrDiscord(actions) {
@@ -110,9 +109,6 @@
         document.querySelector('#email').addEventListener('change', handler);
     }
 
-    function onChangeDiscord(handler) {
-        document.querySelector('#discord').addEventListener('change', handler);
-    }
 
     function post() {
         return new Promise(function (resolve, reject) {
@@ -127,7 +123,7 @@
 
 
                 var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
-                    + $("#email").val() + "&discord=" + $("#discord").val() + "&price=" + getValue() + "&type=" + type + "&server=" + $("#server :selected").text();
+                    + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getValue() + "&type=" + type + "&server=" + $("#server :selected").text();
 
                 $.ajax(
                     {
@@ -168,13 +164,10 @@
                 onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeDiscord(function () {
-                    onChangeEmailOrDiscord(actions);
-                })
             },
             onClick: function () {
                 if (!isValid()) {
-                    alert('Please enter e-mail or discord')
+                    alert('Please enter e-mail')
                 }
             },
             payment: function (data, actions) {

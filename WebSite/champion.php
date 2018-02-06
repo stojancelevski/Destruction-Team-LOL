@@ -42,24 +42,17 @@
                         <del class="text text-danger" id="extraval"></del>
                     </h6>
                     <div style="padding-top: 5px">
-                        <input type="text" class="form-control" id="champion" placeholder="Champion">
+                        <input type="text" class="form-control" id="champion" placeholder="Champions">
                     </div>
                     <div style="padding-top: 5px">
                         <select class="form-control" name="server" id="server">
-                            <option>North America</option>
                             <option>EU West</option>
                             <option>EU Nordic & East</option>
-                            <option>Latin America North</option>
                             <option>Oceania</option>
                         </select>
                     </div>
-
-
                     <div style="padding-top: 5px">
                         <input type="text" class="form-control" id="email" placeholder="Email">
-                    </div>
-                    <div style="padding-top: 5px">
-                        <input type="text" class="form-control" id="discord" placeholder="Discord">
                     </div>
                 </div>
                 <div class="col-md-1"></div>
@@ -88,7 +81,7 @@
 <script src="scripts/mastery.js"></script>
 <script>
     function isValid() {
-        return !($("#email").val() == '' && $("#discord").val() == '');
+        return !($("#email").val() == ''
     }
 
     function onChangeEmailOrDiscord(actions) {
@@ -104,18 +97,14 @@
         document.querySelector('#email').addEventListener('change', handler);
     }
 
-    function onChangeDiscord(handler) {
-        document.querySelector('#discord').addEventListener('change', handler);
-    }
-
     function post() {
         return new Promise(function (resolve, reject) {
                 var type;
                 var from = $("#myLevel").val();
                 var to = $("#desiredLevel").val();
-                type = "Champion boost, champion: " +$("#champion").val() + ", level: " + from.toString() + " to " + to.toString();
+                type = "Champion boost, level: " + from.toString() + " to " + to.toString();
                 var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
-                    + $("#email").val() + "&discord=" + $("#discord").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
+                    + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
 
                 $.ajax(
                     {
@@ -156,13 +145,10 @@
                 onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeDiscord(function () {
-                    onChangeEmailOrDiscord(actions);
-                })
             },
             onClick: function () {
                 if (!isValid()) {
-                    alert('Please enter e-mail or discord');
+                    alert('Please enter e-mail');
                 }
             },
             payment: function (data, actions) {

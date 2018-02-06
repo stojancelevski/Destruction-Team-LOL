@@ -24,7 +24,7 @@
                         <h2 id="number"></h2>
 
                         <input id="slider" data-slider-id='winSlider' type="text" data-slider-handle="custom"
-                               data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
+                        data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
                     </div>
                     <br>
                     <select class="form-control" name="divs" id="divs"></select>
@@ -33,13 +33,13 @@
                         <option value=1>Duo</option>
                     </select>
                     <select class="form-control" name="server" id="server">
-                        <option>North America</option>
                         <option>EU West</option>
                         <option>EU Nordic & East</option>
-                        <option>Latin America North</option>
                         <option>Oceania</option>
                     </select>
-
+                    <div style="padding-top: 5px">
+                        <input type="text" class="form-control" id="champions" placeholder="Champions">
+                    </div>
                     <h2 id="number"></h2>
                     <img class="card-img-top" id="winimg" src="" alt="Div image">
                     <div class="card-text">
@@ -48,14 +48,12 @@
                             <div style="padding-top: 5px">
                                 <input type="text" class="form-control" id="email" placeholder="Email">
                             </div>
-                            <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="discord" placeholder="Discord">
-                            </div>
+
                         </div>
                         <span class="badge badge-secondary" style="background-color: #375990">
-                             <h3 id="price" style="color: #E9D300">
+                            <h3 id="price" style="color: #E9D300">
 
-                             </h3>
+                            </h3>
                         </span>
                         <h5>
                             <del class="text text-danger" id="extraval"></del>
@@ -86,7 +84,7 @@
 <script src="scripts/winboost.js"></script>
 <script>
     function isValid() {
-        return !($("#email").val() == '' && $("#discord").val() == '');
+        return !($("#email").val() == '');
     }
 
     function onChangeEmailOrDiscord(actions) {
@@ -102,10 +100,6 @@
         document.querySelector('#email').addEventListener('change', handler);
     }
 
-    function onChangeDiscord(handler) {
-        document.querySelector('#discord').addEventListener('change', handler);
-    }
-
     function post() {
         return new Promise(function (resolve, reject) {
             var solo = $("#type :selected").text();
@@ -113,7 +107,7 @@
 
             type = solo + " win boost, division: " + $("#divs :selected").text() + ", games: " + $("#slider").val();
             var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
-                + $("#email").val() + "&discord=" + $("#discord").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
+                + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
             $.ajax(
                 {
                     url: url,
@@ -152,13 +146,10 @@
                 onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeDiscord(function () {
-                    onChangeEmailOrDiscord(actions);
-                })
             },
             onClick: function () {
                 if (!isValid()) {
-                    alert('Please enter e-mail or discord')
+                    alert('Please enter e-mail')
                 }
             },
             payment: function (data, actions) {
