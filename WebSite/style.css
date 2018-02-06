@@ -17,7 +17,6 @@
 
 body {
     font-family: myFont;
-    src: url("images/myfont.ttf");
 }
 
 #slikaa {
@@ -25,11 +24,13 @@ body {
     height:250px;
 }
 .sticky {
-    position:absolute;
-    right:25%;
-    top:0px;
-    width:30%;
-    height:auto;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px; /* Half the height */
+    margin-left: -250px; /* Half the width */
 }
 .backgroundP {
     background-image: url("images/Packs/box-placement_matches.png");
@@ -291,7 +292,7 @@ img.img-kocka {
 
 @font-face {
     font-family: myFont;
-    src: url("images/myfont.ttf");
+    src: url("images/myfont.woff");
 }
 
 @-webkit-keyframes spin {
