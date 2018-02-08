@@ -62,10 +62,20 @@ $(document).ready(function(){
 
 
 
-
-
 })
 
+$("#safeButton").on('click',function()
+{
+    $("#safe").prop('checked',true);
+    $("#regular").prop('checked',false);
+    triggerValue();
+})
+$("#regularButton").on('click',function()
+{
+    $("#safe").prop('checked',false);
+    $("#regular").prop('checked',true);
+    triggerValue();
+})
 $("#from").on('change',function(){
 
     var j = 1;
@@ -164,7 +174,13 @@ function triggerValue()
         }
     }
 
-    var extraprice = value + (value * 0.15);
+    if($("#safe").is(":checked"))
+    {
+        value+= value*0.21;
+    }
+    value = Math.ceil(value);
+    var extraprice = Math.ceil(value + (value * 0.15));
+
     $("#value").html('Bonus price: '+value+'€');
     $("#extraval").html('Original price: ' + extraprice + '€')
 }

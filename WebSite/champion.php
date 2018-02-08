@@ -36,8 +36,16 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary active" id="regularButton">
+                            <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                        </label>
+                        <label class="btn btn-secondary" id="safeButton">
+                            <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                        </label>
+                    </div>
 
-                    <h5 id="price"></h5>
+                        <h5 id="price"></h5>
                     <h6>
                         <del class="text text-danger" id="extraval"></del>
                     </h6>
@@ -81,7 +89,7 @@
 <script src="scripts/mastery.js"></script>
 <script>
     function isValid() {
-        return !($("#email").val() == ''
+        return !($("#email").val() == '')
     }
 
     function onChangeEmailOrDiscord(actions) {

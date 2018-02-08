@@ -37,6 +37,14 @@
                         <option>EU Nordic & East</option>
                         <option>Oceania</option>
                     </select>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary active" id="regularButton">
+                            <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                        </label>
+                        <label class="btn btn-secondary" id="safeButton">
+                            <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                        </label>
+                    </div>
                     <div style="padding-top: 5px">
                         <input type="text" class="form-control" id="champions" placeholder="Champions">
                     </div>

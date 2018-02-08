@@ -39,17 +39,40 @@ function getPrice()
 {
     var nr = parseInt($('#slider').val());
     var division = $('#divs :selected').val();
+    var price = -1;
     for(var i = 0;i<divisions.length;i++)
     {
         if(division === divisions[i].name)
         {
             var bonus = Math.floor(nr/10);
-            return divisions[i].price * (nr - bonus);
+            price = divisions[i].price * (nr - bonus);
+            break;
         }
     }
-    return -1;
+    if(price == -1)
+    {
+        throw new Error("Something went wrong!")
+    }
+    if($("#safe").is(":checked"))
+    {
+        price+=price*0.21;
+    }
+    return Math.ceil(price);
 }
-
+$("#safeButton").on('click',function()
+{
+    $("#safe").prop('checked',true);
+    $("#regular").prop('checked',false);
+    $('#price').html('Bonus price: ' +getPrice() +'€');
+    extra();
+})
+$("#regularButton").on('click',function()
+{
+    $("#safe").prop('checked',false);
+    $("#regular").prop('checked',true);
+    $('#price').html('Bonus price: ' +getPrice() +'€');
+    extra();
+})
 function changeImg()
 {
     console.log('Image triggered');
@@ -66,6 +89,6 @@ function changeImg()
 function extra()
 {
     var price = getPrice();
-    var extra = price + (price * 0.15);
+    var extra = Math.ceil(price + (price * 0.15));
     $("#extraval").html('Original price: ' + extra +'€')
 }

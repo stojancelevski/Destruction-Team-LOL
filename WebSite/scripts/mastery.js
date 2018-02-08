@@ -32,9 +32,23 @@ $('#myLevel').on('change',function(){
     extra();
 });
 
-
+$("#safeButton").on('click',function()
+{
+    $("#safe").prop('checked',true);
+    $("#regular").prop('checked',false);
+    $('#price').html('Bonus price: ' +getPrice() +'€');
+    extra();
+})
+$("#regularButton").on('click',function()
+{
+    $("#safe").prop('checked',false);
+    $("#regular").prop('checked',true);
+    $('#price').html('Bonus price: ' +getPrice() +'€');
+    extra();
+})
 function getPrice()
 {
+
     var price = 0;
     var start = parseInt($('#myLevel').val()) -1;
     var end = parseInt($('#desiredLevel').val()) -2;
@@ -42,7 +56,12 @@ function getPrice()
     {
         price+=prices[i];
     }
-    return price;
+    console.log($("#safe").is(':checked'));
+    if($("#safe").is(':checked'))
+    {
+        price+= price*0.21;
+    }
+    return Math.ceil(price);
 }
 
 function validate()
@@ -54,6 +73,6 @@ function validate()
 function extra()
 {
     var price = getPrice();
-    var extra = price + (price * 0.15);
+    var extra = Math.ceil(price + (price * 0.15));
     $("#extraval").html('Original price: ' + extra +'€')
 }

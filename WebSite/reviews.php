@@ -84,7 +84,9 @@
                         <textarea class="form-control" id="review" rows="3" placeholder="Enter your Review"></textarea>
 
                     </div>
-                    <input type="file" name="file" id="file"/>
+                    <div class="form-group">
+                        <input type="file" name="file" id="file"/>
+                    </div>
                     <input type="submit" id="submit" name="submit" value="Submit review" class="btn btn-info"
                            style="background-color: #E9D300; color:#375990 "/>
                 </form>

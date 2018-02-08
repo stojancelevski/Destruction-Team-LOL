@@ -21,6 +21,14 @@
             <input id="slider" data-slider-id='honorSlider' type="text" data-slider-handle="custom" data-slider-min="2"
                 data-slider-max="5" data-slider-step="1" data-slider-value="2"/>
             <h5 id="level"></h5>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active" id="regularButton">
+                    <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                </label>
+                <label class="btn btn-secondary" id="safeButton">
+                    <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                </label>
+            </div>
             <h4 id="price"></h4>
             <h6>
                 <del class="text text-danger" id="extraval"></del>

@@ -21,6 +21,14 @@
         </div>
         <div class="col-md-6" style="color: #375990">
             <h5 id="number"></h5>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active" id="regularButton">
+                    <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                </label>
+                <label class="btn btn-secondary" id="safeButton">
+                    <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                </label>
+            </div>
             <h4 id="price"></h4>
             <h6>
                 <del class="text text-danger" id="extraval"></del>
