@@ -59,13 +59,20 @@ function extra()
 
 function checkSlider()
 {
+/*
     var sliderValue = parseInt($("#slider").val());
     if(sliderValue <= 2)
     {
-        console.log('Enlarge');
+
+        $(".slider.slider-horizontal.slider-track").css("height", "100px");
+        $(".slider.slider-horizontal.slider-track").css("width", "100%");
+
     }
     else
     {
-        console.log('Shrink');
+
+        $(".slider.slider-horizontal.slider-track").css("height", "10px");
+        $(".slider.slider-horizontal.slider-track").css("width", "100%");
     }
+    */
 }

@@ -88,6 +88,10 @@
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
     }
+    function onChangeChampion(handler)
+    {
+        document.querySelector('#champion').addEventListener('change',handler);
+    }
 
 
     function post() {
@@ -131,7 +135,10 @@
             },
             validate: function (actions) {
                 onChangeEmailOrDiscord(actions);
-                onChangeEmail(function () {
+                onChangeChampion(function(){
+                    onChangeEmailOrDiscord(actions);
+                })
+                onChangeEmail(function() {
                     onChangeEmailOrDiscord(actions);
                 })
             },

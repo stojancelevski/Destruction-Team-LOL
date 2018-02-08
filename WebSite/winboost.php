@@ -92,7 +92,7 @@
 <script src="scripts/winboost.js"></script>
 <script>
     function isValid() {
-        return !($("#email").val() == '');
+        return !($("#email").val() == '' || $("#champions").val() == '');
     }
 
     function onChangeEmailOrDiscord(actions) {
@@ -106,6 +106,10 @@
 
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
+    }
+    function onChangeChampion(handler)
+    {
+        document.querySelector('#champion').addEventListener('change',handler);
     }
 
     function post() {
@@ -151,7 +155,10 @@
             },
             validate: function (actions) {
                 onChangeEmailOrDiscord(actions);
-                onChangeEmail(function () {
+                onChangeChampion(function(){
+                    onChangeEmailOrDiscord(actions);
+                })
+                onChangeEmail(function() {
                     onChangeEmailOrDiscord(actions);
                 })
             },

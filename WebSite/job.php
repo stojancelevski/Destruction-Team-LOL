@@ -279,16 +279,12 @@
                         <input type="text" id="country" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="languages">Languages</label>
-                        <input type="text" class="form-control" id="languages" placeholder="Languages">
+                        <label for="languages">Language</label>
+                        <input type="text" class="form-control" id="languages" placeholder="Language">
                     </div>
                     <div class="form-group">
                         <label for="rank">Current Rank</label>
                         <select class="form-control" name="rank" id="rank">
-                            <option>Bronze</option>
-                            <option>Silver</option>
-                            <option>Gold</option>
-                            <option>Platinum</option>
                             <option>Diamond</option>
                             <option>Master</option>
                             <option>Challenger</option>
@@ -302,6 +298,8 @@
                             <option>EU Nordic & East</option>
                             <option>Latin America North</option>
                             <option>Oceania</option>
+                            <option>Turkey</option>
+                            <option>Russia</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -312,33 +310,19 @@
                         <label for="champion">Main Champions</label>
                         <input type="text" class="form-control" id="champion" placeholder="Main Champions">
                     </div>
-                    <div class="form-group">
-                        <label for="hours">Available hours per day</label>
-                        <select class="form-control" name="hours" id="hours">
-                            <option>6-8</option>
-                            <option>8-10</option>
-                            <option>10-12</option>
-                            <option>12-14</option>
-                            <option>More than 14</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="skype">Your Skype name</label>
-                        <input type="text" class="form-control" id="skype" placeholder="Your Skype name">
-                    </div>
                 </div>
                 <div class="col-md-1"></div>
 
                 <div class="col-md-7">
+
+                    <div class="form-group">
+                        <label for="skype">Your Skype name</label>
+                        <input type="text" class="form-control" id="skype" placeholder="Your Skype name">
+                    </div>
                     <div class="form-group">
                         <label for="boosterwork">Have you ever worked as a booster before?</label>
                         <input type="text" class="form-control" id="boosterwork"
                                placeholder="If so, where and how long?">
-                    </div>
-                    <div class="form-group">
-                        <label for="percentage">For how much % of the boost would you be happy to start working?</label>
-                        <input type="number" min="1" max="100" class="form-control" id="percentage"
-                               placeholder="How much %?">
                     </div>
                     <div class="form-group">
                         <label for="coaching">Are you capable of coaching?</label>
@@ -349,11 +333,6 @@
                         <label for="type">Are you able to take on duo queue boosts?</label>
                         <input type="text" class="form-control" id="type"
                                placeholder="Are you available to take on duo queue boosts?">
-                    </div>
-                    <div class="form-group">
-                        <label for="info">Any general or specific information you'd like to share with us?</label>
-                        <input type="text" class="form-control" id="info"
-                               placeholder="Any General/Specific information you want to give us?">
                     </div>
                     <div class="form-group">
                         <label for="specification">What do you think makes you a good booster and suitable for our

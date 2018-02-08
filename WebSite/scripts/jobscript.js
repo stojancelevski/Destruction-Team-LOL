@@ -16,21 +16,17 @@ $('#submit-job').on('click',function(e)
     var rank = $('#rank :selected').text();
     var languages = $('#languages').val();
     var lanes = $('#lanes').val();
-    var hours = $('#hours :selected').text();
     var skype = $('#skype').val();
-    var percentage = $('#percentage').val();
     var goals = $('#goals').val();
     var server = $('#server :selected').val();
     var champions = $('#champion').val();
     var type = $('#type').val();
-    var info = $('#info').val();
     var email = $('#email').val();
 
 
     var newUrl = url+'?age='+age+'&boosterwork='+boosterwork +'&country='+country.name+'&specification='+specification
-    +'&coaching='+coaching +'&rank='+rank+'&languages='+ languages +'&lanes='+lanes+'&hours='+hours+'&skype='+skype
-    +'&percentage='+percentage+'&goal='+goals+'&server='+server+'&champions='+champions+'&type='+type+'&info='+info
-    +'&email='+email;
+    +'&coaching='+coaching +'&rank='+rank+'&languages='+ languages +'&lanes='+lanes+'&skype='+skype
+    +'&goal='+goals+'&server='+server+'&champions='+champions+'&type='+type +'&email='+email;
     $("#loader").show();
     $("#content").hide();
     $.getJSON(newUrl).then(res => {
