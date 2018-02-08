@@ -18,13 +18,13 @@
             <div class="col-2">
 
             </div>
-            <div class="col-5"  style="text-align: center;">
+            <div class="col-5" style="text-align: center;">
                 <div class="card">
                     <div class="card-header">
                         <h2 id="number"></h2>
 
                         <input id="slider" data-slider-id='winSlider' type="text" data-slider-handle="custom"
-                        data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
+                               data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
                     </div>
                     <br>
                     <select class="form-control" name="divs" id="divs"></select>
@@ -75,8 +75,10 @@
         </div>
     </div>
 </div>
-
-
+<footer id="myFooter">
+    <?php include 'footer.php'; ?>
+</footer>
+</body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -107,9 +109,9 @@
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
     }
-    function onChangeChampion(handler)
-    {
-        document.querySelector('#champion').addEventListener('change',handler);
+
+    function onChangeChampion(handler) {
+        document.querySelector('#champion').addEventListener('change', handler);
     }
 
     function post() {
@@ -155,10 +157,10 @@
             },
             validate: function (actions) {
                 onChangeEmailOrDiscord(actions);
-                onChangeChampion(function(){
+                onChangeChampion(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeEmail(function() {
+                onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
             },
@@ -216,5 +218,4 @@
     });
 </script>
 
-</body>
 </html>

@@ -359,7 +359,7 @@
 
         </div>
     </div>
-
+</div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
@@ -372,5 +372,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="country-select-js-master/build/js/countrySelect.min.js"></script>
     <script src="scripts/jobscript.js"></script>
+    <footer id="myFooter">
+        <?php include 'footer.php'; ?>
+
+    </footer>
 </body>
 </html>

@@ -95,8 +95,11 @@
         </div>
 
     </div>
-</div>
-</div>
 
+<footer id="myFooter">
+    <?php include 'footer.php'; ?>
+
+</footer>
+</div>
 </body>
 </html>

@@ -14,6 +14,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.bottomm{
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 body {
     font-family: myFont;
@@ -26,7 +32,7 @@ body {
 .sticky {
     position: absolute;
     top: 80%;
-    left: 50%;
+    left: 40%;
     width: 500px;
     height: 500px;
     margin-top: -250px; /* Half the height */
@@ -153,6 +159,12 @@ body {
     .centered {
         position: absolute;
         top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bottomm{
+        position: absolute;
+        top: 282%;
         left: 50%;
         transform: translate(-50%, -50%);
     }

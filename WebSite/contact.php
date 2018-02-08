@@ -31,7 +31,7 @@
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="message" rows="3"
-                                  placeholder="We are looking only for any type of boosters!!!"></textarea>
+                        ></textarea>
                     </div>
                     <input type="submit" class="btn btn-primary" value="Submit"/>
                 </form>
@@ -44,9 +44,7 @@
                     We will reply to your email within next 12 hours.
                     <br>
                 <h2 class="mail"> topboost.global@gmail.com</h2>
-                <br>
-                Our employees will never contact you through skype or other communicators. Only way to contact us is
-                through our site. Every other attempt is a scam.
+
                 </p>
             </div>
         </div>
@@ -63,5 +61,9 @@
             crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="scripts/contactscript.js"></script>
+    <footer id="myFooter">
+        <?php include 'footer.php'; ?>
+
+    </footer>
 </body>
 </html>

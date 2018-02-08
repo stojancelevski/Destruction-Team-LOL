@@ -214,5 +214,9 @@
         }, '#paypal-button');
     });
 </script>
+<footer id="myFooter">
+    <?php include 'footer.php'; ?>
+
+</footer>
 </body>
 </html>
