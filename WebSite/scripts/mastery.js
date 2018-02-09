@@ -1,19 +1,52 @@
 var prices = [3.5,7.5,23,35,30,25]
-
+var champions;
 $(document).ready(function(){
-    var desired = $('#desiredLevel');
-    for(var i = 2;i<=7;i++)
-    {
-        $("<option>" + i +"</option>").appendTo(desired);
-    }
-    $('#price').html('Bonus price: ' + getPrice() + '€');
-    extra();
+    $.ajax({
+        url: 'champions.json',
+        dataType: 'json',
+        isLocal: true,
+        method: 'GET',
+        success: function(data)
+        {
+            var champion = $("#champion");
+            champions = data;
+            for(var i = 0;i<champions.length;i++)
+            {
+                $("<option>" + champions[i].name +"</option>").appendTo(champion);
+            }
+            $("#championImg").attr('src',champions[0].icon);
+            var desired = $('#desiredLevel');
+            for(var i = 2;i<=7;i++)
+            {
+                $("<option>" + i +"</option>").appendTo(desired);
+            }
+
+            $('#price').html('Bonus price: ' + getPrice() + '€');
+            extra();
+        },
+        error: function (error) {
+            console.log(error);
+            alert('Something went wrong, please refresh the page');
+        }
+    })
+
+
 });
 
 $('#desiredLevel').on('change',function(){
     $('#price').html('Bonus price: '+getPrice()+ '€');
     extra();
 });
+$("#champion").on('change',function () {
+    for(var i =0;i<champions.length;i++)
+    {
+        if(champions[i].name == this.value)
+        {
+            $("#championImg").attr('src',champions[i].icon);
+            break;
+        }
+    }
+})
 
 $('#myLevel').on('change',function(){
     var desiredLevelSelected = parseInt($("#desiredLevel :selected").val());
@@ -56,7 +89,6 @@ function getPrice()
     {
         price+=prices[i];
     }
-    console.log($("#safe").is(':checked'));
     if($("#safe").is(':checked'))
     {
         price+= price*0.21;

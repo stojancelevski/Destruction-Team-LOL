@@ -38,6 +38,7 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <div style="padding-top: 5px">
+                            <label for="divs">Pick your previous season's rank</label>
                             <select class="form-control" name="divs" id="divs"></select>
                         </div>
                         <div style="padding-top: 5px">

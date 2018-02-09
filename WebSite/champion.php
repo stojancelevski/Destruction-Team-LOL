@@ -50,7 +50,8 @@
                         <del class="text text-danger" id="extraval"></del>
                     </h6>
                     <div style="padding-top: 5px">
-                        <input type="text" class="form-control" id="champion" placeholder="Champions">
+                        <label for="champion">Select your champion</label>
+                        <select id="champion" class="form-control"></select>
                     </div>
                     <div style="padding-top: 5px">
                         <select class="form-control" name="server" id="server">
@@ -69,7 +70,9 @@
 
             </div>
         </div>
-        <div class="col-md-3 backgroundC"></div>
+        <div class="col-md-3 backgroundC">
+            <img src="" alt="Champion" id="championImg">
+        </div>
 
 
     </div>
