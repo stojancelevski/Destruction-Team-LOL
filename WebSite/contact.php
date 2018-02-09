@@ -41,7 +41,7 @@
                 <h3>Information</h3>
                 <p>
                     If you have any questions feel free to contact us.
-                    We will reply to your email within next 12 hours.
+                    We will reply to your email within the next 12 hours.
                     <br>
                 <h2 class="mail"> topboost.global@gmail.com</h2>
 
