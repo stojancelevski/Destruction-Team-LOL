@@ -105,7 +105,7 @@
     function post() {
         return new Promise(function (resolve, reject) {
             var type;
-            type = "Honor boost, level: " + $("#slider").val();
+            type = "Level boost from: " + $("#myLevel").text() + " to: " $("#desiredLevel").text();
             var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
                 + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
             $.ajax(
