@@ -100,18 +100,22 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="scripts/divisionboost.js"></script>
 <script>
-    function isValid() {
+    function isValidEmail() {
         return !($("#email").val() == '');
+    }
+    function isValidChampion(){
+        return !($("#champion").val() == '')
     }
 
     function onChangeEmailOrDiscord(actions) {
-        if (!isValid()) {
+        if (!isValidEmail() || !isValidChampion()) {
             actions.disable()
         }
         else {
             actions.enable();
         }
     }
+
 
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
@@ -181,8 +185,20 @@
                 })
             },
             onClick: function () {
-                if (!isValid()) {
-                    alert('Please enter e-mail')
+                if (!isValidEmail() && !isValidChampion()) {
+                    alert('Please enter e-mail and champion')
+                }
+                else if(!isValidEmail())
+                {
+                    alert('Please enter e-mail');
+                }
+                else if(!isValidChampion())
+                {
+                    alert('Please enter champions')
+                }
+                else
+                {
+                    console.log('Ok');
                 }
             },
             payment: function (data, actions) {

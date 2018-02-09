@@ -45,10 +45,10 @@
     <div class="row">
         <div class="col-md-4">
             <div style="width: 20rem;">
-                <a href="honor.php"><img class="card-img-top" src="images/Packs/box-honor_boost.png"
+                <a href="level.php"><img class="card-img-top" src="images/Packs/box-honor_boost.png"
                                          alt="Card image cap"></a>
                 <div class="card-block" style="text-align: center">
-                    <a href="honor.php" class="btn btn-primary">Find out More</a>
+                    <a href="level.php" class="btn btn-primary">Find out More</a>
                 </div>
             </div>
         </div>

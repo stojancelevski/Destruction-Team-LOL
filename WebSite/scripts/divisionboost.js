@@ -78,7 +78,6 @@ $("#regularButton").on('click',function()
 })
 $("#from").on('change',function(){
 
-    var j = 1;
     var to = $("#to");
     var fromSelected = this.value;
     var toSelected = $("#to :selected").val();

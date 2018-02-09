@@ -93,18 +93,22 @@
 <script src="bootstrap-slider-master/dist/bootstrap-slider.min.js"></script>
 <script src="scripts/winboost.js"></script>
 <script>
-    function isValid() {
-        return !($("#email").val() == '' || $("#champions").val() == '');
+    function isValidEmail() {
+        return !($("#email").val() == '');
+    }
+    function isValidChampion(){
+        return !($("#champion").val() == '')
     }
 
     function onChangeEmailOrDiscord(actions) {
-        if (!isValid()) {
+        if (!isValidEmail() || !isValidChampion()) {
             actions.disable()
         }
         else {
             actions.enable();
         }
     }
+
 
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
@@ -165,8 +169,20 @@
                 })
             },
             onClick: function () {
-                if (!isValid()) {
-                    alert('Please enter e-mail')
+                if (!isValidEmail() && !isValidChampion()) {
+                    alert('Please enter e-mail and champion')
+                }
+                else if(!isValidEmail())
+                {
+                    alert('Please enter e-mail');
+                }
+                else if(!isValidChampion())
+                {
+                    alert('Please enter champions')
+                }
+                else
+                {
+                    console.log('Ok');
                 }
             },
             payment: function (data, actions) {

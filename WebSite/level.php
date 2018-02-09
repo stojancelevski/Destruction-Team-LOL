@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 
-    <title>Honor Boost</title>
+    <title>Level Boost</title>
     <?php include 'head.php'; ?>
 
 </head>
 <body>
 <?php include 'navbar.php'; ?>
 <div class="jumbotron banertext bg5">
-    <h1>Honor boosting</h1>
+    <h1>Level boosting</h1>
 </div>
 <div class="jumbotron shield" style="text-align: center">
     <br>
@@ -17,10 +17,15 @@
         <div class="col-md-1"></div>
         <div class="col-md-2 backgroundH"></div>
         <div class="col-md-6" style="color: #375990">
-
-            <input id="slider" data-slider-id='honorSlider' type="text" data-slider-handle="custom" data-slider-min="2"
-                data-slider-max="5" data-slider-step="1" data-slider-value="2"/>
-            <h5 id="level"></h5>
+            <div style="padding-top: 5px">
+                <label for="startLevel">My level</label>
+                <select name="startLevel" id="startLevel">
+                </select>
+            </div>
+            <div style="padding-top: 5px">
+                <label for="desiredLevel">Desired level</label>
+                <select name="desiredLevel" id="desiredLevel"></select>
+            </div>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
                 <label class="btn btn-secondary active" id="regularButton">
                     <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
@@ -70,14 +75,17 @@
         crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="bootstrap-slider-master/dist/bootstrap-slider.min.js"></script>
-<script src="scripts/honorboost.js"></script>
+<script src="scripts/level.js"></script>
 <script>
-    function isValid() {
+    function isValidEmail() {
         return !($("#email").val() == '');
+    }
+    function isValidChampion(){
+        return !($("#champion").val() == '')
     }
 
     function onChangeEmailOrDiscord(actions) {
-        if (!isValid()) {
+        if (!isValidEmail() || !isValidChampion()) {
             actions.disable()
         }
         else {
@@ -143,8 +151,20 @@
                 })
             },
             onClick: function () {
-                if (!isValid()) {
-                    alert('Please enter e-mail')
+                if (!isValidEmail() && !isValidChampion()) {
+                    alert('Please enter e-mail and champion')
+                }
+                else if(!isValidEmail())
+                {
+                    alert('Please enter e-mail');
+                }
+                else if(!isValidChampion())
+                {
+                    alert('Please enter champions')
+                }
+                else
+                {
+                    console.log('Ok');
                 }
             },
             payment: function (data, actions) {

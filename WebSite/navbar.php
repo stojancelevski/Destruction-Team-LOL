@@ -21,7 +21,7 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" id="sina" href="placement.php">Placement Matches</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" id="sina" href="honor.php">Honor Boost</a>
+                    <a class="dropdown-item" id="sina" href="level.php">Level Boost</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" id="sina" href="champion.php">Champion Mastery Boost</a>
                     <div class="dropdown-divider"></div>
