@@ -1,5 +1,21 @@
 var url = "https://script.google.com/macros/s/AKfycbw43JwsUCkJceL_R9rnKtfx-BP6G-oauNO-LpyMaz_Zc1V29XXB/exec?type=GET";
 var imageRoot = "images/reviewImages/";
+var entityMap = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+    '/': '&#x2F;',
+    '`': '&#x60;',
+    '=': '&#x3D;'
+};
+
+function escapeHtml (string) {
+    return String(string).replace(/[&<>"'`=\/]/g, function (s) {
+        return entityMap[s];
+    });
+}
 $("#loader").show();
 $("#content").hide();
 $(document).ready(function(){
@@ -12,7 +28,6 @@ $(document).ready(function(){
                 console.log(res);
             }
         else{
-            console.log(res);
             mapReviews(res);
         }
 
@@ -33,47 +48,19 @@ $(document).ready(function(){
 
 function mapReviews(data)
 {
-    if(data.length <= 0)
+    console.log(data);
+    for(var i = 1;i<=6;i++)
     {
-        $("#firstCard").hide();
-        $("#secondCard").hide();
-        $("#thirdCard").hide();
+        if(i-1>=data.length)
+        {
+            $("#Card"+i).hide();
+        }
+        else
+        {
+            $("#cardName"+i).html(escapeHtml(data[data.length -i].name))
+            $("#Review"+i).html(escapeHtml(data[data.length -i].text))
+            $("#cardImg"+i).attr('src',escapeHtml(imageRoot+data[data.length-i].image));
+            $("#slikam"+i).attr('src',escapeHtml(imageRoot+data[data.length-i].image));
+        }
     }
-    else if(data.length == 1)
-    {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
-        $("[name = 'firstImg']").attr('src',imageRoot + data[data.length-1].image);
-        $("#secondCard").hide();
-        $("#thirdCard").hide();
-    }
-    else if(data.length == 2)
-    {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
-        $("[name = 'firstImg']").attr('src',imageRoot + data[data.length-1].image);
-        $("#secondImg").attr('src',imageRoot + data[data.length-2].image);
-        $("#secondName").html(data[data.length-2].name);
-        $("#secondReview").html(data[data.length-2].text);
-        $("[name = 'secondImg']").attr('src',imageRoot + data[data.length-2].image);
-        $("#thirdCard").hide();
-    }
-    else
-    {
-        $("#firstImg").attr('src',imageRoot + data[data.length-1].image);
-        $("#firstName").html(data[data.length-1].name);
-        $("#firstReview").html(data[data.length-1].text);
-        $("[name = 'firstImg']").attr('src',imageRoot + data[data.length-1].image);
-        $("#secondImg").attr('src',imageRoot + data[data.length-2].image);
-        $("#secondName").html(data[data.length-2].name);
-        $("#secondReview").html(data[data.length-2].text);
-        $("[name = 'secondImg']").attr('src',imageRoot + data[data.length-2].image);
-        $("#thirdImg").attr('src',imageRoot + data[data.length-3].image);
-        $("#thirdName").html(data[data.length-3].name);
-        $("#thirdReview").html(data[data.length-3].text);
-        $("[name = 'thirdImg']").attr('src',imageRoot + data[data.length-3].image);
-    }
-
 }

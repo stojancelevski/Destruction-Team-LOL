@@ -25,48 +25,94 @@
 
     <div class="container">
         <div class="card-deck" id="card-deck">
-            <div class="card" id="firstCard">
-                <div class="card-header" id="firstName">Name</div>
-                <img class="card-img-top" id="firstImg" src='' alt="Card image cap">
+            <div class="card" id="Card1">
+                <div class="card-header" id="cardName1">Name</div>
+                <img class="card-img-top" id="cardImg1" src='' alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-text" id="firstReview">Review</p>
+                    <p class="card-text" id="Review1">Review</p>
                 </div>
             </div>
-            <div class="card" id="secondCard">
-                <div class="card-header" id="secondName">Name</div>
-                <img class="card-img-top" id="secondImg" src='' alt="Card image cap">
+            <div class="card" id="Card2">
+                <div class="card-header" id="cardName2">Name</div>
+                <img class="card-img-top" id="cardImg2" src='' alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-text" id="secondReview">Review</p>
+                    <p class="card-text" id="Review2">Review</p>
                 </div>
             </div>
-            <div class="card" id="thirdCard">
-                <div class="card-header" id="thirdName">Name</div>
-                <img class="card-img-top" id="thirdImg" src='' alt="Card image cap">
+            <div class="card" id="Card3">
+                <div class="card-header" id="cardName3">Name</div>
+                <img class="card-img-top" id="cardImg3" src='' alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-text" id="thirdReview">Review</p>
+                    <p class="card-text" id="Review3">Review</p>
                 </div>
             </div>
         </div>
         <div class="card-deck" id="card-deck">
-            <div class="card" id="fourthCard">
-                <div class="card-header" id="fourthName">Name</div>
-                <img class="card-img-top" id="fourthImg" src='' alt="Card image cap">
+            <div class="card" id="Card4">
+                <div class="card-header" id="cardName4">Name</div>
+                <img class="card-img-top" id="cardImg4" src='' alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-text" id="fourthReview">Review</p>
+                    <p class="card-text" id="Review4">Review</p>
                 </div>
             </div>
-            <div class="card" id="fifthCard">
-                <div class="card-header" id="fifthName">Name</div>
-                <img class="card-img-top" id="fifthImg" src='' alt="Card image cap">
+            <div class="card" id="Card5">
+                <div class="card-header" id="cardName5">Name</div>
+                <img class="card-img-top" id="cardImg5" src='' alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-text" id="fifthReview">Review</p>
+                    <p class="card-text" id="Review5">Review</p>
                 </div>
             </div>
-            <div class="card" id="sixthCard">
-                <div class="card-header" id="sixthName">Name</div>
-                <img class="card-img-top" id="sixthImg" src='' alt="Card image cap">
+            <div class="card" id="Card6">
+                <div class="card-header" id="cardName6">Name</div>
+                <img class="card-img-top" id="cardImg6" src='' alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-text" id="sixthReview">Review</p>
+                    <p class="card-text" id="Review6">Review</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck" id="card-deck">
+            <div class="card" id="Card7">
+                <div class="card-header" id="cardName7">Name</div>
+                <img class="card-img-top" id="cardImg7" src='' alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text" id="Review7">Review</p>
+                </div>
+            </div>
+            <div class="card" id="Card8">
+                <div class="card-header" id="cardName8">Name</div>
+                <img class="card-img-top" id="cardImg8" src='' alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text" id="Review8">Review</p>
+                </div>
+            </div>
+            <div class="card" id="Card9">
+                <div class="card-header" id="cardName9">Name</div>
+                <img class="card-img-top" id="cardImg9" src='' alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text" id="Review9">Review</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck" id="card-deck">
+            <div class="card" id="Card10">
+                <div class="card-header" id="cardName10">Name</div>
+                <img class="card-img-top" id="cardImg10" src='' alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text" id="Review10">Review</p>
+                </div>
+            </div>
+            <div class="card" id="Card11">
+                <div class="card-header" id="cardName11">Name</div>
+                <img class="card-img-top" id="cardImg11" src='' alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text" id="Review11">Review</p>
+                </div>
+            </div>
+            <div class="card" id="Card12">
+                <div class="card-header" id="cardName12">Name</div>
+                <img class="card-img-top" id="cardImg12" src='' alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text" id="Review12">Review</p>
                 </div>
             </div>
         </div>

@@ -124,113 +124,19 @@ else{
 
 function mapReviews(data)
 {
-    if(data.length <= 0)
+    for(var i = 1;i<=12;i++)
     {
-        $("#firstCard").hide();
-        $("#secondCard").hide();
-        $("#thirdCard").hide();
-        $("#fourthCard").hide();
-        $("#fifthCard").hide();
-        $("#sixthCard").hide();
+        if(i-1>=data.length)
+        {
+            $("#Card"+i).hide();
+        }
+        else
+        {
+            $("#cardName"+i).html(escapeHtml(data[data.length -i].name))
+            $("#Review"+i).html(escapeHtml(data[data.length -i].text))
+            $("#cardImg"+i).attr('src',escapeHtml(imageRoot+data[data.length-i].image));
+        }
     }
-    else if(data.length == 1)
-    {
-        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
-        $("#firstName").html(escapeHtml(data[data.length-1].name));
-        $("#firstReview").html(escapeHtml(data[data.length-1].text));
-        $("#secondCard").hide();
-        $("#thirdCard").hide();
-        $("#fourthCard").hide();
-        $("#fifthCard").hide();
-        $("#sixthCard").hide();
-    }
-    else if(data.length == 2)
-    {
-        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
-        $("#firstName").html(escapeHtml(data[data.length-1].name));
-        $("#firstReview").html(escapeHtml(data[data.length-1].text));
-        $("#secondImg").attr(escapeHtml('src',imageRoot + data[data.length-2].image));
-        $("#secondName").html(escapeHtml(data[data.length-2].name));
-        $("#secondReview").html(escapeHtml(data[data.length-2].text));
-        $("#thirdCard").hide();
-        $("#fourthCard").hide();
-        $("#fifthCard").hide();
-        $("#sixthCard").hide();
-    }
-    else if(data.length ==3)
-    {
-        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
-        $("#firstName").html(escapeHtml(data[data.length-1].name));
-        $("#firstReview").html(escapeHtml(data[data.length-1].text));
-        $("#secondImg").attr('src',escapeHtml(imageRoot + data[data.length-2].image));
-        $("#secondName").html(escapeHtml(data[data.length-2].name));
-        $("#secondReview").html(escapeHtml(data[data.length-2].text));
-        $("#thirdImg").attr('src',escapeHtml(imageRoot + data[data.length-3].image));
-        $("#thirdName").html(escapeHtml(data[data.length-3].name));
-        $("#thirdReview").html(escapeHtml(data[data.length-3].text));
-        $("#fourthCard").hide();
-        $("#fifthCard").hide();
-        $("#sixthCard").hide();
-    }
-    else if(data.length == 4)
-    {
-        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
-        $("#firstName").html(escapeHtml(data[data.length-1].name));
-        $("#firstReview").html(escapeHtml(data[data.length-1].text));
-        $("#secondImg").attr('src',escapeHtml(imageRoot + data[data.length-2].image));
-        $("#secondName").html(escapeHtml(data[data.length-2].name));
-        $("#secondReview").html(escapeHtml(data[data.length-2].text));
-        $("#thirdImg").attr('src',escapeHtml(imageRoot + data[data.length-3].image));
-        $("#thirdName").html(escapeHtml(data[data.length-3].name));
-        $("#thirdReview").html(escapeHtml(data[data.length-3].text));
-        $("#fourthImg").attr('src',escapeHtml(imageRoot + data[data.length-4].image));
-        $("#fourthName").html(escapeHtml(data[data.length-4].name));
-        $("#fourthReview").html(escapeHtml(data[data.length-4].text));
-        $("#fifthCard").hide();
-        $("#sixthCard").hide();
-    }
-    else if(data.length == 5)
-    {
-        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
-        $("#firstName").html(escapeHtml(data[data.length-1].name));
-        $("#firstReview").html(escapeHtml(data[data.length-1].text));
-        $("#secondImg").attr('src',escapeHtml(imageRoot + data[data.length-2].image));
-        $("#secondName").html(escapeHtml(data[data.length-2].name));
-        $("#secondReview").html(escapeHtml(data[data.length-2].text));
-        $("#thirdImg").attr('src',escapeHtml(imageRoot + data[data.length-3].image));
-        $("#thirdName").html(escapeHtml(data[data.length-3].name));
-        $("#thirdReview").html(escapeHtml(data[data.length-3].text));
-        $("#fourthImg").attr('src',escapeHtml(imageRoot + data[data.length-4].image));
-        $("#fourthName").html(escapeHtml(data[data.length-4].name));
-        $("#fourthReview").html(escapeHtml(data[data.length-4].text));
-        $("#fifthImg").attr('src',escapeHtml(imageRoot + data[data.length-5].image));
-        $("#fifthName").html(escapeHtml(data[data.length-5].name));
-        $("#fifthReview").html(escapeHtml(data[data.length-5].text));
-        $("#sixthCard").hide();
-    }
-    else
-    {
-        $("#firstImg").attr('src',escapeHtml(imageRoot + data[data.length-1].image));
-        $("#firstName").html(escapeHtml(data[data.length-1].name));
-        $("#firstReview").html(escapeHtml(data[data.length-1].text));
-        $("#secondImg").attr('src',escapeHtml(imageRoot + data[data.length-2].image));
-        $("#secondName").html(escapeHtml(data[data.length-2].name));
-        $("#secondReview").html(escapeHtml(data[data.length-2].text));
-        $("#thirdImg").attr('src',escapeHtml(imageRoot + data[data.length-3].image));
-        $("#thirdName").html(escapeHtml(data[data.length-3].name));
-        $("#thirdReview").html(escapeHtml(data[data.length-3].text));
-        $("#fourthImg").attr('src',escapeHtml(imageRoot + data[data.length-4].image));
-        $("#fourthName").html(escapeHtml(data[data.length-4].name));
-        $("#fourthReview").html(escapeHtml(data[data.length-4].text));
-        $("#fifthImg").attr('src',escapeHtml(imageRoot + data[data.length-5].image));
-        $("#fifthName").html(escapeHtml(data[data.length-5].name));
-        $("#fifthReview").html(escapeHtml(data[data.length-5].text));
-        $("#sixthImg").attr('src',escapeHtml(imageRoot + data[data.length-6].image));
-        $("#sixthName").html(escapeHtml(data[data.length-6].name));
-        $("#sixthReview").html(escapeHtml(data[data.length-6].text));
-    }
-
-
 }
 
 

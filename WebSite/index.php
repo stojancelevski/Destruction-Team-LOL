@@ -22,110 +22,161 @@
         <br><br>
         <br><br><br>
         <div class="container">
-            <div class="row align-items-start">
-                <div class="col-4">
-                    <div class="card" id="firstCard">
-                        <div class="card-header" id="firstName">
-                            Name
-                        </div>
-                        <img class="card-img-top slikaa" id="firstImg"
-                             src="http://solarhythmia.com/art-gallery/vectors/800x600/rainbow-kirby-800x600.jpg"
-                             data-toggle="modal" data-target="#myModal1">
-                        <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                             aria-hidden="true">
-                            <div class="modal-dialog modal-xl" style="text-align: center">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
+                 <div class="card-deck" id="card-deck">
+                        <div class="card" id="Card1">
+                            <div class="card-header" id="cardName1">Name</div>
+                            <img class="card-img-top" id="cardImg1" src='' alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text" id="Review1">Review</p>
+                            </div>
+                            <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                                 id="slikam1" class="img-responsive">
+                                        </div>
                                     </div>
-                                    <div class="modal-body">
-                                        <img src="http://solarhythmia.com/art-gallery/vectors/800x600/rainbow-kirby-800x600.jpg"
-                                             name="firstImg" id="slikam" class="img-responsive">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
-                        <p class="card-text" id="firstReview">
-                            Review
-                        </p>
-                        <div class="card-footer">
-                            <small class="text-muted"><b>Tap to expand!</b></small>
-                        </div>
-                    </div>
+                        <div class="card" id="Card2">
+                            <div class="card-header" id="cardName2">Name</div>
+                            <img class="card-img-top" id="cardImg2" src='' alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text" id="Review2">Review</p>
+                            </div>
+                            <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                                 id="slikam2" class="img-responsive">
+                                        </div>
+                                    </div>
 
-                </div>
-                <div class="col-4">
-                    <div class="card" id="secondCard">
-                        <div class="card-header" id="secondName">
-                            Name
-                        </div>
-                        <img class="card-img-top" id="secondImg"
-                             src="http://www.fonditos3d.com/800x600/seta-de-mario-bros.jpg" data-toggle="modal"
-                             data-target="#myModal2">
-                        <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                             aria-hidden="true">
-                            <div class="modal-dialog modal-xl" style="text-align: center">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <img src="http://www.fonditos3d.com/800x600/seta-de-mario-bros.jpg"
-                                             name="secondImg"
-                                             id="slikam" class="img-responsive" style="max-height:1100px;">
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <p class="card-text" id="secondReview">
-                            Review
-                        </p>
-                        <div class="card-footer">
-                            <small class="text-muted"><b>Tap to expand!</b></small>
-                        </div>
-                    </div>
+                        <div class="card" id="Card3">
+                            <div class="card-header" id="cardName3">Name</div>
+                            <img class="card-img-top" id="cardImg3" src='' alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text" id="Review3">Review</p>
+                            </div>
+                            <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                                 id="slikam3" class="img-responsive">
+                                        </div>
+                                    </div>
 
-                </div>
-                <div class="col-4">
-                    <div class="card" id="thirdCard">
-                        <div class="card-header" id="thirdName">
-                            Name
-                        </div>
-                        <img class="card-img-top" id="thirdImg"
-                             src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
-                             data-toggle="modal" data-target="#myModal3">
-                        <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                             aria-hidden="true">
-                            <div class="modal-dialog  modal-xl" style="text-align: center">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <img name="thirdImg"
-                                             src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
-                                             id="slikam" class="img-responsive">
-                                    </div>
                                 </div>
-
                             </div>
                         </div>
-                        <p class="card-text" id="thirdReview">
-                            Review
-                        </p>
-                        <div class="card-footer">
-                            <small class="text-muted"><b>Tap to expand!</b></small>
+                    </div>
+                    <div class="card-deck" id="card-deck">
+                        <div class="card" id="Card4">
+                            <div class="card-header" id="cardName4">Name</div>
+                            <img class="card-img-top" id="cardImg4" src='' alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text" id="Review4">Review</p>
+                            </div>
+                            <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                                 id="slikam4" class="img-responsive">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="Card5">
+                            <div class="card-header" id="cardName5">Name</div>
+                            <img class="card-img-top" id="cardImg5" src='' alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text" id="Review5">Review</p>
+                            </div>
+                            <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                                 id="slikam5" class="img-responsive">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="Card6">
+                            <div class="card-header" id="cardName6">Name</div>
+                            <img class="card-img-top" id="cardImg6" src='' alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text" id="Review6">Review</p>
+                            </div>
+                            <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                                 id="slikam6" class="img-responsive">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                </div>
-            </div>
         </div>
         <br><br>
         <div class="container">
