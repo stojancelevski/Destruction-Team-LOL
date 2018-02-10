@@ -14,25 +14,27 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 backgroundC"></div>
+            <div class="col-md-2 backgroundM"></div>
+            <div class="col-md-1 "></div>
             <div class="col-md-6" style="color: #375990">
-                <h5>Enter number of missions <br> you wish to be completed</h5>
-                <input id="slider" data-slider-id='missionSlider' data-slider-handle="custom" type="text"
-                    data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
+                <h6>Enter number of missions <br> you wish to be completed</h6>
                 <h5 id="number"></h5>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-secondary active" id="regularButton">
-                        <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
-                    </label>
-                    <label class="btn btn-secondary" id="safeButton">
-                        <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                    </label>
-                </div>
+                <input id="slider" data-slider-id='missionSlider' data-slider-handle="custom" type="text"
+                    data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/><br>
+
                 <h4 id="price"></h4>
                 <h6>
                     <del class="text text-danger" id="extraval"></del>
-                </h6>
+                    <br>
+
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn sinabg active" id="regularButton">
+                            <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                        </label>
+                        <label class="btn btn-success" id="safeButton">
+                            <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                        </label>
+                    </div>
                 <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
@@ -58,7 +60,8 @@
                     <div class="col-md-1"></div>
                 </div>
             </div>
-            <div class="col-md-3 backgroundM"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 backgroundM"></div>
         </div>
     </div>
 </div>

@@ -12,13 +12,10 @@
 <div class="jumbotron">
     <div class="container">
         <div class="row">
-            <div class="col-5">
+            <div class="col-md-4">
                 <img src="images/Packs/box-win_boost.png" alt="">
             </div>
-            <div class="col-2">
-
-            </div>
-            <div class="col-5" style="text-align: center;">
+            <div class="col-md-5" style="text-align: center;">
                 <div class="card">
                     <div class="card-header">
                         <h2 id="number"></h2>
@@ -26,51 +23,56 @@
                         <input id="slider" data-slider-id='winSlider' type="text" data-slider-handle="custom"
                                data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
                     </div>
-                    <br>
-                    <select class="form-control" name="divs" id="divs"></select>
+
+                    <br><select class="form-control" name="divs" id="divs"></select><br>
                     <select class="form-control" name="type" id="type">
                         <option value=0>Solo</option>
                         <option value=1>Duo</option>
-                    </select>
+                    </select><br>
                     <select class="form-control" name="server" id="server">
                         <option>EU West</option>
                         <option>EU Nordic & East</option>
                         <option>Oceania</option>
-                    </select>
-                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-secondary active" id="regularButton">
-                            <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
-                        </label>
-                        <label class="btn btn-secondary" id="safeButton">
-                            <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                        </label>
+                    </select><br>
+                    <div style="text-align: center;">
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn sinabg active" id="regularButton">
+                                <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular
+                                boost
+                            </label>
+                            <label class="btn btn-success" id="safeButton">
+                                <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                            </label>
+                        </div>
                     </div>
                     <div style="padding-top: 5px">
                         <input type="text" class="form-control" id="champions" placeholder="Champions">
                     </div>
                     <h2 id="number"></h2>
-                    <img class="card-img-top" id="winimg" src="" alt="Div image">
-                    <div class="card-text">
-
-                        <div class="form-group">
-                            <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="email" placeholder="Email">
-                            </div>
-
+                    <div class="form-group">
+                        <div style="padding-top: 5px">
+                            <input type="text" class="form-control" id="email" placeholder="Email">
                         </div>
-                        <span class="badge badge-secondary" style="background-color: #375990">
+
+                    </div>
+                    <span class="badge badge-secondary" style="background-color: #375990">
                             <h3 id="price" style="color: #E9D300">
 
                             </h3>
                         </span>
-                        <h5>
-                            <del class="text text-danger" id="extraval"></del>
-                        </h5>
-                        <div id="paypal-button">
+                    <h5>
+                        <del class="text text-danger" id="extraval"></del>
+                    </h5>
+                    <div id="paypal-button">
 
-                        </div>
                     </div>
                 </div>
+
+
+            </div>
+            <div class="col-md-3">
+                <img class="card-img-top" id="winimg" src="" alt="Div image">
+
             </div>
         </div>
     </div>
@@ -96,7 +98,8 @@
     function isValidEmail() {
         return !($("#email").val() == '');
     }
-    function isValidChampion(){
+
+    function isValidChampion() {
         return !($("#champion").val() == '')
     }
 
@@ -172,16 +175,13 @@
                 if (!isValidEmail() && !isValidChampion()) {
                     alert('Please enter e-mail and champion')
                 }
-                else if(!isValidEmail())
-                {
+                else if (!isValidEmail()) {
                     alert('Please enter e-mail');
                 }
-                else if(!isValidChampion())
-                {
+                else if (!isValidChampion()) {
                     alert('Please enter champions')
                 }
-                else
-                {
+                else {
                     console.log('Ok');
                 }
             },

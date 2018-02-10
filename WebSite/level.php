@@ -12,35 +12,21 @@
     <h1>Level boosting</h1>
 </div>
 <div class="jumbotron shield" style="text-align: center">
-    <br>
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-2 backgroundH"></div>
-        <div class="col-md-6" style="color: #375990">
-            <div style="padding-top: 5px">
-                <label for="startLevel">My level</label>
-                <select name="startLevel" id="startLevel">
-                </select>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="header">
+                    <label class="form-control" for="startLevel">My level</label><br>
+                    <select class="form-control" name="startLevel" id="startLevel">
+                    </select>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" src="images/Packs/box-honor_boost.png"  style="height: 392px;width: 250px" >
+                </div>
             </div>
-            <div style="padding-top: 5px">
-                <label for="desiredLevel">Desired level</label>
-                <select name="desiredLevel" id="desiredLevel"></select>
-            </div>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-secondary active" id="regularButton">
-                    <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
-                </label>
-                <label class="btn btn-secondary" id="safeButton">
-                    <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                </label>
-            </div>
-            <h4 id="price"></h4>
-            <h6>
-                <del class="text text-danger" id="extraval"></del>
-            </h6>
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4 form-group">
+            <div class="col-md-4" style="color: #375990">
+                <br><br><br><br><br><br>
+                <div class="form-group">
                     <div style="padding-top: 5px">
                         <select class="form-control" name="server" id="server">
                             <option>EU West</option>
@@ -55,12 +41,34 @@
                         <input type="text" class="form-control" id="email" placeholder="Email">
                     </div>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label  class="btn sinabg active" id="regularButton">
+                        <input  type="radio" name="options" autocomplete="off" id="regular"
+                               checked> Regular boost
+                    </label>
+                    <label class="btn btn-success " id="safeButton">
+                        <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                    </label>
+                </div>
+                <h4 id="price"></h4>
+                <h6>
+                    <del class="text text-danger" id="extraval"></del>
+                </h6>
+
+                <div id="paypal-button">
+                </div>
             </div>
-            <div id="paypal-button">
+            <div class="col-md-4">
+                <div class="header">
+                    <label class="form-control" for="desiredLevel">Desired level</label><br>
+                    <select class="form-control" name="desiredLevel" id="desiredLevel"></select>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" src="images/Packs/box-honor_boost.png" style="height: 392px;width: 250px">
+                </div>
             </div>
         </div>
-        <div class="col-md-3 backgroundH"></div>
+
     </div>
     <br><br><br>
 </div>
@@ -80,7 +88,8 @@
     function isValidEmail() {
         return !($("#email").val() == '');
     }
-    function isValidChampion(){
+
+    function isValidChampion() {
         return !($("#champion").val() == '')
     }
 
@@ -96,16 +105,17 @@
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
     }
-    function onChangeChampion(handler)
-    {
-        document.querySelector('#champion').addEventListener('change',handler);
+
+    function onChangeChampion(handler) {
+        document.querySelector('#champion').addEventListener('change', handler);
     }
 
 
     function post() {
         return new Promise(function (resolve, reject) {
             var type;
-            type = "Level boost from: " + $("#myLevel").text() + " to: " $("#desiredLevel").text();
+            type = "Level boost from: " + $("#myLevel").text() + " to: "
+            $("#desiredLevel").text();
             var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
                 + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
             $.ajax(
@@ -143,10 +153,10 @@
             },
             validate: function (actions) {
                 onChangeEmailOrDiscord(actions);
-                onChangeChampion(function(){
+                onChangeChampion(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeEmail(function() {
+                onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
             },
@@ -154,16 +164,13 @@
                 if (!isValidEmail() && !isValidChampion()) {
                     alert('Please enter e-mail and champion')
                 }
-                else if(!isValidEmail())
-                {
+                else if (!isValidEmail()) {
                     alert('Please enter e-mail');
                 }
-                else if(!isValidChampion())
-                {
+                else if (!isValidChampion()) {
                     alert('Please enter champions')
                 }
-                else
-                {
+                else {
                     console.log('Ok');
                 }
             },

@@ -12,20 +12,25 @@
 </div>
 
 <div class="jumbotron shield" style="text-align: center">
-
+    <br>
     <input id="slider" data-slider-id='placementSlider' data-slider-handle="custom" type="text" data-slider-min="1"
            data-slider-max="10" data-slider-step="1" data-slider-value="1"/>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <div class="header" style="padding-top: 5px">
+                <label for="divs">Pick your previous season's rank</label>
+                <select class="form-control" name="divs" id="divs"></select>
+            </div>
             <img src="images/Divisions/unranked_1.png" alt="division" id="divisionImg"/>
         </div>
-        <div class="col-md-6" style="color: #375990">
+        <div class="col-md-6" style="color: #375990"><br>
             <h5 id="number"></h5>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-secondary active" id="regularButton">
+                <label class="btn sinabg active" id="regularButton">
                     <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
                 </label>
-                <label class="btn btn-secondary" id="safeButton">
+                <label class="btn btn-success" id="safeButton">
                     <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
                 </label>
             </div>
@@ -37,10 +42,7 @@
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <div class="form-group">
-                        <div style="padding-top: 5px">
-                            <label for="divs">Pick your previous season's rank</label>
-                            <select class="form-control" name="divs" id="divs"></select>
-                        </div>
+
                         <div style="padding-top: 5px">
                             <select class="form-control" name="server" id="server">
                                 <option>EU West</option>
@@ -65,7 +67,7 @@
         </div>
     </div>
     <div id="paypal-button"></div>
-    <br><br>
+    <br>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -84,7 +86,8 @@
     function isValidEmail() {
         return !($("#email").val() == '');
     }
-    function isValidChampion(){
+
+    function isValidChampion() {
         return !($("#champion").val() == '')
     }
 
@@ -101,9 +104,9 @@
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
     }
-    function onChangeChampion(handler)
-    {
-        document.querySelector('#champion').addEventListener('change',handler);
+
+    function onChangeChampion(handler) {
+        document.querySelector('#champion').addEventListener('change', handler);
     }
 
     function post() {
@@ -147,10 +150,10 @@
             validate: function (actions) {
                 onChangeEmailOrDiscord(actions);
                 onChangeEmailOrDiscord(actions);
-                onChangeChampion(function(){
+                onChangeChampion(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeEmail(function() {
+                onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
             },
@@ -158,16 +161,13 @@
                 if (!isValidEmail() && !isValidChampion()) {
                     alert('Please enter e-mail and champion')
                 }
-                else if(!isValidEmail())
-                {
+                else if (!isValidEmail()) {
                     alert('Please enter e-mail');
                 }
-                else if(!isValidChampion())
-                {
+                else if (!isValidChampion()) {
                     alert('Please enter champions')
                 }
-                else
-                {
+                else {
                     console.log('Ok');
                 }
             },

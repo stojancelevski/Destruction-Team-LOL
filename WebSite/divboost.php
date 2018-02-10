@@ -35,13 +35,15 @@
                         <option value="true">Solo</option>
                         <option value="false">Duo</option>
                     </select>
-                    <div style="padding-top: 5px" class="btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-secondary active" id="regularButton">
-                            <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
-                        </label>
-                        <label class="btn btn-secondary" id="safeButton">
-                            <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                        </label>
+                    <div style="text-align: center">
+                        <div style="padding-top: 5px" class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn sinabg active" id="regularButton">
+                                <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                            </label>
+                            <label class="btn btn-success" id="safeButton">
+                                <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                            </label>
+                        </div>
                     </div>
                     <div style="text-align: center;padding-top: 5px">
                         <span class="badge badge-secondary" style="background-color: #375990">

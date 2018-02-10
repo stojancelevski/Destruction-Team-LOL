@@ -33,34 +33,32 @@
                     <select class="form-control" id="desiredLevel"></select>
                 </div>
             </div>
+            <br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn sinabg active" id="regularButton">
+                    <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                </label>
+                <label class="btn btn-success" id="safeButton">
+                    <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                </label>
+            </div>
             <div class="row">
+
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-secondary active" id="regularButton">
-                            <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
-                        </label>
-                        <label class="btn btn-secondary" id="safeButton">
-                            <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                        </label>
-                    </div>
-
-                        <h5 id="price"></h5>
+                    <h5 id="price"></h5>
                     <h6>
                         <del class="text text-danger" id="extraval"></del>
                     </h6>
-                    <div style="padding-top: 5px">
-                        <label for="champion">Select your champion</label>
-                        <select id="champion" class="form-control"></select>
-                    </div>
-                    <div style="padding-top: 5px">
+
+                    <div style="padding-top: 3px">
                         <select class="form-control" name="server" id="server">
                             <option>EU West</option>
                             <option>EU Nordic & East</option>
                             <option>Oceania</option>
                         </select>
                     </div>
-                    <div style="padding-top: 5px">
+                    <div style="padding-top: 3px">
                         <input type="text" class="form-control" id="email" placeholder="Email">
                     </div>
                 </div>
@@ -70,11 +68,14 @@
 
             </div>
         </div>
-        <div class="col-md-3 backgroundC">
+        <div class="col-md-3">
+            <div style="padding-top: 3px">
+                <label for="champion">Select your champion</label>
+                <select id="champion" class="form-control"></select>
+            </div>
+            <br>
             <img src="" alt="Champion" id="championImg">
         </div>
-
-
     </div>
     <br><br>
 </div>
@@ -94,7 +95,8 @@
     function isValidEmail() {
         return !($("#email").val() == '');
     }
-    function isValidChampion(){
+
+    function isValidChampion() {
         return !($("#champion").val() == '')
     }
 
@@ -111,10 +113,11 @@
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
     }
-    function onChangeChampion(handler)
-    {
-        document.querySelector('#champion').addEventListener('change',handler);
+
+    function onChangeChampion(handler) {
+        document.querySelector('#champion').addEventListener('change', handler);
     }
+
     function post() {
         return new Promise(function (resolve, reject) {
                 var type;
@@ -160,10 +163,10 @@
             },
             validate: function (actions) {
                 onChangeEmailOrDiscord(actions);
-                onChangeChampion(function(){
+                onChangeChampion(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeEmail(function() {
+                onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
             },
@@ -171,16 +174,13 @@
                 if (!isValidEmail() && !isValidChampion()) {
                     alert('Please enter e-mail and champion')
                 }
-                else if(!isValidEmail())
-                {
+                else if (!isValidEmail()) {
                     alert('Please enter e-mail');
                 }
-                else if(!isValidChampion())
-                {
+                else if (!isValidChampion()) {
                     alert('Please enter champions')
                 }
-                else
-                {
+                else {
                     console.log('Ok');
                 }
             },
