@@ -14,8 +14,8 @@
                    id="navbarDropdownMenuLink" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
                     Boosting
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" id="sina" href="divboost.php">Division Boosting</a>
+                <div class="dropdown-menu zoltabg" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " id="sina" href="divboost.php">Division Boosting</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" id="sina" href="winboost.php">Win Boost</a>
                     <div class="dropdown-divider"></div>
