@@ -24,7 +24,8 @@
                         <div class="list-group-item" align="center">
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/Divisions/challenger_1.png" alt="">
-                                <h2 style="align-items: stretch"><span class="badge badge-primary">Challenger I</span></h2>
+                                <h2 style="align-items: stretch"><span class="badge badge-primary">Challenger I</span>
+                                </h2>
                                 <h2 style="align-items: center"><span class="badge badge-secondary">10€/h</span></h2>
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
@@ -50,7 +51,8 @@
                         <div class="list-group-item" align="center">
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/Divisions/challenger_1.png" alt="">
-                                <h2 style="align-items: stretch"><span class="badge badge-primary">Challenger I</span></h2>
+                                <h2 style="align-items: stretch"><span class="badge badge-primary">Challenger I</span>
+                                </h2>
                                 <h2 style="align-items: center"><span class="badge badge-secondary">10€/h</span></h2>
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
@@ -92,22 +94,53 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header" style="text-align: left">
+                            Trpe
+                            <img align="right" src="images/usa.png" alt="">
+
+                        </div>
+                        <img class="card-img-top" src="images/heroes/Jhin.jpg" alt="Card image cap">
+                        <div class="list-group-item" align="center">
+                            <div style="text-align: center;">
+                                <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
+                                <h2 style="align-items: stretch"><span class="badge badge-primary">Master I</span>
+                                </h2>
+                                <h2 style="align-items: center"><span class="badge badge-secondary">10€/h</span></h2>
+                                <hr style="background:#777777;">
+                                <h>Region:</h>
+                                <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
+                                <h>Position/Roles:</h>
+                                <h2 style="align-items:stretch"><span class="badge badge-success">Mid, Support</span>
+                                </h2>
+                                <hr style="background:#777777;">
+                                <h>Main Champions:</h>
+                                <p style="text-align:center"> Tristana, Kog'maw, Vayne</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
 
         </div>
     </div>
 </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
-            integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
-            crossorigin="anonymous"></script>
-    <footer id="myFooter">
-        <?php include 'footer.php'; ?>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+        integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+<footer id="myFooter">
+    <?php include 'footer.php'; ?>
 
-    </footer>
+</footer>
 </body>
 </html>

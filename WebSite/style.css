@@ -258,8 +258,11 @@ img.img-kocka {
 
 .zolta {
     color: #E9D300;
+    background:#375990 ;
 }
-
+.bgReview{
+    background:  #909090;
+}
 .sinabg {
     color:#fff;
     background: #375990;
