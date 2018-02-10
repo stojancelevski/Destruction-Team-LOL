@@ -6,7 +6,7 @@ $(document).ready(function()
 {
     checkSlider();
     $('#level').html('Level: ' + $('#slider').val());
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 
@@ -14,21 +14,21 @@ $('#slider').on("slide",function () {
 
     checkSlider();
     $('#level').html('Level: ' + this.value);
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 $("#safeButton").on('click',function()
 {
     $("#safe").prop('checked',true);
     $("#regular").prop('checked',false);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 $("#regularButton").on('click',function()
 {
     $("#safe").prop('checked',false);
     $("#regular").prop('checked',true);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 function getPrice()

@@ -24,7 +24,7 @@ $(document).ready(function()
         $("<option>"+divisions[i].name+"</option>").appendTo(div);
     }
     $('#winimg').attr('src',imageRoot +divisions[0].img);
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 
@@ -32,12 +32,12 @@ $('#slider').on('slide',function () {
 
     console.log('sliding');
     $('#number').html('Number of games: ' + this.value);
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 
 $('#type').on('change',function () {
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 
@@ -51,7 +51,7 @@ $('#divs').on('change',function () {
         }
     }
 
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 
@@ -59,14 +59,14 @@ $("#safeButton").on('click',function()
 {
     $("#safe").prop('checked',true);
     $("#regular").prop('checked',false);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 $("#regularButton").on('click',function()
 {
     $("#safe").prop('checked',false);
     $("#regular").prop('checked',true);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 

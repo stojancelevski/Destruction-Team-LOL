@@ -21,8 +21,8 @@
             if($fileSize < 2000000)
             {
                 $fileNameNew = uniqid('',true).".".$fileActualExt;
-                $fileDestination = "..\images\\reviewImages\\".$fileNameNew;
-                move_uploaded_file($fileTmpName,$fileDestination);
+                $fileDestination = "/images/reviewImages/".$fileNameNew;
+                move_uploaded_file($fileTmpName,$_SERVER['DOCUMENT_ROOT'].$fileDestination);
                 $response -> message = $fileNameNew;
                 $response -> error = null;
                 echo json_encode($response);

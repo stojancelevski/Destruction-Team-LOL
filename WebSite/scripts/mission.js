@@ -15,14 +15,14 @@ $("#safeButton").on('click',function()
 {
     $("#safe").prop('checked',true);
     $("#regular").prop('checked',false);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 $("#regularButton").on('click',function()
 {
     $("#safe").prop('checked',false);
     $("#regular").prop('checked',true);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 function getPrice() {

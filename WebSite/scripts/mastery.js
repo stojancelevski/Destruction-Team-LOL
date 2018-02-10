@@ -21,7 +21,7 @@ $(document).ready(function(){
                 $("<option>" + i +"</option>").appendTo(desired);
             }
 
-            $('#price').html('Bonus price: ' + getPrice() + '€');
+            $('#price').html('Price: ' + getPrice() + '€');
             extra();
         },
         error: function (error) {
@@ -34,7 +34,7 @@ $(document).ready(function(){
 });
 
 $('#desiredLevel').on('change',function(){
-    $('#price').html('Bonus price: '+getPrice()+ '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 });
 $("#champion").on('change',function () {
@@ -69,14 +69,14 @@ $("#safeButton").on('click',function()
 {
     $("#safe").prop('checked',true);
     $("#regular").prop('checked',false);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 $("#regularButton").on('click',function()
 {
     $("#safe").prop('checked',false);
     $("#regular").prop('checked',true);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 function getPrice()

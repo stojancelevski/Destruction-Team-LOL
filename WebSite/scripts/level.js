@@ -13,13 +13,13 @@ $(document).ready(function()
         $("<option>" + i +"</option>").appendTo(from);
     }
     $("<option>175</option>").appendTo(to);
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 
 $("#desiredLevel").on('change',function()
 {
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 $("#startLevel").on('change',function()
@@ -49,7 +49,7 @@ $("#startLevel").on('change',function()
         to.val(toIndex);
     }
 
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 
@@ -58,14 +58,14 @@ $("#safeButton").on('click',function()
 {
     $("#safe").prop('checked',true);
     $("#regular").prop('checked',false);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 $("#regularButton").on('click',function()
 {
     $("#safe").prop('checked',false);
     $("#regular").prop('checked',true);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 function getPrice()

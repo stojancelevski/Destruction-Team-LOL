@@ -19,20 +19,20 @@ $(document).ready(function(){
     }
     $("#divisionImg").attr('src',imageRoot+divisions[0].img)
     $('#number').html('Number of games: ' + $('#slider').val());
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
     });
 
 $('#slider').on('change',function(){
     $('#number').html('Number of games: ' + this.value);
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 
 $("#divs").on('change',function () {
 
     changeImg();
-    $('#price').html('Bonus price: ' + getPrice() + '€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 function getPrice()
@@ -63,14 +63,14 @@ $("#safeButton").on('click',function()
 {
     $("#safe").prop('checked',true);
     $("#regular").prop('checked',false);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 $("#regularButton").on('click',function()
 {
     $("#safe").prop('checked',false);
     $("#regular").prop('checked',true);
-    $('#price').html('Bonus price: ' +getPrice() +'€');
+    $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
 function changeImg()

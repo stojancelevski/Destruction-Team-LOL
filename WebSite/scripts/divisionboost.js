@@ -180,7 +180,7 @@ function triggerValue()
     value = Math.ceil(value);
     var extraprice = Math.ceil(value + (value * 0.15));
 
-    $("#value").html('Bonus price: '+value+'€');
+    $("#value").html('Price: '+value+'€');
     $("#extraval").html('Original price: ' + extraprice + '€')
 }
 function getValue()
