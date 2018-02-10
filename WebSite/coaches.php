@@ -24,9 +24,9 @@
                         <div class="list-group-item" align="center">
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/Divisions/challenger_1.png" alt="">
-                                <h2 style="align-items: stretch"><span class="badge badge-primary">Challenger I</span>
+                                <h2 style="align-items: stretch"><span class="badge sina">Challenger I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10€/h</span></h2>
+                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -51,9 +51,9 @@
                         <div class="list-group-item" align="center">
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/Divisions/challenger_1.png" alt="">
-                                <h2 style="align-items: stretch"><span class="badge badge-primary">Challenger I</span>
+                                <h2 style="align-items: stretch"><span class="badge sina">Challenger I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10€/h</span></h2>
+                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -78,8 +78,8 @@
                         <div class="list-group-item" align="center">
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/master_1.png" alt="">
-                                <h2 style="align-items: stretch"><span class="badge badge-primary">Master</span></h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10€/h</span></h2>
+                                <h2 style="align-items: stretch"><span class="badge sina">Master</span></h2>
+                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -106,9 +106,9 @@
                         <div class="list-group-item" align="center">
                             <div style="text-align: center;">
                                 <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
-                                <h2 style="align-items: stretch"><span class="badge badge-primary">Master I</span>
+                                <h2 style="align-items: stretch"><span class="badge sina">Master I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10€/h</span></h2>
+                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>

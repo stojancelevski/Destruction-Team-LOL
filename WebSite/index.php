@@ -321,11 +321,13 @@
                 </div>
             </div>
         </div>
-        <br>
-        <h2><p class="bgReview" id="sina" style="text-align: center"><b>With us you can feel safe and be 100% sure <br> that
+        <hr style="background: black">
+        <h2><p id="sina" style="text-align: center; background-color: #909090;"><b>With us you can feel safe and be 100%
+                    sure <br> that
                     you will get better results
                     than
                     expected.</b></p></h2>
+        <br>
 
         <div class="container">
             <div class="row">
