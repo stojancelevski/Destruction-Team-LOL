@@ -17,36 +17,13 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100"
-                             src="https://cdn-images-1.medium.com/max/2000/1*M890k1hyDMxTmStLYkDr8w.jpeg"
+                             src="images/carousel1.jpeg"
                              alt="First slide">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100"
-                             src="https://cdn1.nyt.com/images/2014/10/20/business/20koreagames-web2/20koreagames-web2-articleLarge.jpg"
-                             alt="Second slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <br><br><br><br>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100"
-                             src="https://cdn-images-1.medium.com/max/2000/1*M890k1hyDMxTmStLYkDr8w.jpeg"
-                             alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100"
-                             src="https://cdn1.nyt.com/images/2014/10/20/business/20koreagames-web2/20koreagames-web2-articleLarge.jpg"
-                             alt="Second slide">
+                             src="images/carousel2.jpg"
+                             alt="Second slide" width="600" height="303">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -71,44 +48,46 @@
                             part of it all!
                         </b>
                     </p>
-                    <hr style="background: black">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h1>Professional</h1>
-                            <p>
-                                If you want to be a part of our team we expect from you to work at least 8 hours per
-                                day.
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <h1>Gradually Growing</h1>
-                            <p>
-                                We only take the best elo boosters on our website. We expect from every applicant to
-                                have a clear and open mind. If you're looking for this job you'll be required to follow
-                                all the rules we supply you with. Our environment is very easy to adapt to, so we don't
-                                believe this will be an issue.
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <h1>We have personality</h1>
-                            <p>
-                                Our company is always the one which is closest to its customers. We expect that you'll
-                                take good care of every single customer no matter what amount they paid at our website.
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <h1>Easy to teach</h1>
-                            <p>
-                                We're looking for people that listen well to what we have to say and that're capable of
-                                working in a group. You might be a lonewolf ingame, but if you're working for us then
-                                you're part of the team, and we expect from you to treat it like that.
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <hr style="background: black">
+
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Professional</h1>
+            <p>
+                If you want to be a part of our team we expect from you to work at least 8 hours per
+                day.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h1>Gradually Growing</h1>
+            <p>
+                We only take the best elo boosters on our website. We expect from every applicant to
+                have a clear and open mind. If you're looking for this job you'll be required to follow
+                all the rules we supply you with. Our environment is very easy to adapt to, so we don't
+                believe this will be an issue.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h1>We have personality</h1>
+            <p>
+                Our company is always the one which is closest to its customers. We expect that you'll
+                take good care of every single customer no matter what amount they paid at our website.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h1>Easy to teach</h1>
+            <p>
+                We're looking for people that listen well to what we have to say and that're capable of
+                working in a group. You might be a lonewolf ingame, but if you're working for us then
+                you're part of the team, and we expect from you to treat it like that.
+            </p>
+        </div>
+    </div>
+
     <br>
     <div class="row">
         <div class="col-md-3 col-centered">

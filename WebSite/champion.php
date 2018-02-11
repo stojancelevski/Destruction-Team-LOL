@@ -9,12 +9,12 @@
 <div class="jumbotron banertext bg6">
     <h1>Champion mastery</h1>
 </div>
-<div class="jumbotron shield" style="text-align: center">
+<div class="jumbotron textura" style="text-align: center">
     <br>
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-2 backgroundC"></div>
-        <div class="col-md-6" style="color: #375990; padding-top: 10px">
+        <div class="col-md-6 shield" style="color: #375990; padding-top: 10px"><br><br><br><br>
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-3">
@@ -67,6 +67,7 @@
             <div id="paypal-button" style="padding-top: 5px">
 
             </div>
+            <br><br><br><br>
         </div>
         <div class="col-md-3">
             <div style="padding-top: 3px">

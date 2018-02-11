@@ -12,6 +12,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+
     transform: translate(-50%, -50%);
 }
 .bottomm{
@@ -157,14 +158,14 @@ body {
     }
 
     .centered {
-        position: absolute;
+        position: inherit;
         top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
     .bottomm{
         position: absolute;
-        top: 282%;
+        top: 360%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -314,6 +315,16 @@ img.img-kocka {
     background-image: url("images/baner.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+.col-md-6.shield {
+    background-image: url("images/baner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jumbotron.textura{
+    background-image: url("images/teksturi/champion.png");
+    background-repeat: no-repeat;
+
 }
 
 .jumbotron.banertext {

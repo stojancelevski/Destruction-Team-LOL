@@ -13,49 +13,84 @@
     <div class="container">
         <div class="card-deck">
             <div class="card border-success">
-                <img class="card-img-top" src="images/platinum_1.png" alt="Card image cap">
-                <div class="card-body text-success">
-                    <h5 class="card-title">Platinum 4 Account</h5>
-                </div>
-                <ul class="list-group list-group-flush text-success">
-                    <li class="list-group-item"><b>Price:</b> 100EUR</li>
-                    <li class="list-group-item"><b>Server:</b> EU_EAST</li>
-                    <li class="list-group-item"><b>Champions Owned:</b> 41</li>
-                    <li class="list-group-item"><b>Skins Owned</b> 7</li>
-                </ul>
-                <div class="card-footer">
+                <div class="card-header">
                     <small class="text-muted"><b>Status:</b> Available</small>
                 </div>
-            </div>
-            <div class="card border-danger">
-                <img class="card-img-top" src="images/diamond_1.png" alt="Card image cap">
-                <div class="card-body text-danger">
-                    <h5 class="card-title">Diamond 2 Account</h5>
+                <img class="card-img-top" src="images/Divisions/master_1.png" alt="Card image cap">
+                <div class="card-body text-success">
+                    <h5 class="card-title">Master Account  </h5>
                 </div>
-                <ul class="list-group list-group-flush text-danger">
-                    <li class="list-group-item"><b>Price:</b> 225EUR</li>
-                    <li class="list-group-item"><b>Server:</b> EU_EAST</li>
-                    <li class="list-group-item"><b>Champions Owned:</b> 59</li>
-                    <li class="list-group-item"><b>Skins Owned</b> 22</li>
+                <ul class="list-group list-group-flush text-success">
+                    <li class="list-group-item"><b>Price:</b> 200EUR</li>
+                    <li class="list-group-item"><b>Server:</b> EUNE</li>
+                    <li class="list-group-item"><b>Champions Owned:</b> 66</li>
+                    <li class="list-group-item"><b>Skins Owned</b> 25</li>
+                    <li class="list-group-item"><b>Level</b> 69</li>
+                    <li class="list-group-item"><b>Honor Level</b> 0</li>
+                    <li class="list-group-item"><b>Rune Pages</b> 2</li>
+                    <li class="list-group-item"><b>5 vs 5 Flex</b> Platinum V</li>
+                    <li class="list-group-item"><b>3 vs 3 Flex</b> Unranked</li>
                 </ul>
-                <div class="card-footer">
-                    <small class="text-muted"><b>Status:</b> Sold</small>
-                </div>
             </div>
             <div class="card border-success">
+                <div class="card-header">
+                    <small class="text-muted"><b>Status:</b> Available</small>
+                </div>
+                <img class="card-img-top" src="images/Divisions/diamond_5.png" alt="Card image cap">
+                <div class="card-body text-success">
+                    <h5 class="card-title"> Diamond V Account </h5>
+                </div>
+                <ul class="list-group list-group-flush text-success">
+                    <li class="list-group-item"><b>Price:</b> ...</li>
+                    <li class="list-group-item"><b>Server:</b> EUNE</li>
+                    <li class="list-group-item"><b>Champions Owned:</b> 112</li>
+                    <li class="list-group-item"><b>Skins Owned</b> ...</li>
+                    <li class="list-group-item"><b>Level</b> 62</li>
+                    <li class="list-group-item"><b>Honor Level</b> 2</li>
+                    <li class="list-group-item"><b>Rune Pages</b> 5</li>
+                    <li class="list-group-item"><b>5 vs 5 Flex</b> Unranked</li>
+                    <li class="list-group-item"><b>3 vs 3 Flex</b> Unranked</li>
+                </ul>
+            </div>
+            <div class="card border-success">
+                <div class="card-header">
+                    <small class="text-muted"><b>Status:</b> Available</small>
+                </div>
+                <img class="card-img-top" src="images/Divisions/diamond_5.png" alt="Card image cap">
+                <div class="card-body text-success">
+                    <h5 class="card-title">Diamond V Account</h5>
+                </div>
+                <ul class="list-group list-group-flush text-success">
+                    <li class="list-group-item"><b>Price:</b> 85EUR</li>
+                    <li class="list-group-item"><b>Server:</b> EUNE</li>
+                    <li class="list-group-item"><b>Champions Owned:</b> 54</li>
+                    <li class="list-group-item"><b>Skins Owned</b> 3</li>
+                    <li class="list-group-item"><b>Level</b> 32</li>
+                    <li class="list-group-item"><b>Honor Level</b> 0</li>
+                    <li class="list-group-item"><b>Rune Pages</b> 2</li>
+                    <li class="list-group-item"><b>5 vs 5 Flex</b> Unranked</li>
+                    <li class="list-group-item"><b>3 vs 3 Flex</b> Unranked</li>
+                </ul>
+            </div>
+            <div class="card border-success">
+                <div class="card-header">
+                    <small class="text-muted"><b>Status:</b> Available</small>
+                </div>
                 <img class="card-img-top" src="images/unranked_1.png" alt="Card image cap">
                 <div class="card-body text-success">
                     <h5 class="card-title">Unranked Account</h5>
                 </div>
                 <ul class="list-group list-group-flush text-success">
-                    <li class="list-group-item"><b>Price:</b> 30EUR</li>
-                    <li class="list-group-item"><b>Server:</b> EU_EAST</li>
-                    <li class="list-group-item"><b>Champions Owned:</b> 20</li>
-                    <li class="list-group-item"><b>Skins Owned</b> 2</li>
+                    <li class="list-group-item"><b>Price:</b> 50EUR</li>
+                    <li class="list-group-item"><b>Server:</b> EUNE</li>
+                    <li class="list-group-item"><b>Champions Owned:</b> 55</li>
+                    <li class="list-group-item"><b>Skins Owned</b> /</li>
+                    <li class="list-group-item"><b>Level</b> 30</li>
+                    <li class="list-group-item"><b>Honor Level</b> 2</li>
+                    <li class="list-group-item"><b>Rune Pages</b> 2</li>
+                    <li class="list-group-item"><b>5 vs 5 Flex</b> Unranked</li>
+                    <li class="list-group-item"><b>3 vs 3 Flex</b> Unranked</li>
                 </ul>
-                <div class="card-footer">
-                    <small class="text-muted"><b>Status:</b> Available</small>
-                </div>
             </div>
         </div>
 

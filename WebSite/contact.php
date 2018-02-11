@@ -43,13 +43,14 @@
                     If you have any questions feel free to contact us.
                     We will reply to your email within the next 12 hours.
                     <br>
-                <h2 class="mail"> topboost.global@gmail.com</h2>
+                <h4 class="mail"> topboost.global@gmail.com</h4>
 
                 </p>
             </div>
         </div>
 
     </div>
+</div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
