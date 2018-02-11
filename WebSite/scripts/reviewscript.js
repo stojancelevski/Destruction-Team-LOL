@@ -134,7 +134,7 @@ function mapReviews(data)
         {
             $("#cardName"+i).html(escapeHtml(data[data.length -i].name))
             $("#Review"+i).html(escapeHtml(data[data.length -i].text))
-            $("#cardImg"+i).attr('src',escapeHtml(imageRoot+data[data.length-i].image));
+            $("#cardImg"+i).attr('src',imageRoot+escapeHtml(data[data.length-i].image));
         }
     }
 }
