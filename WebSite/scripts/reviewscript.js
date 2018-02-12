@@ -26,7 +26,7 @@ $(document).ready(function(){
 
     $.get(getUrl).then(
         res => {
-        if(res.message != null)
+        if(res.error != null)
     {
         alert('Something might be wrong!\n If the problem persists, please report a bug!')
         console.log(res);
