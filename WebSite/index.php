@@ -4,7 +4,7 @@
     <?php include 'head.php'; ?>
     <title>Home</title>
 </head>
-<body>
+<body style="background: #030C15">
 
 <?php include 'navbar.php'; ?>
 
@@ -20,7 +20,7 @@
         </h1>
 
         <br><br>
-        <h1 style="text-align: center">Some of the experience of our customers</h1>
+        <h1 style="text-align: center;color:white">Some of the experience of our customers</h1>
         <div class="container">
             <div class="card-deck" id="card-deck">
                 <div class="card" id="Card1">
@@ -179,149 +179,162 @@
 
         </div>
         <br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="http://solarhythmia.com/art-gallery/vectors/800x600/rainbow-kirby-800x600.jpg" id="slikaa"
-                         class="img-fluid sticky">
-                </div>
-                <div class="col-md-8"><h1 style="text-align: center"><span class="badge badge-secondary" id="sina">How can YOU benefit from us?</span>
-                    </h1>
-                    <ul class="no_bullet">
-                        <div id="accordion">
-                            <li>
-                                <div id="headingOne">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">
-                                            Security.
-                                        </button>
-                                    </h5>
-                                </div>
+        <div style="background:#0B141B;color: white;">
+            <div class="container">
+                <div class="row" style="background:#0B141B;color: white;">
+                    <div class="col-md-4">
+                        <img src="images/index1.png" id="slikaa"
+                             class="img-fluid sticky">
+                    </div>
+                    <div class="col-md-8">
+                        <h1 style="text-align: center"><h1 style="background:#0B141B;"
+                                                           id="sina">How can YOU benefit from
+                                us?</h1  style="background: #0B141B
+                            ;">
+                        </h1>
+                        <ul class="no_bullet">
+                            <div id="accordion">
+                                <li>
+                                    <div id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse"
+                                                    data-target="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne">
+                                                Security.
+                                            </button>
+                                        </h5>
+                                    </div>
 
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                     data-parent="#accordion">
-                                    <div class="card-body">
-                                        The developers were so dedicated to they invented a new way of boosting in order
-                                        to grant YOU safety, so you can feel safe with us.
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                         data-parent="#accordion">
+                                        <div class="card-body">
+                                            We were so dedicated that they invented a new way of boosting in order
+                                            to grant YOU safety, so you can feel safe with us.
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingTwo">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseTwo" aria-expanded="false"
-                                                aria-controls="collapseTwo">
-                                            Price
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                     data-parent="#accordion">
-                                    <div class="card-body">
-                                        The price and quality of our services is one of the best you can find.
+                                </li>
+                                <li>
+                                    <div id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
+                                                Price
+                                            </button>
+                                        </h5>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingThree">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">
-                                            Friendly Boosters
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                     data-parent="#accordion">
-                                    <div class="card-body">
-                                        Our team has years of experience so every one of them is friendly and
-                                        is glad to hear you out and make sure that YOU are 101% satisfied.
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                         data-parent="#accordion">
+                                        <div class="card-body">
+                                            The price and quality of our services is one of the best you can find.
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingFour">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour"
-                                                aria-expanded="false" aria-controls="collapseFour">
-                                            VPN
-                                        </button>
-                                    </h5>
-                                </div>
+                                </li>
+                                <li>
+                                    <div id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                Friendly Boosters
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                         data-parent="#accordion">
+                                        <div class="card-body">
+                                            Our team has years of experience so every one of them is friendly and
+                                            is glad to hear you out and make sure that YOU are 101% satisfied.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="headingFour">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse"
+                                                    data-target="#collapseFour"
+                                                    aria-expanded="false" aria-controls="collapseFour">
+                                                VPN
+                                            </button>
+                                        </h5>
+                                    </div>
 
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                     data-parent="#accordion">
-                                    <div class="card-body">
-                                        The developers were so dedicated to they invented a new way of boosting in order
-                                        to grant YOU safety, so you can feel safe with us.
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                         data-parent="#accordion">
+                                        <div class="card-body">
+                                            The developers were so dedicated to they invented a new way of boosting in
+                                            order
+                                            to grant YOU safety, so you can feel safe with us.
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingFive">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseFive" aria-expanded="false"
-                                                aria-controls="collapseFive">
-                                            Money back guarantee
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                     data-parent="#accordion">
-                                    <div class="card-body">
-                                        And as a extra bonus to the security that we offer we want you to
-                                        feel safe that that if you are not satisfied by our services you can freely
-                                        email us and you
-                                        will get Full Refund no questions asked.
+                                </li>
+                                <li>
+                                    <div id="headingFive">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseFive" aria-expanded="false"
+                                                    aria-controls="collapseFive">
+                                                Money back guarantee
+                                            </button>
+                                        </h5>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingSix">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseSix" aria-expanded="false"
-                                                aria-controls="collapseSix">
-                                            Fast&Reliable
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                     data-parent="#accordion">
-                                    <div class="card-body">
-                                        We are dedicated to satisfy your needs and thats why we offer fast&reliable
-                                        results.
+                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                         data-parent="#accordion">
+                                        <div class="card-body">
+                                            And as a extra bonus to the security that we offer we want you to
+                                            feel safe that that if you are not satisfied by our services you can freely
+                                            email us and you
+                                            will get Full Refund no questions asked.
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingSeven">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseSeven" aria-expanded="false"
-                                                aria-controls="collapseSeven">
-                                            24/7 Support
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
-                                     data-parent="#accordion">
-                                    <div class="card-body">
-                                        The support team is available 24/7 and will be glad to assist and help you
-                                        any way they can.
+                                </li>
+                                <li>
+                                    <div id="headingSix">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseSix" aria-expanded="false"
+                                                    aria-controls="collapseSix">
+                                                Fast&Reliable
+                                            </button>
+                                        </h5>
                                     </div>
-                                </div>
-                            </li>
-                        </div>
-                    </ul>
+                                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                         data-parent="#accordion">
+                                        <div class="card-body">
+                                            We are dedicated to satisfy your needs and thats why we offer fast&reliable
+                                            results.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="headingSeven">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseSeven" aria-expanded="false"
+                                                    aria-controls="collapseSeven">
+                                                24/7 Support
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                                         data-parent="#accordion">
+                                        <div class="card-body">
+                                            The support team is available 24/7 and will be glad to assist and help you
+                                            any way they can.
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br><br>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
+
         </div>
-        <hr style="background: black">
+        <br><br>
         <h2><p id="sina" style="text-align: center; background-color: #909090;"><b>With us you can feel safe and be 100%
                     sure <br> that
                     you will get better results
@@ -329,176 +342,183 @@
                     expected.</b></p></h2>
         <br>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8"><h1 style="text-align: center"><span
-                                class="badge badge-secondary" id="sina">This might interest you </span></h1>
-                    <ul class="no_bullet">
-                        <div id="accordion2">
-                            <li>
-                                <div id="headingEight">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEight"
-                                                aria-expanded="true" aria-controls="collapseEight">
-                                            Invisible to Riot
-                                        </button>
-                                    </h5>
-                                </div>
 
-                                <div id="collapseEight" class="collapse show" aria-labelledby="headingEight"
-                                     data-parent="#accordion2">
-                                    <div class="card-body">
-                                        The developers have been working so hard to offer 100% security so
-                                        that RIOT have no way of detecting our service.
+        <div style="background:#0B141B;color: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 style="text-align: center"><h1 style="background:#0B141B ;" id="sina">This might interest
+                                you </h1>
+                        </h1>
+                        <ul class="no_bullet">
+                            <div id="accordion2">
+                                <li>
+                                    <div id="headingEight">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse"
+                                                    data-target="#collapseEight"
+                                                    aria-expanded="true" aria-controls="collapseEight">
+                                                Invisible to Riot
+                                            </button>
+                                        </h5>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingNine">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseNine" aria-expanded="false"
-                                                aria-controls="collapseNine">
-                                            Kind 24/7 support
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
-                                     data-parent="#accordion2">
-                                    <div class="card-body">
-                                        Our support team is glad to assist you with any questions you might
-                                        have at any time.
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingTen">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseTen" aria-expanded="false"
-                                                aria-controls="collapseTen">
-                                            High Win Rate Percentage
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
-                                     data-parent="#accordion2">
-                                    <div class="card-body">
-                                        Our professionals guarantee you 95% win rate success
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingEleven">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link" data-toggle="collapse"
-                                                data-target="#collapseEleven"
-                                                aria-expanded="false" aria-controls="collapseEleven">
-                                            Team of Professionals
-                                        </button>
-                                    </h5>
-                                </div>
 
-                                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
-                                     data-parent="#accordion2">
-                                    <div class="card-body">
-                                        Our team of professionals is always there to satisfy you and give
-                                        you results better than expected.
+                                    <div id="collapseEight" class="collapse show" aria-labelledby="headingEight"
+                                         data-parent="#accordion2">
+                                        <div class="card-body">
+                                            The developers have been working so hard to offer 100% security so
+                                            that RIOT have no way of detecting our service.
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingTwelve">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseTwelve" aria-expanded="false"
-                                                aria-controls="collapseTwelve">
-                                            Pause Boost
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve"
-                                     data-parent="#accordion2">
-                                    <div class="card-body">
-                                        Menage your boost by pausing it when you chose.
+                                </li>
+                                <li>
+                                    <div id="headingNine">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseNine" aria-expanded="false"
+                                                    aria-controls="collapseNine">
+                                                Kind 24/7 support
+                                            </button>
+                                        </h5>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingThirteen">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseThirteen" aria-expanded="false"
-                                                aria-controls="collapseThirteen">
-                                            Spectate Boost
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen"
-                                     data-parent="#accordion2">
-                                    <div class="card-body">
-                                        Keep track of your boost and learn how you can be better.
+                                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                                         data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Our support team is glad to assist you with any questions you might
+                                            have at any time.
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingFourteen">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseFourteen" aria-expanded="false"
-                                                aria-controls="collapseFourteen">
-                                            Check Progress
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen"
-                                     data-parent="#accordion2">
-                                    <div class="card-body">
-                                        You can check the progress at any time.
+                                </li>
+                                <li>
+                                    <div id="headingTen">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseTen" aria-expanded="false"
+                                                    aria-controls="collapseTen">
+                                                High Win Rate Percentage
+                                            </button>
+                                        </h5>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="headingFifteen">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapseFifteen" aria-expanded="false"
-                                                aria-controls="collapseFifteen">
-                                            Our Goal
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen"
-                                     data-parent="#accordion2">
-                                    <div class="card-body">
-                                        Our goal is to always keep the costumers satisfied and give them better results
-                                        than expected.
+                                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+                                         data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Our professionals guarantee you 95% win rate success
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </div>
-                    </ul>
+                                </li>
+                                <li>
+                                    <div id="headingEleven">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse"
+                                                    data-target="#collapseEleven"
+                                                    aria-expanded="false" aria-controls="collapseEleven">
+                                                Team of Professionals
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
+                                         data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Our team of professionals is always there to satisfy you and give
+                                            you results better than expected.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="headingTwelve">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseTwelve" aria-expanded="false"
+                                                    aria-controls="collapseTwelve">
+                                                Pause Boost
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve"
+                                         data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Menage your boost by pausing it when you chose.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="headingThirteen">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseThirteen" aria-expanded="false"
+                                                    aria-controls="collapseThirteen">
+                                                Spectate Boost
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen"
+                                         data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Keep track of your boost and learn how you can be better.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="headingFourteen">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseFourteen" aria-expanded="false"
+                                                    aria-controls="collapseFourteen">
+                                                Check Progress
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen"
+                                         data-parent="#accordion2">
+                                        <div class="card-body">
+                                            You can check the progress at any time.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="headingFifteen">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseFifteen" aria-expanded="false"
+                                                    aria-controls="collapseFifteen">
+                                                Our Goal
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen"
+                                         data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Our goal is to always keep the costumers satisfied and give them better
+                                            results
+                                            than expected.
+                                        </div>
+
+                                    </div>
+                                    <br><br>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/index2.png" id="slikaa"
+                             class="img-fluid sticky">
+
+                    </div>
                 </div>
-
-                <div class="col-md-4">
-                    <img src="http://www.fonditos3d.com/800x600/seta-de-mario-bros.jpg" id="slikaa"
-                         class="img-fluid sticky">
-
-                </div>
+                </p>
             </div>
         </div>
-        <div class="containter">
-            <img src="images/banners/Top%20Boost/bg_2.png" class="img-responsive" id="jumbotron">
-            <h1>
-                <a href="boosting.php" class="bottomm bottom-right"><span class="badge zolta">Boost Me</span></a>
-            </h1>
-        </div>
-    </div>
-    <footer id="myFooter">
-        <?php include 'footer.php'; ?>
+        <img src="images/banners/Top%20Boost/bg_2.png" class="img-responsive" id="jumbotron">
+        <h1>
+            <a href="boosting.php" class="bottomm bottom-right"><span class="badge zolta">Boost Me</span></a>
+        </h1>
+        <footer id="myFooter">
+            <?php include 'footer.php'; ?>
 
-    </footer>
-</div>
+        </footer>
+    </div>
 
 </body>
 <!-- Optional JavaScript -->

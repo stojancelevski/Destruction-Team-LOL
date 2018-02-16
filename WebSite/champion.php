@@ -11,6 +11,7 @@
 </div>
 <div class="jumbotron textura" style="text-align: center">
     <br>
+    <button class="btn sina scrollToTop">Get Your Boost</button>
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-2 backgroundC"></div>
@@ -79,6 +80,7 @@
         </div>
     </div>
     <br><br>
+    <?php include 'safe and regular.php'; ?>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -232,6 +234,24 @@
                 alert('Something went wrong! Please try again later')
             }
         }, '#paypal-button');
+    });
+    $(document).ready(function(){
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+        });
+
     });
 </script>
 <footer id="myFooter">

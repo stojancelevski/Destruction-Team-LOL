@@ -11,20 +11,22 @@
     <h1>Placement Matches</h1>
 </div>
 
-<div class="jumbotron shield" style="text-align: center">
+<div class="jumbotron textura3" style="text-align: center">
     <br>
-    <input id="slider" data-slider-id='placementSlider' data-slider-handle="custom" type="text" data-slider-min="1"
-           data-slider-max="10" data-slider-step="1" data-slider-value="1"/>
+
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-2">
             <div class="header" style="padding-top: 5px">
-                <label for="divs">Pick your previous season's rank</label>
+                <label for="divs" style="color: white">Pick your previous season's rank</label>
                 <select class="form-control" name="divs" id="divs"></select>
             </div>
             <img src="images/Divisions/unranked_1.png" alt="division" id="divisionImg"/>
         </div>
-        <div class="col-md-6" style="color: #375990"><br>
+        <div class="col-md-6 shield" style="color: #375990"><br><br><br>
+            <input id="slider" data-slider-id='placementSlider' data-slider-handle="custom" type="text"
+                   data-slider-min="1"
+                   data-slider-max="10" data-slider-step="1" data-slider-value="1"/><br><br>
             <h5 id="number"></h5>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
                 <label class="btn sinabg active" id="regularButton">
@@ -57,17 +59,20 @@
                             <input type="text" class="form-control" id="email" placeholder="Email">
                         </div>
                     </div>
+                    <div id="paypal-button"></div>
 
                 </div>
                 <div class="col-md-1"></div>
             </div>
+            <br><br><br><br>
         </div>
         <div class="col-md-3 backgroundP">
 
         </div>
     </div>
-    <div id="paypal-button"></div>
     <br>
+    <?php include 'safe and regular.php'; ?>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

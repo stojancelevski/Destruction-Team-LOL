@@ -11,54 +11,60 @@
 <div class="jumbotron banertext bg5">
     <h1>Level boosting</h1>
 </div>
-<div class="jumbotron shield" style="text-align: center">
+<div class="jumbotron textura4" style="text-align: center">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="header">
                     <label class="form-control" for="startLevel">My level</label><br>
                     <select class="form-control" name="startLevel" id="startLevel">
                     </select>
                 </div>
                 <div class="card-body">
-                    <img class="card-img-top" src="images/Packs/box-honor_boost.png"  style="height: 392px;width: 250px" >
+                    <img class="card-img-top" src="images/Packs/box-honor_boost.png" style="height: 392px;width: 250px">
                 </div>
             </div>
-            <div class="col-md-4" style="color: #375990">
-                <br><br><br><br><br><br>
-                <div class="form-group">
-                    <div style="padding-top: 5px">
-                        <select class="form-control" name="server" id="server">
-                            <option>EU West</option>
-                            <option>EU Nordic & East</option>
-                            <option>Oceania</option>
-                        </select>
-                    </div>
-                    <div style="padding-top: 5px">
-                        <input type="text" class="form-control" id="champion" placeholder="Champions">
-                    </div>
-                    <div style="padding-top: 5px">
-                        <input type="text" class="form-control" id="email" placeholder="Email">
-                    </div>
-                </div>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label  class="btn sinabg active" id="regularButton">
-                        <input  type="radio" name="options" autocomplete="off" id="regular"
-                               checked> Regular boost
-                    </label>
-                    <label class="btn btn-success " id="safeButton">
-                        <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                    </label>
-                </div>
-                <h4 id="price"></h4>
-                <h6>
-                    <del class="text text-danger" id="extraval"></del>
-                </h6>
+            <div class="col-md-6 shield" style="color: #375990"><br><br><br><br><br>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
 
-                <div id="paypal-button">
+                        <div class="form-group">
+                            <div style="padding-top: 5px">
+                                <select class="form-control" name="server" id="server">
+                                    <option>EU West</option>
+                                    <option>EU Nordic & East</option>
+                                    <option>Oceania</option>
+                                </select>
+                            </div>
+                            <div style="padding-top: 5px">
+                                <input type="text" class="form-control" id="champion" placeholder="Champions">
+                            </div>
+                            <div style="padding-top: 5px">
+                                <input type="text" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn sinabg active" id="regularButton">
+                                <input type="radio" name="options" autocomplete="off" id="regular"
+                                       checked> Regular boost
+                            </label>
+                            <label class="btn btn-success " id="safeButton">
+                                <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                            </label>
+                        </div>
+                        <h4 id="price"></h4>
+                        <h6>
+                            <del class="text text-danger" id="extraval"></del>
+                        </h6>
+
+                        <div id="paypal-button">
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="header">
                     <label class="form-control" for="desiredLevel">Desired level</label><br>
                     <select class="form-control" name="desiredLevel" id="desiredLevel"></select>
@@ -71,6 +77,8 @@
 
     </div>
     <br><br><br>
+    <?php include 'safe and regular.php'; ?>
+
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

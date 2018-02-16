@@ -15,9 +15,10 @@
 
     transform: translate(-50%, -50%);
 }
+
 .bottomm{
     position: absolute;
-    top: 300%;
+    top: 380%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -33,7 +34,7 @@ body {
 .sticky {
     position: absolute;
     top: 80%;
-    left: 40%;
+    left: 60%;
     width: 500px;
     height: 500px;
     margin-top: -250px; /* Half the height */
@@ -43,6 +44,8 @@ body {
     background-image: url("images/Packs/box-placement_matches.png");
     background-size: contain;
     background-repeat: no-repeat;
+    width: 250px;
+    height: 392px;
 }
 
 .backgroundH {
@@ -164,8 +167,8 @@ body {
         transform: translate(-50%, -50%);
     }
     .bottomm{
-        position: absolute;
-        top: 360%;
+        position: inherit;
+        top: 610%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -212,6 +215,15 @@ ul.no_bullet {
 
 li.leaf:after {
     content: url('images/ok.png');
+}
+a.fb{
+    content: url("images/facebook.png");
+}
+a.instagram{
+    content: url("images/instagram.png");
+}
+a.twitter{
+    content: url("images/twitter.png");
 }
 
 li.lang {
@@ -322,10 +334,37 @@ img.img-kocka {
     background-position: center;
 }
 .jumbotron.textura{
-    background-image: url("images/teksturi/champion.png");
+    background-image: url("images/teksturi/bg_division_boost.png");
     background-repeat: no-repeat;
 
 }
+.jumbotron.textura2{
+    background-image: url("images/teksturi/bg_win_boost.png");
+    background-repeat: no-repeat;
+
+}
+.jumbotron.textura3{
+    background-image: url("images/teksturi/bg_placement_matches.png");
+    background-repeat: no-repeat;
+
+}
+.jumbotron.textura4{
+    background-image: url("images/teksturi/bg_level_boost.png");
+    background-repeat: no-repeat;
+
+}
+.jumbotron.textura5{
+    background-image: url("images/teksturi/bg_champion_mastery_boost.png");
+    background-repeat: no-repeat;
+
+}
+.jumbotron.textura6{
+    background-image: url("images/teksturi/bg_mission_completion.png");
+    background-repeat: no-repeat;
+
+}
+
+
 
 .jumbotron.banertext {
     text-align: center;

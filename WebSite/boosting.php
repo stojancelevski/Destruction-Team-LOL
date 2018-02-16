@@ -4,7 +4,7 @@
     <?php include 'head.php'; ?>
     <title>Boosting</title>
 </head>
-<body>
+<body style="background: #0d3349">
 <?php include 'navbar.php'; ?>
 <div class="jumbotron banertext bg1">
     <h1>Boosting</h1>
@@ -14,7 +14,7 @@
         <div class="col-md-4">
             <div style="width: 20rem;">
                 <a href="divboost.php"> <img class="card-img-top " src="images/Packs/box-division_boost.png"
-                                             alt="Card image cap">
+                                             alt="Card image cap" style="width:250px; height:392px">
                 </a>
                 <div class="card-block " style="text-align: center">
                     <a href="divboost.php" class="btn btn-primary">Find out More</a>
@@ -24,7 +24,7 @@
         <div class="col-md-4">
             <div style="width: 20rem;">
                 <a href="winboost.php"> <img class="card-img-top" src="images/Packs/box-win_boost.png"
-                                             alt="Card image cap">
+                                             alt="Card image cap" style="width:250px; height:392px">
                 </a>
                 <div class="card-block" style="text-align: center">
                     <a href="winboost.php" class="btn btn-primary">Find out More</a>
@@ -34,7 +34,7 @@
         <div class="col-md-4">
             <div style="width: 20rem;">
                 <a href="placement.php"><img class="card-img-top" src="images/Packs/box-placement_matches.png"
-                                             alt="Card image cap"></a>
+                                             alt="Card image cap" style="width:250px; height:392px"></a>
                 <div class="card-block" style="text-align: center">
                     <a href="placement.php" class="btn btn-primary">Find out More</a>
                 </div>
@@ -46,7 +46,7 @@
         <div class="col-md-4">
             <div style="width: 20rem;">
                 <a href="level.php"><img class="card-img-top" src="images/Packs/box-honor_boost.png"
-                                         alt="Card image cap"></a>
+                                         alt="Card image cap" style="width:250px; height:392px"></a>
                 <div class="card-block" style="text-align: center">
                     <a href="level.php" class="btn btn-primary">Find out More</a>
                 </div>
@@ -55,7 +55,7 @@
         <div class="col-md-4">
             <div style="width: 20rem;">
                 <a href="champion.php"><img class="card-img-top" src="images/Packs/box-champion_mastery_boost.png"
-                                            alt="Card image cap"></a>
+                                            alt="Card image cap" style="width:250px; height:392px"></a>
                 <div class="card-block" style="text-align: center">
                     <a href="champion.php" class="btn btn-primary">Find out More</a>
                 </div>
@@ -64,9 +64,9 @@
         <div class="col-md-4">
             <div style="width: 20rem;">
                 <a href="mission.php"><img class="card-img-top" src="images/Packs/box-mission_completion.png"
-                                           alt="Card image cap"></a>
+                                           alt="Card image cap" style="width:250px; height:392px"></a>
                 <div class="card-block" style="text-align: center">
-                    <a href="mission.php" class="btn btn-primary">Find out More</a>
+                    <a href="mission.php" class="btn btn-primary" >Find out More</a>
                 </div>
             </div>
         </div>

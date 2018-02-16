@@ -4,7 +4,7 @@
     <?php include 'head.php'; ?>
     <title>FAQ</title>
 </head>
-<body  style="text-align: center">
+<body style="text-align: center">
 <?php include 'navbar.php'; ?>
 <div class="jumbotron" id="headerfaq">
     <h1 style="text-align: center;color:white;"><b>Frequently asked questions</b></h1>
@@ -254,10 +254,9 @@
 
             <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion2">
                 <div class="card-body">
-                    Since we want to make you feel safe that you will get what you paid for we give full refund if the
-                    order does not meet the the deadline. There is also a 0.1% chance you might get banned in that case
-                    we give you a 120% refund (full refund plus 20% of your order will be payed to you and that's our
-                    way of saying sorry).
+                    Simply by contacting us through the live chat or contact form.
+                    Since we want to make you feel safe that you will get what you paid for, we give full refund if the
+                    order does not meet the the deadline
                 </div>
             </div>
         </div>

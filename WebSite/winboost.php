@@ -9,7 +9,7 @@
 <div class="jumbotron banertext bg3">
     <h1>Win boosting</h1>
 </div>
-<div class="jumbotron">
+<div class="jumbotron textura2">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -76,6 +76,8 @@
             </div>
         </div>
     </div>
+    <?php include 'safe and regular.php'; ?>
+
 </div>
 <footer id="myFooter">
     <?php include 'footer.php'; ?>

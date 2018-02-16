@@ -10,17 +10,17 @@
 <div class="jumbotron banertext bg7">
     <h1>Mission Completition</h1>
 </div>
-<div class="jumbotron shield" style="text-align: center">
+<div class="jumbotron textura6" style="text-align: center">
     <br>
     <div class="container">
         <div class="row">
             <div class="col-md-2 backgroundM"></div>
             <div class="col-md-1 "></div>
-            <div class="col-md-6" style="color: #375990">
+            <div class="col-md-6 shield" style="color: #375990"><br><br><br>
                 <h6>Enter number of missions <br> you wish to be completed</h6>
                 <h5 id="number"></h5>
                 <input id="slider" data-slider-id='missionSlider' data-slider-handle="custom" type="text"
-                    data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/><br>
+                       data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/><br>
 
                 <h4 id="price"></h4>
                 <h6>
@@ -35,35 +35,38 @@
                             <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
                         </label>
                     </div>
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <div style="padding-top: 5px">
-                                <select class="form-control" name="server" id="server">
-                                    <option>EU West</option>
-                                    <option>EU Nordic & East</option>
-                                    <option>Oceania</option>
-                                </select>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <div style="padding-top: 5px">
+                                    <select class="form-control" name="server" id="server">
+                                        <option>EU West</option>
+                                        <option>EU Nordic & East</option>
+                                        <option>Oceania</option>
+                                    </select>
+                                </div>
+                                <div style="padding-top: 5px">
+                                    <input type="text" class="form-control" id="champion" placeholder="Champions">
+                                </div>
+                                <div style="padding-top: 5px">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div id="paypal-button" style="padding-top: 5px">
+                                </div>
                             </div>
-                            <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="champion" placeholder="Champions">
-                            </div>
-                            <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="email" placeholder="Email">
-                            </div>
-                            <div id="paypal-button" style="padding-top: 5px">
-                            </div>
-                        </div>
 
+                        </div>
+                        <div class="col-md-1"></div>
                     </div>
-                    <div class="col-md-1"></div>
-                </div>
+                    <br><br><br>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-2 backgroundM"></div>
         </div>
     </div>
+    <?php include 'safe and regular.php'; ?>
+
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -81,7 +84,8 @@
     function isValidEmail() {
         return !($("#email").val() == '');
     }
-    function isValidChampion(){
+
+    function isValidChampion() {
         return !($("#champion").val() == '')
     }
 
@@ -98,9 +102,9 @@
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
     }
-    function onChangeChampion(handler)
-    {
-        document.querySelector('#champion').addEventListener('change',handler);
+
+    function onChangeChampion(handler) {
+        document.querySelector('#champion').addEventListener('change', handler);
     }
 
     function post() {
@@ -144,10 +148,10 @@
             },
             validate: function (actions) {
                 onChangeEmailOrDiscord(actions);
-                onChangeChampion(function(){
+                onChangeChampion(function () {
                     onChangeEmailOrDiscord(actions);
                 })
-                onChangeEmail(function() {
+                onChangeEmail(function () {
                     onChangeEmailOrDiscord(actions);
                 })
             },
@@ -155,16 +159,13 @@
                 if (!isValidEmail() && !isValidChampion()) {
                     alert('Please enter e-mail and champion')
                 }
-                else if(!isValidEmail())
-                {
+                else if (!isValidEmail()) {
                     alert('Please enter e-mail');
                 }
-                else if(!isValidChampion())
-                {
+                else if (!isValidChampion()) {
                     alert('Please enter champions')
                 }
-                else
-                {
+                else {
                     console.log('Ok');
                 }
             },
