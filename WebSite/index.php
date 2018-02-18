@@ -518,6 +518,7 @@
             <?php include 'footer.php'; ?>
 
         </footer>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
     </div>
 
 </body>

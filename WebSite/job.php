@@ -335,7 +335,7 @@
                     <input type="submit" class="btn btn-primary" id="submit-job" value="Submit"/>
                 </div>
             </div>
-
+            <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
         </div>
     </div>
 </div>

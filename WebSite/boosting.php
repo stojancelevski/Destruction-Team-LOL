@@ -63,13 +63,14 @@
         </div>
         <div class="col-md-4">
             <div style="width: 20rem;">
-                <a href="mission.php"><img class="card-img-top" src="images/Packs/box-mission_completion.png"
-                                           alt="Card image cap" style="width:250px; height:392px"></a>
+                <a href="mission.php"><img class="card-img-top" src="images/Packs/box-mission_completion.png" alt="Card image cap" style="width:250px; height:392px"></a>
                 <div class="card-block" style="text-align: center">
                     <a href="mission.php" class="btn btn-primary" >Find out More</a>
                 </div>
             </div>
         </div>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Get my boost</button>
+
     </div>
 </div>
 <br><br><br>

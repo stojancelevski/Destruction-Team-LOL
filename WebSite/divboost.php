@@ -79,7 +79,9 @@
                 <img class="card-img-top" alt="toImg" id="toImg">
             </div>
         </div>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Get my boost</button>
     </div>
+
     <?php include 'safe and regular.php'; ?>
 
 

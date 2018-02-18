@@ -93,7 +93,7 @@
                 </ul>
             </div>
         </div>
-
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
     </div>
 </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

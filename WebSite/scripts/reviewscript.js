@@ -63,7 +63,6 @@ else{
                     alert('Please enter review');
                 }
                 else {
-
                     var params = "&name=" + $("#name").val() + "&text=" + $("#review").val() + "&image=";
                     var myfile = $('#form #file').get(0).files[0];
 
@@ -71,6 +70,8 @@ else{
                         alert('Please upload a file!')
                     }
                     else {
+                        loader.show();
+                        content.hide();
                         var formdata = new FormData();
                         formdata.append('file', myfile);
                         $.ajax(
@@ -88,9 +89,6 @@ else{
                                     }
                                     else {
                                         console.log(data.message);
-                                        content.hide();
-                                        loader.show();
-
                                         $.get(url + params + data.message).then(res => {
                                             console.log('Ok');
                                         console.log(res);

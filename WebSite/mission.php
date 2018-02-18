@@ -65,6 +65,7 @@
             <div class="col-md-2 backgroundM"></div>
         </div>
     </div>
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Get my boost</button>
     <?php include 'safe and regular.php'; ?>
 
 </div>

@@ -139,7 +139,7 @@
 
             </div>
         </div>
-
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
     </div>
 
 <footer id="myFooter">

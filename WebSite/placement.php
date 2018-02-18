@@ -71,6 +71,7 @@
         </div>
     </div>
     <br>
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Get my boost</button>
     <?php include 'safe and regular.php'; ?>
 
 </div>
