@@ -20,8 +20,13 @@
                     <select class="form-control" name="startLevel" id="startLevel">
                     </select>
                 </div>
-                <div class="card-body">
-                    <img class="card-img-top" src="images/Packs/box-honor_boost.png" style="height: 392px;width: 250px">
+                <div class="imgContainer">
+                    <div>
+                        <img src="" id="fromLevelImg" alt="From" style="width:100%"> 
+                    </div>
+                    <h1 id="fromLevelText" class="centered">
+
+                    </h1>            
                 </div>
             </div>
             <div class="col-md-6 shield" style="color: #375990"><br><br><br><br><br>
@@ -46,8 +51,7 @@
                         </div>
                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn sinabg active" id="regularButton">
-                                <input type="radio" name="options" autocomplete="off" id="regular"
-                                       checked> Regular boost
+                                <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
                             </label>
                             <label class="btn btn-success " id="safeButton">
                                 <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
@@ -69,8 +73,13 @@
                     <label class="form-control" for="desiredLevel">Desired level</label><br>
                     <select class="form-control" name="desiredLevel" id="desiredLevel"></select>
                 </div>
-                <div class="card-body">
-                    <img class="card-img-top" src="images/Packs/box-honor_boost.png" style="height: 392px;width: 250px">
+                <div class="imgContainer">
+                    <div>
+                        <img src="" id="toLevelImg" alt="From" style="width:100%"> 
+                    </div>
+                    <h1 id="toLevelText" class="centered">
+
+                    </h1>            
                 </div>
             </div>
         </div>

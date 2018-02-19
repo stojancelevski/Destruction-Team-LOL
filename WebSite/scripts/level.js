@@ -1,4 +1,5 @@
 
+var imgUrl = "images/Level%20icons/";
 
 $(document).ready(function()
 {
@@ -13,6 +14,7 @@ $(document).ready(function()
         $("<option>" + i +"</option>").appendTo(from);
     }
     $("<option>175</option>").appendTo(to);
+    makeImages();
     $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
@@ -21,6 +23,7 @@ $("#desiredLevel").on('change',function()
 {
     $('#price').html('Price: ' + getPrice() + '€');
     extra();
+    makeImages();
 })
 $("#startLevel").on('change',function()
 {
@@ -48,9 +51,10 @@ $("#startLevel").on('change',function()
     if(fromIndex<toIndex) {
         to.val(toIndex);
     }
-
+    
     $('#price').html('Price: ' + getPrice() + '€');
     extra();
+    makeImages();
 })
 
 
@@ -107,3 +111,78 @@ function extra()
     $("#extraval").html('Original price: ' + extra +'€')
 }
 
+function makeImages()
+{
+    var from = parseInt($("#startLevel :selected").text());
+    var to = parseInt($("#desiredLevel :selected").text());
+    console.log(from);
+    console.log(to);
+    var fromImg = $("#fromLevelImg");
+    var toImg = $("#toLevelImg");
+    $("#fromLevelText").html(from);
+    $("#toLevelText").html(to);
+    if(from<30)
+    {
+        fromImg.attr('src',imgUrl+'lvl_0.png'); 
+    }
+    else if(from >= 30 && from < 50)
+    {
+        fromImg.attr('src',imgUrl+'lvl_30.png'); 
+    }
+    else if(from >= 50 && from < 75)
+    {
+        fromImg.attr('src',imgUrl+'lvl_50.png')
+    }
+    else if(from >= 75 && from < 100)
+    {
+        fromImg.attr('src',imgUrl+'lvl_75.png')
+    }
+    else if(from >= 100 && from <125)
+    {
+        fromImg.attr('src',imgUrl+'lvl_100.png')
+    }
+    else if(from >= 125 && from < 150)
+    {
+        fromImg.attr('src',imgUrl+'lvl_125.png')
+    }
+    else if (from >= 150 && from < 175)
+    {
+        fromImg.attr('src',imgUrl+'lvl_150.png')
+    }
+    else
+    {
+        fromImg.attr('src',imgUrl+'lvl_175.png')
+    }
+    if(to < 30)
+    {
+        toImg.attr('src',imgUrl+'lvl_0.png'); 
+    }
+    else if(to >= 30 && to < 50)
+    {
+        toImg.attr('src',imgUrl+'lvl_30.png'); 
+    }
+    else if(to >= 50 && to < 75)
+    {
+        toImg.attr('src',imgUrl+'lvl_50.png')
+    }
+    else if(to >= 75 && to < 100)
+    {
+        to.attr('src',imgUrl+'lvl_75.png')
+    }
+    else if(to >= 100 && to <125)
+    {
+        toImg.attr('src',imgUrl+'lvl_100.png')
+    }
+    else if(to >= 125 && to < 150)
+    {
+        toImg.attr('src',imgUrl+'lvl_125.png')
+    }
+    else if (to >= 150 && to < 175)
+    {
+        toImg.attr('src',imgUrl+'lvl_150.png')
+    }
+    else
+    {
+        toImg.attr('src',imgUrl+'lvl_175.png')
+    }
+}

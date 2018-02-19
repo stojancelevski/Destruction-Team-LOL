@@ -415,6 +415,18 @@ textarea {
     font-size: 18px; /* Increase font size */
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgContainer{
+    position: relative;
+    text-align: center;
+}
+
 #scrollBtn:hover {
     background-color: #375990; /* Add a dark-grey background on hover */
 }
