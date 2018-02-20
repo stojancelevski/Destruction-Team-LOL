@@ -161,12 +161,12 @@
                 </div>
                 <img class="card-img-top" src="images/Divisions/diamond_5.png" alt="Card image cap">
                 <div class="card-body text-success">
-                    <h5 class="card-title"> Diamond V Account </h5>
+                    <h5 class="card-title" data-toggle="modal" data-target="#profile2"> Diamond V Account </h5>
                 </div>
                 <ul class="list-group list-group-flush text-success">
                     <li class="list-group-item"><b>Price:</b> ...</li>
                     <li class="list-group-item"><b>Server:</b> EUNE</li>
-                    <li class="list-group-item"><b>Champions Owned:</b> 112</li>
+                    <li class="list-group-item" data-toggle="modal" data-target="#champions2"><b>Champions Owned:</b> 112</li>
                     <li class="list-group-item"><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#acc1" aria-expanded="false" aria-controls="collapseExample">
                             Tap to expand
                         </button>
@@ -303,12 +303,12 @@
                 </div>
                 <img class="card-img-top" src="images/Divisions/diamond_5.png" alt="Card image cap">
                 <div class="card-body text-success">
-                    <h5 class="card-title">Diamond V Account</h5>
+                    <h5 class="card-title" data-toggle="modal" data-target="#profile3">Diamond V Account</h5>
                 </div>
                 <ul class="list-group list-group-flush text-success">
                     <li class="list-group-item"><b>Price:</b> 85EUR</li>
                     <li class="list-group-item"><b>Server:</b> EUNE</li>
-                    <li class="list-group-item"><b>Champions Owned:</b> 54</li>
+                    <li class="list-group-item" data-toggle="modal" data-target="#champions3"><b>Champions Owned:</b> 54</li>
                     <li class="list-group-item"><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#acc2" aria-expanded="false" aria-controls="collapseExample">
                             Tap to expand
                         </button>
@@ -450,7 +450,7 @@
                 <ul class="list-group list-group-flush text-success">
                     <li class="list-group-item"><b>Price:</b> 50EUR</li>
                     <li class="list-group-item"><b>Server:</b> EUNE</li>
-                    <li class="list-group-item"><b>Champions Owned:</b> 55</li>
+                    <li class="list-group-item" data-toggle="modal" data-target="#champions4"><b>Champions Owned:</b> 55</li>
                     <li class="list-group-item"><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#acc3" aria-expanded="false" aria-controls="collapseExample">
                             Tap to expand
                         </button>
