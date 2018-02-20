@@ -24,7 +24,7 @@
                     <div>
                         <img src="" id="fromLevelImg" alt="From" style="width:100%"> 
                     </div>
-                    <h1 id="fromLevelText" class="centered">
+                    <h1 id="fromLevelText" class="centered"  style="color: #375990">
 
                     </h1>            
                 </div>
@@ -67,6 +67,7 @@
                     </div>
                     <div class="col-md-1"></div>
                 </div>
+                <br><br><br><br><br>
             </div>
             <div class="col-md-3">
                 <div class="header">
@@ -77,9 +78,9 @@
                     <div>
                         <img src="" id="toLevelImg" alt="From" style="width:100%"> 
                     </div>
-                    <h1 id="toLevelText" class="centered">
+                    <h1 id="toLevelText" class="centered" style="color: #375990">
 
-                    </h1>            
+                    </h1>
                 </div>
             </div>
         </div>

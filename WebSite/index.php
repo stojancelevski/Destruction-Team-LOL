@@ -25,11 +25,11 @@
             <div class="card-deck" id="card-deck">
                 <div class="card" id="Card1">
                     <div class="card-header" id="cardName1">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg1" src='' alt="Card image cap">
+                    <img class="card-img-top bgReview" id="cardImg1" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review1">Review</p>
                     </div>
-                    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog  modal-xl" style="text-align: center">
                             <div class="modal-content">
@@ -50,11 +50,11 @@
                 </div>
                 <div class="card" id="Card2">
                     <div class="card-header" id="cardName2">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg2" src='' alt="Card image cap">
+                    <img class="card-img-top bgReview" id="cardImg2" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal2">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review2">Review</p>
                     </div>
-                    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog  modal-xl" style="text-align: center">
                             <div class="modal-content">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="card" id="Card3">
                     <div class="card-header" id="cardName3">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg3" src='' alt="Card image cap">
+                    <img class="card-img-top bgReview" id="cardImg3" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal3">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review3">Review</p>
                     </div>
@@ -102,11 +102,11 @@
             <div class="card-deck" id="card-deck">
                 <div class="card" id="Card4">
                     <div class="card-header" id="cardName4">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg4" src='' alt="Card image cap">
+                    <img class="card-img-top bgReview" id="cardImg4" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal4">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review4">Review</p>
                     </div>
-                    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    <div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog  modal-xl" style="text-align: center">
                             <div class="modal-content">
@@ -127,11 +127,11 @@
                 </div>
                 <div class="card" id="Card5">
                     <div class="card-header" id="cardName5">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg5" src='' alt="Card image cap">
+                    <img class="card-img-top bgReview" id="cardImg5" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal5">
                     <div class="card-body bgReview ">
                         <p class="card-text" id="Review5">Review</p>
                     </div>
-                    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    <div id="myModal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog  modal-xl" style="text-align: center">
                             <div class="modal-content">
@@ -152,11 +152,11 @@
                 </div>
                 <div class="card" id="Card6">
                     <div class="card-header" id="cardName6">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg6" src='' alt="Card image cap">
+                    <img class="card-img-top bgReview" id="cardImg6" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal6">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review6">Review</p>
                     </div>
-                    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    <div id="myModal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog  modal-xl" style="text-align: center">
                             <div class="modal-content">
