@@ -58,32 +58,33 @@
         <div class="col-md-6">
             <h1>Professional</h1>
             <p>
-                If you want to be a part of our team we expect from you to work at least 8 hours per
-                day.
+                If you want to be a part of our team you need to be ready to become a part of a big family and just be
+                yourself, but when offering a service, it will be asked from you to take responsibility and act
+                professional.
             </p>
         </div>
         <div class="col-md-6">
             <h1>Gradually Growing</h1>
             <p>
-                We only take the best elo boosters on our website. We expect from every applicant to
-                have a clear and open mind. If you're looking for this job you'll be required to follow
-                all the rules we supply you with. Our environment is very easy to adapt to, so we don't
-                believe this will be an issue.
+                We take all elo booster who are committed, dedicated and want to become part of something bigger. If you
+                are looking to earn money while enjoying, playing your favorite game you have come to the right place.
             </p>
         </div>
         <div class="col-md-6">
-            <h1>We have personality</h1>
+            <h1>We have personality = Satisfied Boosters </h1>
             <p>
-                Our company is always the one which is closest to its customers. We expect that you'll
-                take good care of every single customer no matter what amount they paid at our website.
+                Our company know that when we have satisfied and happy costumers we have satisfied boosters, so we
+                kindly ask from each of our booster to care about every costumer so we can continue growing and have
+                more and more orders from where our boosters will earn more and more money.
             </p>
         </div>
         <div class="col-md-6">
-            <h1>Easy to teach</h1>
+            <h1>Easy to teach = Big Family </h1>
             <p>
-                We're looking for people that listen well to what we have to say and that're capable of
-                working in a group. You might be a lonewolf ingame, but if you're working for us then
-                you're part of the team, and we expect from you to treat it like that.
+                If you are for a place where you will be understood, a place where you will be around people who are
+                just like you, you have found your place. Here it is not all about boosting it is about new friendships,
+                every single member of our team is equally valued and everyone of them is important to us. So here we
+                all care about each other
             </p>
         </div>
     </div>
@@ -96,12 +97,8 @@
                 <div class="card-body">
                     <h5 class="card-title">High Elo Players</h5>
                     <p class="card-text">Since we put a lot of effort into improving our elo services, we're only
-                        looking for Master and Challenger elo boosters. We currently look for boosters from regions such
-                        as: EUW, EUNE, NA, LAS, LAN, Brasil and Oceania.</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                            style="background: #375990">
-                        Read More
-                    </button>
+                        looking for Gold, Master and Challenger elo boosters. We currently look for boosters from all
+                        regions </p>
                 </div>
             </div>
         </div>
@@ -110,12 +107,9 @@
                 <img class="card-img-top" src="images/job/job_2.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Required Availability</h5>
-                    <p class="card-text">We require from our elo boosters to play a minimum of 6-8 hours per day. This
-                        amount of time should be enough to deliver good and reliable elo services to our customers.</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"
-                            style="background: #375990">
-                        Read More
-                    </button>
+                    <p class="card-text">We do not have any time requirements from our booster they are free to play as
+                        much as they want, but when they are working on a boost it is recommended to be done as much as
+                        possible.</p>
                 </div>
             </div>
         </div>
@@ -123,16 +117,10 @@
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="images/job/job_3.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Good Manners / Languages</h5>
+                    <h5 class="card-title">Good Manners</h5>
                     <p class="card-text">It's really important for our elo boosters to have proper communication skills
-                        and have the ability to speak fluently in at least 2 languages, the native one and English. It's
-                        very important for elo boosters to have good manners and a proper attitude towards the customer,
-                        so that we can provide professional Division Boost, Duo Boost, Win Boosting, Coaching sessions
-                        and much more!</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2"
-                            style="background: #375990">
-                        Read More
-                    </button>
+                        and have the ability to speak fluently at least English. It is important from the boosters to be
+                        kind to the consumers and their team members. </p>
                 </div>
             </div>
         </div>
@@ -339,21 +327,21 @@
         </div>
     </div>
 </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
-            integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
-            crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="country-select-js-master/build/js/countrySelect.min.js"></script>
-    <script src="scripts/jobscript.js"></script>
-    <footer id="myFooter">
-        <?php include 'footer.php'; ?>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+        integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="country-select-js-master/build/js/countrySelect.min.js"></script>
+<script src="scripts/jobscript.js"></script>
+<footer id="myFooter">
+    <?php include 'footer.php'; ?>
 
-    </footer>
+</footer>
 </body>
 </html>
