@@ -14,7 +14,6 @@ $('#submit-job').on('click',function(e)
     var specification = $('#specification').val();
     var coaching = $('#coaching').val();
     var rank = $('#rank :selected').text();
-    var languages = $('#languages').val();
     var lanes = $('#lanes').val();
     var skype = $('#skype').val();
     var goals = $('#goals').val();
@@ -25,7 +24,7 @@ $('#submit-job').on('click',function(e)
 
 
     var newUrl = url+'?age='+age+'&boosterwork='+boosterwork +'&country='+country.name+'&specification='+specification
-    +'&coaching='+coaching +'&rank='+rank+'&languages='+ languages +'&lanes='+lanes+'&skype='+skype
+    +'&coaching='+coaching +'&rank='+rank +'&lanes='+lanes+'&skype='+skype
     +'&goal='+goals+'&server='+server+'&champions='+champions+'&type='+type +'&email='+email;
     $("#loader").show();
     $("#content").hide();

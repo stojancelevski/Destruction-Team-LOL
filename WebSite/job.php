@@ -246,10 +246,6 @@
                         <input type="text" id="country" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="languages">Language</label>
-                        <input type="text" class="form-control" id="languages" placeholder="Language">
-                    </div>
-                    <div class="form-group">
                         <label for="rank">Current Rank</label>
                         <select class="form-control" name="rank" id="rank">
                             <option>Diamond</option>
