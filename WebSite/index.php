@@ -281,7 +281,7 @@
                                             <button class="btn btn-link collapsed" data-toggle="collapse"
                                                     data-target="#collapseFive" aria-expanded="false"
                                                     aria-controls="collapseFive">
-                                                Money Back Guarantee= 100% REFUND!!!
+                                                Money Back Guarantee <br> 100% REFUND!!!
                                             </button>
                                         </h5>
                                     </div>

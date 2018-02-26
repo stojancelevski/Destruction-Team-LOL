@@ -71,7 +71,7 @@
         </div>
     </div>
     <br>
-    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Get my boost</button>
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Buy Elo Boost</button>
     <?php include 'safe and regular.php'; ?>
 
 </div>
