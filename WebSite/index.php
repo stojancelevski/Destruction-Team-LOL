@@ -25,7 +25,8 @@
             <div class="card-deck" id="card-deck">
                 <div class="card" id="Card1">
                     <div class="card-header" id="cardName1">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg1" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal">
+                    <img class="card-img-top bgReview" id="cardImg1" src='' alt="Card image cap" data-toggle="modal"
+                         data-target="#myModal">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review1">Review</p>
                     </div>
@@ -50,7 +51,8 @@
                 </div>
                 <div class="card" id="Card2">
                     <div class="card-header" id="cardName2">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg2" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal2">
+                    <img class="card-img-top bgReview" id="cardImg2" src='' alt="Card image cap" data-toggle="modal"
+                         data-target="#myModal2">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review2">Review</p>
                     </div>
@@ -75,7 +77,8 @@
                 </div>
                 <div class="card" id="Card3">
                     <div class="card-header" id="cardName3">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg3" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal3">
+                    <img class="card-img-top bgReview" id="cardImg3" src='' alt="Card image cap" data-toggle="modal"
+                         data-target="#myModal3">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review3">Review</p>
                     </div>
@@ -102,7 +105,8 @@
             <div class="card-deck" id="card-deck">
                 <div class="card" id="Card4">
                     <div class="card-header" id="cardName4">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg4" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal4">
+                    <img class="card-img-top bgReview" id="cardImg4" src='' alt="Card image cap" data-toggle="modal"
+                         data-target="#myModal4">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review4">Review</p>
                     </div>
@@ -127,7 +131,8 @@
                 </div>
                 <div class="card" id="Card5">
                     <div class="card-header" id="cardName5">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg5" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal5">
+                    <img class="card-img-top bgReview" id="cardImg5" src='' alt="Card image cap" data-toggle="modal"
+                         data-target="#myModal5">
                     <div class="card-body bgReview ">
                         <p class="card-text" id="Review5">Review</p>
                     </div>
@@ -152,7 +157,8 @@
                 </div>
                 <div class="card" id="Card6">
                     <div class="card-header" id="cardName6">Name</div>
-                    <img class="card-img-top bgReview" id="cardImg6" src='' alt="Card image cap"  data-toggle="modal" data-target="#myModal6">
+                    <img class="card-img-top bgReview" id="cardImg6" src='' alt="Card image cap" data-toggle="modal"
+                         data-target="#myModal6">
                     <div class="card-body bgReview">
                         <p class="card-text" id="Review6">Review</p>
                     </div>
@@ -208,8 +214,9 @@
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                          data-parent="#accordion">
                                         <div class="card-body">
-                                            We were so dedicated that they invented a new way of boosting in order
-                                            to grant YOU safety, so you can feel safe with us.
+                                            One of our goals was providing safe elo boosting service, in which we have
+                                            succeeded to offer safe lol elo boost. Rest assured with us you your elo
+                                            boost is safe.
                                         </div>
                                     </div>
                                 </li>
@@ -226,7 +233,8 @@
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                          data-parent="#accordion">
                                         <div class="card-body">
-                                            The price and quality of our services is one of the best you can find.
+                                            The price and quality of our services is one of the best you can find. Here
+                                            at Top Boost we can gladly say that you can find cheap elo boost.
                                         </div>
                                     </div>
                                 </li>
@@ -243,8 +251,8 @@
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                          data-parent="#accordion">
                                         <div class="card-body">
-                                            Our team has years of experience so every one of them is friendly and
-                                            is glad to hear you out and make sure that YOU are 101% satisfied.
+                                            Our team has years of experience so every one of them is friendly and is
+                                            glad to hear you out and provide you with fast elo boost.
                                         </div>
                                     </div>
                                 </li>
@@ -254,7 +262,7 @@
                                             <button class="btn btn-link" data-toggle="collapse"
                                                     data-target="#collapseFour"
                                                     aria-expanded="false" aria-controls="collapseFour">
-                                                VPN
+                                                VPN. Safer elo boost.
                                             </button>
                                         </h5>
                                     </div>
@@ -262,9 +270,8 @@
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                          data-parent="#accordion">
                                         <div class="card-body">
-                                            The developers were so dedicated to they invented a new way of boosting in
-                                            order
-                                            to grant YOU safety, so you can feel safe with us.
+                                            Every one of our booster in order to provide you with safe and fast elo
+                                            boosting they are using VPN during the elo boost.
                                         </div>
                                     </div>
                                 </li>
@@ -274,17 +281,15 @@
                                             <button class="btn btn-link collapsed" data-toggle="collapse"
                                                     data-target="#collapseFive" aria-expanded="false"
                                                     aria-controls="collapseFive">
-                                                Money back guarantee
+                                                Money Back Guarantee= 100% REFUND!!!
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                          data-parent="#accordion">
                                         <div class="card-body">
-                                            And as a extra bonus to the security that we offer we want you to
-                                            feel safe that that if you are not satisfied by our services you can freely
-                                            email us and you
-                                            will get Full Refund no questions asked.
+                                            And as a extra bonus to the cheap elo boost that we offer just contact us
+                                            and we will give you 100% full refund to the lol elo boost service.
                                         </div>
                                     </div>
                                 </li>
@@ -294,15 +299,15 @@
                                             <button class="btn btn-link collapsed" data-toggle="collapse"
                                                     data-target="#collapseSix" aria-expanded="false"
                                                     aria-controls="collapseSix">
-                                                Fast&Reliable
+                                                Fast & Reliable
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
                                          data-parent="#accordion">
                                         <div class="card-body">
-                                            We are dedicated to satisfy your needs and thats why we offer fast&reliable
-                                            results.
+                                            We are want you to be satisfied and that's why we offer fast & cheap elo
+                                            boosting.
                                         </div>
                                     </div>
                                 </li>
@@ -320,7 +325,7 @@
                                          data-parent="#accordion">
                                         <div class="card-body">
                                             The support team is available 24/7 and will be glad to assist and help you
-                                            any way they can.
+                                            any way they can with your elo boosting league of legends service.
                                         </div>
                                         <br>
                                     </div>
@@ -366,8 +371,10 @@
                                     <div id="collapseEight" class="collapse show" aria-labelledby="headingEight"
                                          data-parent="#accordion2">
                                         <div class="card-body">
-                                            The developers have been working so hard to offer 100% security so
-                                            that RIOT have no way of detecting our service.
+                                            The developers have been working so hard to offer 99% security so that RIOT
+                                            have no way of detecting our service. We are one of the safe elo boosting
+                                            sites. Our league of legends elo boost services are one of the safest you
+                                            can find.
                                         </div>
                                     </div>
                                 </li>
@@ -377,15 +384,14 @@
                                             <button class="btn btn-link collapsed" data-toggle="collapse"
                                                     data-target="#collapseNine" aria-expanded="false"
                                                     aria-controls="collapseNine">
-                                                Kind 24/7 support
+                                                Sell lol account
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
                                          data-parent="#accordion2">
                                         <div class="card-body">
-                                            Our support team is glad to assist you with any questions you might
-                                            have at any time.
+                                            With us you can sell your league of legends account instantly.
                                         </div>
                                     </div>
                                 </li>
@@ -402,7 +408,8 @@
                                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
                                          data-parent="#accordion2">
                                         <div class="card-body">
-                                            Our professionals guarantee you 95% win rate success
+                                            Our professionals guarantee you 80% win rate success. Our elo boost 24 / 7
+                                            services are available for everyone.
                                         </div>
                                     </div>
                                 </li>
@@ -420,8 +427,9 @@
                                     <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
                                          data-parent="#accordion2">
                                         <div class="card-body">
-                                            Our team of professionals is always there to satisfy you and give
-                                            you results better than expected.
+                                            Our team of professionals is always there to satisfy you and give you
+                                            results better than expected. Also we continue growing by hiring lol
+                                            boosters and by offering cheap lol coaching.
                                         </div>
                                     </div>
                                 </li>
@@ -431,14 +439,17 @@
                                             <button class="btn btn-link collapsed" data-toggle="collapse"
                                                     data-target="#collapseTwelve" aria-expanded="false"
                                                     aria-controls="collapseTwelve">
-                                                Pause Boost
+                                                Pause Boost & Spectate Boost
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve"
                                          data-parent="#accordion2">
                                         <div class="card-body">
-                                            Menage your boost by pausing it when you chose.
+                                            Menage your boost by pausing it and spectating when you want.
+                                            Every one of our elo boosted players can choose when they want to pause or
+                                            spectate their own elo boost.
+
                                         </div>
                                     </div>
                                 </li>
@@ -448,14 +459,21 @@
                                             <button class="btn btn-link collapsed" data-toggle="collapse"
                                                     data-target="#collapseThirteen" aria-expanded="false"
                                                     aria-controls="collapseThirteen">
-                                                Spectate Boost
+                                                All Boost
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen"
                                          data-parent="#accordion2">
                                         <div class="card-body">
-                                            Keep track of your boost and learn how you can be better.
+                                            We can offer more kind of elo boost services like: <br>
+                                            -Division Boost <br>
+                                            -Win Boost <br>
+                                            -Placement Matches <br>
+                                            -Level Boost <br>
+                                            -Champion Mastery Boost <br>
+                                            -Mission Completion
+
                                         </div>
                                     </div>
                                 </li>
@@ -472,7 +490,7 @@
                                     <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen"
                                          data-parent="#accordion2">
                                         <div class="card-body">
-                                            You can check the progress at any time.
+                                            You can check the progress of your elo boost at any time.
                                         </div>
                                     </div>
                                 </li>
@@ -489,9 +507,8 @@
                                     <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen"
                                          data-parent="#accordion2">
                                         <div class="card-body">
-                                            Our goal is to always keep the costumers satisfied and give them better
-                                            results
-                                            than expected.
+                                            Our goal is to satisfy you by providing reliable and cheap lol elo boost
+                                            service and give better results than paid for.
                                         </div>
 
                                     </div>

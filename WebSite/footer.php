@@ -29,14 +29,14 @@
         </div>
         <div class="col-sm-3">
             <div class="social-networks">
-                <a href="#" class="fb"></a>
-                <a href="#" class="twitter"></a>
-                <a href="#" class="instagram"></a>
+                <a href="https://www.facebook.com/Top-Boost-169292420516665/" class="fb" target="_blank"></a>
+                <a href="#"  class="twitter" target="_blank"></a>
+                <a href="#" class="instagram" target="_blank"></a>
             </div>
             <a href="contact.php" type="button" class="btn btn-rounded">Contact us</a>
         </div>
     </div>
 </div>
 <div class="footer-copyright">
-    <p>© 2018 Copyrights are held by Top Boost Global <a href="https://docs.google.com/document/d/1oqYBTYXEiUivKd75EMVizjlsqJxJe3mY-Z3nd65O_Cc/edit?usp=sharing" target="_blank">Privacy Policy</a> | Designed and Implemented by <a href="https://destructionteam.wordpress.com/"> Destruction Team</a> </p>
+    <p>© 2018 Copyrights are held by Top Boost Global <a href="https://docs.google.com/document/d/1oqYBTYXEiUivKd75EMVizjlsqJxJe3mY-Z3nd65O_Cc/edit?usp=sharing" target="_blank">Privacy Policy</a> | Designed and Implemented by <a href="https://destructionteam.wordpress.com/" target="_blank"> Destruction Team</a> </p>
 </div>
