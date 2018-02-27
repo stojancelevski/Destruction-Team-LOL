@@ -1,7 +1,5 @@
 <head>
-    <title>
-        League of Legends boosting – Cheap elo Boost | Top-Boost
-    </title>
+
 </head>
 <nav class="navbar navbar-expand-lg navbar-light zoltabg">
     <a class="navbar-brand" href="index">
