@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
-    <title>Coaches</title>
 </head>
 <body>
 <?php include 'navbar.php'; ?>

@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
-    <title>Job</title>
     <link rel="stylesheet" href="country-select-js-master/build/css/countrySelect.min.css">
 </head>
 <body>

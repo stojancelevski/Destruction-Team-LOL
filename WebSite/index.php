@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
-    <title>Home</title>
 </head>
 <body style="background: #030C15">
 

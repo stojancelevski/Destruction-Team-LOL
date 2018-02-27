@@ -2,88 +2,72 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
-    <title>Win boost</title>
 </head>
 <body>
 <?php include 'navbar.php'; ?>
-<div class="jumbotron banertext bg3">
-    <h1>Win boosting</h1>
+
+<div class="jumbotron banertext bg7">
+    <h1>Mission Completition</h1>
 </div>
-<div class="jumbotron textura2">
+<div class="jumbotron textura6" style="text-align: center">
+    <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <img src="images/Packs/box-win_boost.png" alt="">
-            </div>
-            <div class="col-md-5" style="text-align: center;">
-                <div class="card">
-                    <div class="card-header">
-                        <h2 id="number"></h2>
+            <div class="col-md-2 backgroundM"></div>
+            <div class="col-md-1 "></div>
+            <div class="col-md-6 shield" style="color: #375990"><br><br><br>
+                <h6>Enter number of missions <br> you wish to be completed</h6>
+                <h5 id="number"></h5>
+                <input id="slider" data-slider-id='missionSlider' data-slider-handle="custom" type="text"
+                       data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/><br>
 
-                        <input id="slider" data-slider-id='winSlider' type="text" data-slider-handle="custom"
-                               data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
+                <h4 id="price"></h4>
+                <h6>
+                    <del class="text text-danger" id="extraval"></del>
+                    <br>
+
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn sinabg active" id="regularButton">
+                            <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                        </label>
+                        <label class="btn btn-success" id="safeButton">
+                            <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                        </label>
                     </div>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <div style="padding-top: 5px">
+                                    <select class="form-control" name="server" id="server">
+                                        <option>EU West</option>
+                                        <option>EU Nordic & East</option>
+                                        <option>Oceania</option>
+                                    </select>
+                                </div>
+                                <div style="padding-top: 5px">
+                                    <input type="text" class="form-control" id="champion" placeholder="Champions">
+                                </div>
+                                <div style="padding-top: 5px">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div id="paypal-button" style="padding-top: 5px">
+                                </div>
+                            </div>
 
-                    <br><select class="form-control" name="divs" id="divs"></select><br>
-                    <select class="form-control" name="type" id="type">
-                        <option value=0>Solo</option>
-                        <option value=1>Duo</option>
-                    </select><br>
-                    <select class="form-control" name="server" id="server">
-                        <option>EU West</option>
-                        <option>EU Nordic & East</option>
-                        <option>Oceania</option>
-                    </select><br>
-                    <div style="text-align: center;">
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="btn sinabg active" id="regularButton">
-                                <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular
-                                boost
-                            </label>
-                            <label class="btn btn-success" id="safeButton">
-                                <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                            </label>
                         </div>
+                        <div class="col-md-1"></div>
                     </div>
-                    <div style="padding-top: 5px">
-                        <input type="text" class="form-control" id="champions" placeholder="Champions">
-                    </div>
-                    <h2 id="number"></h2>
-                    <div class="form-group">
-                        <div style="padding-top: 5px">
-                            <input type="text" class="form-control" id="email" placeholder="Email">
-                        </div>
-
-                    </div>
-                    <span class="badge badge-secondary" style="background-color: #375990">
-                            <h3 id="price" style="color: #E9D300">
-
-                            </h3>
-                        </span>
-                    <h5>
-                        <del class="text text-danger" id="extraval"></del>
-                    </h5>
-                    <div id="paypal-button">
-
-                    </div>
-                </div>
-
-
+                    <br><br><br>
             </div>
-            <div class="col-md-3">
-                <img class="card-img-top" id="winimg" src="" alt="Div image">
-
-            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 backgroundM"></div>
         </div>
     </div>
     <button onclick="topFunction()" id="scrollBtn" title="Go to top">Buy Elo Boost</button>
     <?php include 'safe and regular.php'; ?>
 
 </div>
-<footer id="myFooter">
-    <?php include 'footer.php'; ?>
-</footer>
-</body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -94,9 +78,8 @@
         integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
         crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="bootstrap-slider-master/dist/bootstrap-slider.min.js"></script>
-<script src="scripts/winboost.js"></script>
+<script src="scripts/mission.js"></script>
 <script>
     function isValidEmail() {
         return !($("#email").val() == '');
@@ -126,10 +109,7 @@
 
     function post() {
         return new Promise(function (resolve, reject) {
-            var solo = $("#type :selected").text();
-            var type;
-
-            type = solo + " win boost, division: " + $("#divs :selected").text() + ", games: " + $("#slider").val();
+            var type = "Misson boost, number of missions: " + $("#slider").val();
             var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
                 + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
             $.ajax(
@@ -146,6 +126,7 @@
                 }
             );
         });
+
     }
 
     $(document).ready(function () {
@@ -156,9 +137,9 @@
             commit: true, // Show a 'Pay Now' button
 
             style: {
-                label: 'pay',
                 color: 'gold',
-                size: 'responsive',
+                size: 'small',
+                label: 'pay',
                 shape: 'rect'
             },
             client: {
@@ -236,5 +217,9 @@
         }, '#paypal-button');
     });
 </script>
+<footer id="myFooter">
+    <?php include 'footer.php'; ?>
 
+</footer>
+</body>
 </html>

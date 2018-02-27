@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
-    <title>Selling Accounts</title>
 </head>
 <body>
 <?php include 'navbar.php'; ?>

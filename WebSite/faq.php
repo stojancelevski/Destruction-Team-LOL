@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
-    <title>FAQ</title>
 </head>
 <body style="text-align: center">
 <?php include 'navbar.php'; ?>

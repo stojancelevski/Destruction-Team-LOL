@@ -1,89 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <?php include 'head.php'; ?>
-    <title>Champion mastery boost</title>
+
 </head>
 <body>
 <?php include 'navbar.php'; ?>
-<div class="jumbotron banertext bg6">
-    <h1>Champion mastery</h1>
+<div class="jumbotron banertext bg5">
+    <h1>Level boosting</h1>
 </div>
-<div class="jumbotron textura" style="text-align: center">
-    <br>
-    <button class="btn sina scrollToTop">Get Your Boost</button>
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-2 backgroundC"></div>
-        <div class="col-md-6 shield" style="color: #375990; padding-top: 10px"><br><br><br><br>
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-3">
-                    <h6>Your level: </h6>
-                    <select class="form-control" id="myLevel">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
+<div class="jumbotron textura4" style="text-align: center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="header">
+                    <label class="form-control" for="startLevel">My level</label><br>
+                    <select class="form-control" name="startLevel" id="startLevel">
                     </select>
                 </div>
-                <div class="col-md-3">
-                    <h6>Desired level:</h6>
-                    <select class="form-control" id="desiredLevel"></select>
+                <div class="imgContainer">
+                    <div>
+                        <img src="" id="fromLevelImg" alt="From" style="width:100%"> 
+                    </div>
+                    <h1 id="fromLevelText" class="centered"  style="color: #375990">
+
+                    </h1>            
                 </div>
             </div>
-            <br>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn sinabg active" id="regularButton">
-                    <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
-                </label>
-                <label class="btn btn-success" id="safeButton">
-                    <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                </label>
-            </div>
-            <div class="row">
+            <div class="col-md-6 shield" style="color: #375990"><br><br><br><br><br>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
 
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <h5 id="price"></h5>
-                    <h6>
-                        <del class="text text-danger" id="extraval"></del>
-                    </h6>
+                        <div class="form-group">
+                            <div style="padding-top: 5px">
+                                <select class="form-control" name="server" id="server">
+                                    <option>EU West</option>
+                                    <option>EU Nordic & East</option>
+                                    <option>Oceania</option>
+                                </select>
+                            </div>
+                            <div style="padding-top: 5px">
+                                <input type="text" class="form-control" id="champion" placeholder="Champions">
+                            </div>
+                            <div style="padding-top: 5px">
+                                <input type="text" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn sinabg active" id="regularButton">
+                                <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                            </label>
+                            <label class="btn btn-success " id="safeButton">
+                                <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                            </label>
+                        </div>
+                        <h4 id="price"></h4>
+                        <h6>
+                            <del class="text text-danger" id="extraval"></del>
+                        </h6>
 
-                    <div style="padding-top: 3px">
-                        <select class="form-control" name="server" id="server">
-                            <option>EU West</option>
-                            <option>EU Nordic & East</option>
-                            <option>Oceania</option>
-                        </select>
+                        <div id="paypal-button">
+                        </div>
                     </div>
-                    <div style="padding-top: 3px">
-                        <input type="text" class="form-control" id="email" placeholder="Email">
-                    </div>
+                    <div class="col-md-1"></div>
                 </div>
-                <div class="col-md-1"></div>
+                <br><br><br><br><br>
             </div>
-            <div id="paypal-button" style="padding-top: 5px">
+            <div class="col-md-3">
+                <div class="header">
+                    <label class="form-control" for="desiredLevel">Desired level</label><br>
+                    <select class="form-control" name="desiredLevel" id="desiredLevel"></select>
+                </div>
+                <div class="imgContainer">
+                    <div>
+                        <img src="" id="toLevelImg" alt="From" style="width:100%"> 
+                    </div>
+                    <h1 id="toLevelText" class="centered" style="color: #375990">
 
+                    </h1>
+                </div>
             </div>
-            <br><br><br><br>
         </div>
-        <div class="col-md-3">
-            <div style="padding-top: 3px">
-                <label for="champion">Select your champion</label>
-                <select id="champion" class="form-control"></select>
-            </div>
-            <br>
-            <img src="" alt="Champion" id="championImg">
-        </div>
+
     </div>
-    <br><br>
+    <br><br><br>
     <button onclick="topFunction()" id="scrollBtn" title="Go to top">Buy Elo Boost</button>
     <?php include 'safe and regular.php'; ?>
-</div>
 
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -94,7 +100,8 @@
         integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
         crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="scripts/mastery.js"></script>
+<script src="bootstrap-slider-master/dist/bootstrap-slider.min.js"></script>
+<script src="scripts/level.js"></script>
 <script>
     function isValidEmail() {
         return !($("#email").val() == '');
@@ -113,7 +120,6 @@
         }
     }
 
-
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
     }
@@ -122,30 +128,28 @@
         document.querySelector('#champion').addEventListener('change', handler);
     }
 
+
     function post() {
         return new Promise(function (resolve, reject) {
-                var type;
-                var from = $("#myLevel").val();
-                var to = $("#desiredLevel").val();
-                type = "Champion boost, level: " + from.toString() + " to " + to.toString();
-                var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
-                    + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
-
-                $.ajax(
-                    {
-                        url: url,
-                        type: 'GET',
-                        dataType: 'json',
-                        success: function (data) {
-                            resolve(data);
-                        },
-                        error: function (data) {
-                            resolve(data);
-                        }
+            var type;
+            type = "Level boost from: " + $("#myLevel").text() + " to: "
+            $("#desiredLevel").text();
+            var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
+                + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
+            $.ajax(
+                {
+                    url: url,
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function (data) {
+                        resolve(data);
+                    },
+                    error: function (data) {
+                        resolve(data);
                     }
-                );
-            }
-        )
+                }
+            );
+        });
     }
 
     $(document).ready(function () {
@@ -222,7 +226,6 @@
                         console.log('Exception is thrown');
                         console.log(data);
                     });
-
                 });
             },
 
@@ -235,24 +238,6 @@
                 alert('Something went wrong! Please try again later')
             }
         }, '#paypal-button');
-    });
-    $(document).ready(function(){
-
-        //Check to see if the window is top if not then display button
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 100) {
-                $('.scrollToTop').fadeIn();
-            } else {
-                $('.scrollToTop').fadeOut();
-            }
-        });
-
-        //Click event to scroll to top
-        $('.scrollToTop').click(function(){
-            $('html, body').animate({scrollTop : 0},800);
-            return false;
-        });
-
     });
 </script>
 <footer id="myFooter">

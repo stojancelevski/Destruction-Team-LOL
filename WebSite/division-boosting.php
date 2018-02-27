@@ -1,94 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <title>Level Boost</title>
     <?php include 'head.php'; ?>
-
 </head>
 <body>
 <?php include 'navbar.php'; ?>
-<div class="jumbotron banertext bg5">
-    <h1>Level boosting</h1>
+<div class="jumbotron banertext bg2">
+    <h1 style="text-align: center;">Division boosting</h1><br>
 </div>
-<div class="jumbotron textura4" style="text-align: center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="header">
-                    <label class="form-control" for="startLevel">My level</label><br>
-                    <select class="form-control" name="startLevel" id="startLevel">
-                    </select>
-                </div>
-                <div class="imgContainer">
-                    <div>
-                        <img src="" id="fromLevelImg" alt="From" style="width:100%"> 
-                    </div>
-                    <h1 id="fromLevelText" class="centered"  style="color: #375990">
-
-                    </h1>            
-                </div>
+<div class="jumbotron textura">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card-header">
+                <select class="form-control" name="from" id="from"></select>
             </div>
-            <div class="col-md-6 shield" style="color: #375990"><br><br><br><br><br>
-                <div class="row">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
-
-                        <div class="form-group">
-                            <div style="padding-top: 5px">
-                                <select class="form-control" name="server" id="server">
-                                    <option>EU West</option>
-                                    <option>EU Nordic & East</option>
-                                    <option>Oceania</option>
-                                </select>
-                            </div>
-                            <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="champion" placeholder="Champions">
-                            </div>
-                            <div style="padding-top: 5px">
-                                <input type="text" class="form-control" id="email" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="btn sinabg active" id="regularButton">
-                                <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
-                            </label>
-                            <label class="btn btn-success " id="safeButton">
-                                <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                            </label>
-                        </div>
-                        <h4 id="price"></h4>
-                        <h6>
-                            <del class="text text-danger" id="extraval"></del>
-                        </h6>
-
-                        <div id="paypal-button">
-                        </div>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-                <br><br><br><br><br>
-            </div>
-            <div class="col-md-3">
-                <div class="header">
-                    <label class="form-control" for="desiredLevel">Desired level</label><br>
-                    <select class="form-control" name="desiredLevel" id="desiredLevel"></select>
-                </div>
-                <div class="imgContainer">
-                    <div>
-                        <img src="" id="toLevelImg" alt="From" style="width:100%"> 
-                    </div>
-                    <h1 id="toLevelText" class="centered" style="color: #375990">
-
-                    </h1>
-                </div>
+            <div class="card-body">
+                <img class="card-img-top" alt="fromImg" id="fromImg">
             </div>
         </div>
+        <div class="col-md-4">
 
+            <select class="form-control" name="lp" id="lp">
+                <option value="0">0-40</option>
+                <option value="1">41-80</option>
+                <option value="2">81-100</option>
+            </select> <br>
+            <select class="form-control" name="type" id="type">
+                <option value="true">Solo</option>
+                <option value="false">Duo</option>
+            </select>
+            <div style="text-align: center">
+                <div style="padding-top: 5px" class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn sinabg active" id="regularButton">
+                        <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                    </label>
+                    <label class="btn btn-success" id="safeButton">
+                        <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                    </label>
+                </div>
+            </div>
+            <div style="text-align: center;padding-top: 5px">
+                        <span class="badge badge-secondary" style="background-color: #375990">
+                            <h3 id="value" style="color: #E9D300">
+
+                            </h3>
+                        </span>
+                <h5>
+                    <del class="text text-danger" id="extraval"></del>
+                </h5>
+
+                <div>
+                    <input type="text" class="form-control" id="champion" placeholder="Champions">
+                </div>
+                <div style="padding-top: 5px">
+                    <select name="server" class="form-control" id="server">
+                        <option>EU West</option>
+                        <option>EU Nordic & East</option>
+                        <option>Oceania</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div style="padding-top: 5px">
+                        <input type="text" class="form-control" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div id="paypal-button">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="card-header">
+                <select class="form-control" name="to" id="to"></select>
+            </div>
+            <div class="card-body">
+                <img class="card-img-top" alt="toImg" id="toImg">
+            </div>
+        </div>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Buy Elo Boost</button>
     </div>
-    <br><br><br>
-    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Buy Elo Boost</button>
+
     <?php include 'safe and regular.php'; ?>
+
 
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -101,8 +95,7 @@
         integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
         crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="bootstrap-slider-master/dist/bootstrap-slider.min.js"></script>
-<script src="scripts/level.js"></script>
+<script src="scripts/divisionboost.js"></script>
 <script>
     function isValidEmail() {
         return !($("#email").val() == '');
@@ -121,6 +114,7 @@
         }
     }
 
+
     function onChangeEmail(handler) {
         document.querySelector('#email').addEventListener('change', handler);
     }
@@ -132,25 +126,34 @@
 
     function post() {
         return new Promise(function (resolve, reject) {
-            var type;
-            type = "Level boost from: " + $("#myLevel").text() + " to: "
-            $("#desiredLevel").text();
-            var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
-                + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
-            $.ajax(
-                {
-                    url: url,
-                    type: 'GET',
-                    dataType: 'json',
-                    success: function (data) {
-                        resolve(data);
-                    },
-                    error: function (data) {
-                        resolve(data);
-                    }
+                var type;
+                if ($("#solo").val() === 'true') {
+                    type = 'Solo boost: ';
                 }
-            );
-        });
+                else {
+                    type = 'Duo boost: ';
+                }
+                type += $("#from").val() + " to " + $("#to").val() + ", LP: " + $("#lp :selected").text();
+
+
+                var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
+                    + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getValue() + "&type=" + type + "&server=" + $("#server :selected").text();
+
+                $.ajax(
+                    {
+                        url: url,
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function (data) {
+                            resolve(data);
+                        },
+                        error: function (data) {
+                            resolve(data);
+                        }
+                    }
+                );
+            }
+        )
     }
 
     $(document).ready(function () {
@@ -161,9 +164,9 @@
             commit: true, // Show a 'Pay Now' button
 
             style: {
-                color: 'gold',
-                size: 'small',
                 label: 'pay',
+                color: 'gold',
+                size: 'responsive',
                 shape: 'rect'
             },
             client: {
@@ -199,7 +202,7 @@
                     payment: {
                         transactions: [
                             {
-                                amount: {total: getPrice(), currency: 'EUR'}
+                                amount: {total: getValue(), currency: 'EUR'}
                             }
                         ]
                     }
@@ -227,7 +230,7 @@
                         console.log('Exception is thrown');
                         console.log(data);
                     });
-                });
+                })
             },
 
             onCancel: function (data, actions) {

@@ -1,30 +1,30 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-3">
-            <a href="index.php"> <img class="logo" src="images/logo.png" alt="">
+            <a href="index"> <img class="logo" src="images/logo.png" alt="">
             </a>
         </div>
         <div class="col-sm-2">
             <h5>Get started</h5>
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="boosting.php">Boosting</a></li>
-                <li><a href="coaches.php">Coaches</a></li>
+                <li><a href="index">Home</a></li>
+                <li><a href="boosting">Boosting</a></li>
+                <li><a href="coaches">Coaches</a></li>
             </ul>
         </div>
         <div class="col-sm-2">
             <h5>About us</h5>
             <ul>
-                <li><a href="selling.php">Selling Accounts</a></li>
-                <li><a href="contact.php">Contact us</a></li>
+                <li><a href="selling-accounts">Selling Accounts</a></li>
+                <li><a href="contact">Contact us</a></li>
             </ul>
         </div>
         <div class="col-sm-2">
             <h5>Support</h5>
             <ul>
-                <li><a href="faq.php">FAQ</a></li>
-                <li><a href="job.php">Job</a></li>
-                <li><a href="reviews.php">Reviews</a></li>
+                <li><a href="faq">FAQ</a></li>
+                <li><a href="job">Job</a></li>
+                <li><a href="reviews">Reviews</a></li>
             </ul>
         </div>
         <div class="col-sm-3">
@@ -33,7 +33,7 @@
                 <a href="#"  class="twitter" target="_blank"></a>
                 <a href="#" class="instagram" target="_blank"></a>
             </div>
-            <a href="contact.php" type="button" class="btn btn-rounded">Contact us</a>
+            <a href="contact" type="button" class="btn btn-rounded">Contact us</a>
         </div>
     </div>
 </div>

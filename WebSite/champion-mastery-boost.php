@@ -2,90 +2,87 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
-    <title>Division Boosting</title>
 </head>
 <body>
 <?php include 'navbar.php'; ?>
-<div class="jumbotron banertext bg2">
-    <h1 style="text-align: center;">Division boosting</h1><br>
+<div class="jumbotron banertext bg6">
+    <h1>Champion mastery</h1>
 </div>
-<div class="jumbotron textura">
+<div class="jumbotron textura" style="text-align: center">
+    <br>
+    <button class="btn sina scrollToTop">Get Your Boost</button>
     <div class="row">
-        <div class="col-md-4">
-            <div class="card-header">
-                <select class="form-control" name="from" id="from"></select>
-            </div>
-            <div class="card-body">
-                <img class="card-img-top" alt="fromImg" id="fromImg">
-            </div>
-        </div>
-        <div class="col-md-4">
-
-            <select class="form-control" name="lp" id="lp">
-                <option value="0">0-40</option>
-                <option value="1">41-80</option>
-                <option value="2">81-100</option>
-            </select> <br>
-            <select class="form-control" name="type" id="type">
-                <option value="true">Solo</option>
-                <option value="false">Duo</option>
-            </select>
-            <div style="text-align: center">
-                <div style="padding-top: 5px" class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn sinabg active" id="regularButton">
-                        <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
-                    </label>
-                    <label class="btn btn-success" id="safeButton">
-                        <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
-                    </label>
-                </div>
-            </div>
-            <div style="text-align: center;padding-top: 5px">
-                        <span class="badge badge-secondary" style="background-color: #375990">
-                            <h3 id="value" style="color: #E9D300">
-
-                            </h3>
-                        </span>
-                <h5>
-                    <del class="text text-danger" id="extraval"></del>
-                </h5>
-
-                <div>
-                    <input type="text" class="form-control" id="champion" placeholder="Champions">
-                </div>
-                <div style="padding-top: 5px">
-                    <select name="server" class="form-control" id="server">
-                        <option>EU West</option>
-                        <option>EU Nordic & East</option>
-                        <option>Oceania</option>
+        <div class="col-md-1"></div>
+        <div class="col-md-2 backgroundC"></div>
+        <div class="col-md-6 shield" style="color: #375990; padding-top: 10px"><br><br><br><br>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <h6>Your level: </h6>
+                    <select class="form-control" id="myLevel">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <div style="padding-top: 5px">
+                <div class="col-md-3">
+                    <h6>Desired level:</h6>
+                    <select class="form-control" id="desiredLevel"></select>
+                </div>
+            </div>
+            <br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn sinabg active" id="regularButton">
+                    <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                </label>
+                <label class="btn btn-success" id="safeButton">
+                    <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
+                </label>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h5 id="price"></h5>
+                    <h6>
+                        <del class="text text-danger" id="extraval"></del>
+                    </h6>
+
+                    <div style="padding-top: 3px">
+                        <select class="form-control" name="server" id="server">
+                            <option>EU West</option>
+                            <option>EU Nordic & East</option>
+                            <option>Oceania</option>
+                        </select>
+                    </div>
+                    <div style="padding-top: 3px">
                         <input type="text" class="form-control" id="email" placeholder="Email">
                     </div>
                 </div>
-                <div id="paypal-button">
+                <div class="col-md-1"></div>
+            </div>
+            <div id="paypal-button" style="padding-top: 5px">
 
-                </div>
             </div>
-
+            <br><br><br><br>
         </div>
-        <div class="col-md-4">
-            <div class="card-header">
-                <select class="form-control" name="to" id="to"></select>
+        <div class="col-md-3">
+            <div style="padding-top: 3px">
+                <label for="champion">Select your champion</label>
+                <select id="champion" class="form-control"></select>
             </div>
-            <div class="card-body">
-                <img class="card-img-top" alt="toImg" id="toImg">
-            </div>
+            <br>
+            <img src="" alt="Champion" id="championImg">
         </div>
-        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Buy Elo Boost</button>
     </div>
-
+    <br><br>
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Buy Elo Boost</button>
     <?php include 'safe and regular.php'; ?>
-
-
 </div>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -96,7 +93,7 @@
         integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
         crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="scripts/divisionboost.js"></script>
+<script src="scripts/mastery.js"></script>
 <script>
     function isValidEmail() {
         return !($("#email").val() == '');
@@ -124,21 +121,14 @@
         document.querySelector('#champion').addEventListener('change', handler);
     }
 
-
     function post() {
         return new Promise(function (resolve, reject) {
                 var type;
-                if ($("#solo").val() === 'true') {
-                    type = 'Solo boost: ';
-                }
-                else {
-                    type = 'Duo boost: ';
-                }
-                type += $("#from").val() + " to " + $("#to").val() + ", LP: " + $("#lp :selected").text();
-
-
+                var from = $("#myLevel").val();
+                var to = $("#desiredLevel").val();
+                type = "Champion boost, level: " + from.toString() + " to " + to.toString();
                 var url = "https://script.google.com/macros/s/AKfycbwVOncurWvdCEDRlviH-c4wtUtGLy-xJUTy_dihMZH46nV0CnUu/exec?email="
-                    + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getValue() + "&type=" + type + "&server=" + $("#server :selected").text();
+                    + $("#email").val() + "&champion=" + $("#champion").val() + "&price=" + getPrice() + "&type=" + type + "&server=" + $("#server :selected").text();
 
                 $.ajax(
                     {
@@ -165,9 +155,9 @@
             commit: true, // Show a 'Pay Now' button
 
             style: {
-                label: 'pay',
                 color: 'gold',
-                size: 'responsive',
+                size: 'small',
+                label: 'pay',
                 shape: 'rect'
             },
             client: {
@@ -203,7 +193,7 @@
                     payment: {
                         transactions: [
                             {
-                                amount: {total: getValue(), currency: 'EUR'}
+                                amount: {total: getPrice(), currency: 'EUR'}
                             }
                         ]
                     }
@@ -231,7 +221,8 @@
                         console.log('Exception is thrown');
                         console.log(data);
                     });
-                })
+
+                });
             },
 
             onCancel: function (data, actions) {
@@ -243,6 +234,24 @@
                 alert('Something went wrong! Please try again later')
             }
         }, '#paypal-button');
+    });
+    $(document).ready(function(){
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+        });
+
     });
 </script>
 <footer id="myFooter">
