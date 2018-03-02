@@ -2,7 +2,7 @@
 
 </head>
 <nav class="navbar navbar-expand-lg navbar-light zoltabg">
-    <a class="navbar-brand" href="index">
+    <a class="navbar-brand" href="/">
         <img src="images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
