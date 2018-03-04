@@ -8,7 +8,7 @@
 <div class="jumbotron banertext bg6">
     <h1>Champion mastery</h1>
 </div>
-<div class="jumbotron textura" style="text-align: center">
+<div class="jumbotron textura5" style="text-align: center">
     <br>
     <button class="btn sina scrollToTop">Get Your Boost</button>
     <div class="row">
