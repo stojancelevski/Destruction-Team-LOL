@@ -160,7 +160,6 @@
                                 <img class="img-kocka" src="images/Divisions/diamond_3.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Diamond III</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -186,13 +185,13 @@
                                 <img class="img-kocka" src="images/Divisions/challenger_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Challenger I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
                                 <h2 style="align-items:stretch"><span
-                                            class="badge badge-success">Mid, Top, Marksman</span>
+                                            class="badge badge-success">Mid, Top, <br> Marksman</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -218,7 +217,7 @@
                                 <img class="img-kocka" src="images/Divisions/diamond_2.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Diamond II</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -246,7 +245,7 @@
                                 <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Master I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -273,7 +272,7 @@
                                 <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Master I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -304,7 +303,7 @@
                                 <img class="img-kocka" src="images/Divisions/platinum_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Platinum I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -330,7 +329,7 @@
                                 <img class="img-kocka" src="images/Divisions/diamond_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Diamond I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -356,7 +355,7 @@
                                 <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Master I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -386,7 +385,7 @@
                                 <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Diamond III</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -413,7 +412,7 @@
                                 <img class="img-kocka" src="images/Divisions/platinum_2.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Platinum 2</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -440,7 +439,7 @@
                                 <img class="img-kocka" src="images/Divisions/diamond_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Diamond I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -470,7 +469,7 @@
                                 <img class="img-kocka" src="images/Divisions/challenger_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Chalenger I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -496,7 +495,7 @@
                                 <img class="img-kocka" src="images/Divisions/challenger_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Chalenger I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -522,13 +521,13 @@
                                 <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Diamond I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
                                 <h2 style="align-items:stretch"><span
-                                            class="badge badge-success">Marksman, Support, Top</span>
+                                            class="badge badge-success">Marksman, Support,<br> Top</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -553,7 +552,7 @@
                                 <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Master I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -580,7 +579,7 @@
                                 <img class="img-kocka" src="images/Divisions/platinum_2.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Platinum II</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -606,7 +605,7 @@
                                 <img class="img-kocka" src="images/Divisions/diamond_3.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Diamond  III</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -636,7 +635,7 @@
                                 <img class="img-kocka" src="images/Divisions/master_1.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Master I</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
@@ -662,7 +661,7 @@
                                 <img class="img-kocka" src="images/Divisions/diamond_2.png" alt="">
                                 <h2 style="align-items: stretch"><span class="badge sina">Diamond II</span>
                                 </h2>
-                                <h2 style="align-items: center"><span class="badge badge-secondary">10$/h</span></h2>
+
                                 <hr style="background:#777777;">
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
