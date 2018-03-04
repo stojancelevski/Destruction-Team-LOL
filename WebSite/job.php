@@ -38,13 +38,13 @@
         <div class="col-md-7">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4">Join our Team</h1>
+                    <h1 class="display-4">Join our lol Team (hiring lol players)</h1>
                     <p>
-                        <b> We're one of the companies that provide boosting services all over the world. We
-                            have a clear mission, which is to make our customers as happy as possible. Together with our
-                            elo boosters we will deliver good, friendly and professional elo boosting services. Thanks
-                            to our customers we became the best website to date. Feel free to join our family and become
-                            part of it all!
+                        <b> We're one of the companies that provide elo boosting services all over the world. We have a
+                            clear mission, which is to make our customers as happy as possible. Together with our elo
+                            boosters we will deliver good, friendly and professional elo boosting services. Thanks to
+                            our customers we became the best website to date. We are constantly hiring league of legends
+                            players so feel free to join our family and become part of it all!
                         </b>
                     </p>
                 </div>
@@ -57,33 +57,34 @@
         <div class="col-md-6">
             <h1>Professional</h1>
             <p>
-                If you want to be a part of our team you need to be ready to become a part of a big family and just be
-                yourself, but when offering a service, it will be asked from you to take responsibility and act
-                professional.
+                If you want to work as a lol booster and become a part of our team you need to be ready to become a part
+                of a big family and just be yourself, but when offering a service, it will be asked from you to take
+                responsibility, act professional and finish the elo boost swiftly.
             </p>
         </div>
         <div class="col-md-6">
             <h1>Gradually Growing</h1>
             <p>
-                We take all elo booster who are committed, dedicated and want to become part of something bigger. If you
-                are looking to earn money while enjoying, playing your favorite game you have come to the right place.
+                We take all elo booster who are committed and want to play and earn money , who are dedicated and want
+                to become part of something bigger. If you are looking to earn money while playing your favorite game
+                you have come to the right place.
             </p>
         </div>
         <div class="col-md-6">
-            <h1>We have personality = Satisfied Boosters </h1>
+            <h1>Satisfied elo Boosters and Customers </h1>
             <p>
-                Our company know that when we have satisfied and happy costumers we have satisfied boosters, so we
-                kindly ask from each of our booster to care about every costumer so we can continue growing and have
-                more and more orders from where our boosters will earn more and more money.
+                Our company knows that when we have satisfied and happy customers we have satisfied boosters, so we
+                kindly ask from each of our elo booster to care about every customer so we can continue growing and have
+                more and more orders from where our boosters will earn more and more money by playing league of legends.
             </p>
         </div>
         <div class="col-md-6">
-            <h1>Easy to teach = Big Family </h1>
+            <h1>Big Family </h1>
             <p>
                 If you are for a place where you will be understood, a place where you will be around people who are
-                just like you, you have found your place. Here it is not all about boosting it is about new friendships,
-                every single member of our team is equally valued and everyone of them is important to us. So here we
-                all care about each other
+                just like you, you have found your place. Here it is not all about boosting, it is about new
+                friendships, every single member of our team is equally valued and everyone of them is important to us.
+                So here we all care about each other. Earn money while playing.
             </p>
         </div>
     </div>
@@ -96,8 +97,39 @@
                 <div class="card-body">
                     <h5 class="card-title">High Elo Players</h5>
                     <p class="card-text">Since we put a lot of effort into improving our elo services, we're only
-                        looking for Gold, Master and Challenger elo boosters. We currently look for boosters from all
-                        regions </p>
+                        looking for diamond+ players. We currently look for boosters from the following regions
+                    </p>
+                    <div id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse"
+                                    data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                Servers
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                         data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Brazil - BR.</li>
+                                <li>Europe Nordic & East - EUNE</li>
+                                <li>Europe West - EUW.</li>
+                                <li>Latin America North - LAN.</li>
+                                <li>Latin America South - LAS.</li>
+                                <li>North America - NA.</li>
+                                <li>Oceania - OCE.</li>
+                                <li>Russia - RU.</li>
+                                <li>Turkey - TR</li>
+                                <li>Japan - JP</li>
+                                <li>Garena Southeast Asia - SEA</li>
+                                <li>People’s Republic of China - CN</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -106,9 +138,9 @@
                 <img class="card-img-top" src="images/job/job_2.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Required Availability</h5>
-                    <p class="card-text">We do not have any time requirements from our booster they are free to play as
-                        much as they want, but when they are working on a boost it is recommended to be done as much as
-                        possible.</p>
+                    <p class="card-text">We do not have any time requirements from our elo booster they are free to play
+                        as much as they want, but when they are working on a boost it is recommended to be done
+                        swiftly.</p>
                 </div>
             </div>
         </div>
