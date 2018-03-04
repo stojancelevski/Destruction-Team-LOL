@@ -9,6 +9,30 @@
     <h1>Coaches</h1>
 </div>
 <div class="jumbotron">
+    <div id="text">
+        <h1 style="text-align: center" data-toggle="collapse"
+            data-target="#collapseText" aria-expanded="false"
+            aria-controls="collapseText">Pro LOL players reveal their secret. <br> How to become a badass at lol !!!
+            <br>
+            Everyone needs a coach.
+        </h1>
+    </div>
+    <div id="collapseText" class="collapse" aria-labelledby="text"
+         data-parent="#accordion">
+        <p style="text-align: justify">
+            Top boost does provide high quality league of legends coaching from lol players that are challenger
+            division, master division...
+            All of our lol coaches are highly trained and have experience in training lol players to reach higher
+            divisions, since they have years of experience you can learn the same things that they used to get to where
+            they are, there is a shortcut to becoming a stronger player and that's learning from someone that is more
+            experienced than you.
+            If you are still looking to get better and stronger at playing lol look no more and start by getting a coach
+            .
+
+        </p>
+
+
+    </div>
     <div class="container">
         <div class="card-deck">
             <div class="row">
@@ -83,7 +107,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Support, Marksman</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Support, Marksman</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -166,7 +191,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Mid, Top, Marksman</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Mid, Top, Marksman</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -225,7 +251,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Marksman, Jungle</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Marksman, Jungle</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -251,7 +278,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Jungle, Marksman</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Jungle, Marksman</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -307,7 +335,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Jungle, Marksman</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Jungle, Marksman</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -362,7 +391,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Marksman, Jungle</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Marksman, Jungle</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -388,7 +418,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Support, Marksman</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Support, Marksman</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -414,11 +445,12 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Top, Mid, Jungle</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Top, Mid, Jungle</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
-                                <p style="text-align:center">  Maokai, Rengar, Anivia</p>
+                                <p style="text-align:center"> Maokai, Rengar, Anivia</p>
                             </div>
                         </div>
                     </div>
@@ -495,7 +527,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Marksman, Support, Top</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Marksman, Support, Top</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -525,7 +558,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Top, Mid, Support</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Top, Mid, Support</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -633,7 +667,8 @@
                                 <h>Region:</h>
                                 <h2 style="align-items:stretch"><span class="badge badge-danger">Europe</span></h2>
                                 <h>Position/Roles:</h>
-                                <h2 style="align-items:stretch"><span class="badge badge-success">Marksman, Support</span>
+                                <h2 style="align-items:stretch"><span
+                                            class="badge badge-success">Marksman, Support</span>
                                 </h2>
                                 <hr style="background:#777777;">
                                 <h>Main Champions:</h>
@@ -645,7 +680,7 @@
 
             </div>
 
-    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
+            <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
         </div>
     </div>
 </div>

@@ -3,7 +3,7 @@
 <head>
     <?php include 'head.php'; ?>
 </head>
-<body style="text-align: center">
+<body style="text-align: justify;">
 <?php include 'navbar.php'; ?>
 <div class="jumbotron" id="headerfaq">
     <h1 style="text-align: center;color:white;"><b>Frequently asked questions</b></h1>
@@ -187,6 +187,98 @@
     </div>
 </div>
 <br>
+<div class="card col-12">
+    <h3 class="card-header" style="text-align: center">GENERAL </h3>
+    <div id="accordion3">
+        <div class="card ">
+            <div class="card-header" id="headingSixteen" data-toggle="collapse" data-target="#collapseSixteen"
+                 aria-expanded="true" aria-controls="collapseSixteen">
+                <h5 class="mb-0">
+                    <button class="btn btn-link">
+                        Which server do we boost on?
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseSixteen" class="collapse show" aria-labelledby="headingSixteen" data-parent="#accordion3">
+                <div class="card-body">
+                    Currently we are offering elo boosting services in europe(deutschland, poland, romania, all over
+                    europe), turkey(türkiye), russia (Российская Федерация).
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingSeventeen" data-toggle="collapse" data-target="#collapseSeventeen"
+                 aria-expanded="false" aria-controls="collapseSeventeen">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed">
+                        Selling your lol account ?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordion3">
+                <div class="card-body">
+                    We do offer a way where you can sell your lol account instantly, and we have an expert who will tell
+                    you how much your lol account is worth.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingEighteen" data-toggle="collapse" data-target="#collapseEighteen"
+                 aria-expanded="false" aria-controls="collapseEighteen">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed">
+                        Buy lol account?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordion3">
+                <div class="card-body">
+                    Yes we do sell league of legends account, both unranked and ranked.
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-header" id="headingNineteen" data-toggle="collapse" data-target="#collapseNineteen"
+                 aria-expanded="true" aria-controls="collapseNineteen">
+                <h5 class="mb-0">
+                    <button class="btn btn-link">
+                        Get League of Legends Coaching?
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordion3">
+                <div class="card-body">
+                    Our master, challenger division coacher (lol players) are offering lol coaching services and love
+                    helping lol players reach higher divisions fast and easy. So if you want to learn from someone with
+                    more experience and become better this is the way to go buy a lol coach.
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-header" id="headingTwenty" data-toggle="collapse" data-target="#collapseTwenty"
+                 aria-expanded="true" aria-controls="collapseTwenty">
+                <h5 class="mb-0">
+                    <button class="btn btn-link">
+                        Why would i buy an elo boost service?
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordion3">
+                <div class="card-body">
+                    If you want to earn free skins and other prices from a higher division you can buy an elo boost. Or
+                    maybe you want to be a cool and brag about being a higher division than your friends or maybe you
+                    just want to avoid the low level trolls and avoid feeders, so you can finaly enjoy the lol games and
+                    lay with good players.
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
+    </div>
+</div>
+<br><br>
 <div class="card col-12">
     <h3 class="card-header" style="text-align: center">PAYMENT PROCESS</h3>
     <div id="accordion2">
