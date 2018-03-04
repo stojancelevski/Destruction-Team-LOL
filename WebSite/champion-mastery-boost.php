@@ -80,7 +80,35 @@
     </div>
     <br><br>
     <button onclick="topFunction()" id="scrollBtn" title="Go to top">Buy Elo Boost</button>
-    <?php include 'safe and regular.php'; ?>
+    <?php include 'safe and regular.php'; ?><br>
+    <h1 style="text-align: center;color: white;">Other Cheap Elo Boost LOL Services </h1>
+    <div class="row">
+
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <a href="placement-matches"> <img src="images/Packs/box-placement_matches.png" alt="" width="125"
+                                              height="196"></a>
+        </div>
+        <div class="col-md-2">
+            <a href="win-boost"> <img src="images/Packs/box-win_boost.png" alt="" width="125" height="196">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="division-boosting"> <img src="images/Packs/box-division_boost.png" alt="" width="125"
+                                                   height="196">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="mission-completition"> <img src="images/Packs/box-mission_completion.png" alt="" width="125"
+                                                 height="196">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="level-boost"> <img src="images/Packs/box-honor_boost.png" alt="" width="125" height="196">
+            </a>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -235,10 +263,10 @@
             }
         }, '#paypal-button');
     });
-    $(document).ready(function(){
+    $(document).ready(function () {
 
         //Check to see if the window is top if not then display button
-        $(window).scroll(function(){
+        $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
                 $('.scrollToTop').fadeIn();
             } else {
@@ -247,8 +275,8 @@
         });
 
         //Click event to scroll to top
-        $('.scrollToTop').click(function(){
-            $('html, body').animate({scrollTop : 0},800);
+        $('.scrollToTop').click(function () {
+            $('html, body').animate({scrollTop: 0}, 800);
             return false;
         });
 

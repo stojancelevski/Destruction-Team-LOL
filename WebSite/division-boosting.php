@@ -82,7 +82,35 @@
     </div>
 
     <?php include 'safe and regular.php'; ?>
+    <br><br>
+    <h1 style="text-align: center;color: white;">Other Cheap Elo Boost LOL Services </h1>
+    <div class="row">
 
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <a href="placement-matches"> <img src="images/Packs/box-placement_matches.png" alt="" width="125"
+                                              height="196"></a>
+        </div>
+        <div class="col-md-2">
+            <a href="win-boost"> <img src="images/Packs/box-win_boost.png" alt="" width="125" height="196">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="champion-mastery-boost"> <img src="images/Packs/box-champion_mastery_boost.png" alt="" width="125"
+                                                   height="196">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="mission-completition"> <img src="images/Packs/box-mission_completion.png" alt="" width="125"
+                                                 height="196">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="level-boost"> <img src="images/Packs/box-honor_boost.png" alt="" width="125" height="196">
+            </a>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
 
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
