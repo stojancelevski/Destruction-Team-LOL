@@ -384,7 +384,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img name="thirdImg"
-                                         src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                         src=""
                                          id="slikam1" class="img-responsive">
                                 </div>
                             </div>
@@ -410,7 +410,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img name="thirdImg"
-                                         src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                         src=""
                                          id="slikam2" class="img-responsive">
                                 </div>
                             </div>
@@ -436,7 +436,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img name="thirdImg"
-                                         src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                         src=""
                                          id="slikam3" class="img-responsive">
                                 </div>
                             </div>
@@ -464,7 +464,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img name="thirdImg"
-                                         src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                         src=""
                                          id="slikam4" class="img-responsive">
                                 </div>
                             </div>
@@ -490,7 +490,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img name="thirdImg"
-                                         src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                         src=""
                                          id="slikam5" class="img-responsive">
                                 </div>
                             </div>
@@ -516,7 +516,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img name="thirdImg"
-                                         src="http://solarhythmia.com/art-gallery/fractals/800x600/birth-of-a-galaxy-800x600.jpg"
+                                         src=""
                                          id="slikam6" class="img-responsive">
                                 </div>
                             </div>

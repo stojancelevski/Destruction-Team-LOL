@@ -10,14 +10,14 @@
 
 
 .centered {
-    position: absolute;
+    position: inherit;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .bottomm{
-    position: absolute;
+    position: inherit;
     top: 380%;
     left: 50%;
     transform: translate(-50%, -50%);

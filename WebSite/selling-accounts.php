@@ -177,7 +177,7 @@
                                 <br>
                                 <button class="btn sina" data-toggle="modal" data-target="#icons2">Icons</button>
                                 <br>
-                                <button class="btn sina" data-toggle="modal" data-target="#loot2">Loot</button>
+                                <button class="btn sina">Loot</button>
                             </div>
                         </div>
                     </li>
