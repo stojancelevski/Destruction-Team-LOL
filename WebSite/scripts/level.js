@@ -7,13 +7,15 @@ $(document).ready(function()
     var from = $("#startLevel");
     for(var i = 1;i<=174;i++)
     {
-        if(i>1)
+        if(i>=106)
         {
             $("<option>" + i +"</option>").appendTo(to);
         }
         $("<option>" + i +"</option>").appendTo(from);
     }
     $("<option>175</option>").appendTo(to);
+    from.val(50);
+    to.val(106);
     makeImages();
     $('#price').html('Price: ' + getPrice() + '€');
     extra();

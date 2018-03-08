@@ -11,7 +11,11 @@ var divisions = [
     ]
 
 
-$('#slider').slider();
+$('#slider').slider(
+    {
+        value: 20
+    }
+);
 
 var imageRoot = 'images/Divisions/';
 $(document).ready(function()
@@ -23,7 +27,8 @@ $(document).ready(function()
     {
         $("<option>"+divisions[i].name+"</option>").appendTo(div);
     }
-    $('#winimg').attr('src',imageRoot +divisions[0].img);
+    div.val(divisions[divisions.length-1].name);
+    $('#winimg').attr('src',imageRoot +divisions[divisions.length-1].img);
     $('#price').html('Price: ' + getPrice() + '€');
     extra();
 })
