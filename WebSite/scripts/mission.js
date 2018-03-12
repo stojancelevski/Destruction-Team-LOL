@@ -1,4 +1,8 @@
-$('#slider').slider();
+$('#slider').slider(
+    {
+        value: 16
+    }
+);
 $(document).ready(function ($) {
     $('#number').html('Number of missions: ' + $('#slider').val());
     $('#price').html('Price: '+ getPrice() +'€')

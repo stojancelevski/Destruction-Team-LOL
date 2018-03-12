@@ -20,7 +20,7 @@ $(document).ready(function(){
             {
                 $("<option>" + i +"</option>").appendTo(desired);
             }
-
+            desired.val(7);
             $('#price').html('Price: ' + getPrice() + '€');
             extra();
         },

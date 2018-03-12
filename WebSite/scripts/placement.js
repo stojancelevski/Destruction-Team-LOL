@@ -8,7 +8,11 @@ var divisions = [
     {name: 'Diamond',price:7.5,img:"diamond_5.png"}
 ];
 
-$('#slider').slider();
+$('#slider').slider(
+    {
+        value: 10
+    }
+);
 var imageRoot = 'images/Divisions/';
 
 $(document).ready(function(){
@@ -17,7 +21,8 @@ $(document).ready(function(){
     {
         $("<option>"+divisions[i].name+"</option>").appendTo(div);
     }
-    $("#divisionImg").attr('src',imageRoot+divisions[0].img)
+    div.val(divisions[divisions.length - 1].name)
+    $("#divisionImg").attr('src',imageRoot+divisions[divisions.length-1].img)
     $('#number').html('Number of games: ' + $('#slider').val());
     $('#price').html('Price: ' + getPrice() + '€');
     extra();
