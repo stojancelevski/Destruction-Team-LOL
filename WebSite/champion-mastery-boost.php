@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
+    <link rel="canonical" href="https://top-boost.com/champion-mastery-boost" />
 </head>
 <body>
 <?php include 'navbar.php'; ?>
 <div class="jumbotron banertext bg6">
     <h1>Champion mastery</h1>
 </div>
-<div class="jumbotron textura5" style="text-align: center">
+<div class="jumbotron textura5 container-fixed" style="text-align: center">
     <br>
-    <button class="btn sina scrollToTop">Get Your Boost</button>
+
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-2 backgroundC"></div>

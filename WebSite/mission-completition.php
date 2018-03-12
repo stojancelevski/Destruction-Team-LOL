@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
+    <link rel="canonical" href="https://top-boost.com/mission-completition" />
 </head>
 <body>
 <?php include 'navbar.php'; ?>
@@ -9,7 +10,7 @@
 <div class="jumbotron banertext bg7">
     <h1>Mission Completition</h1>
 </div>
-<div class="jumbotron textura6" style="text-align: center">
+<div class="jumbotron textura6 container-fixed" style="text-align: center">
     <br>
     <div class="container">
         <div class="row">

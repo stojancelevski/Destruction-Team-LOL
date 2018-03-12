@@ -3,6 +3,7 @@
 <head>
     <?php include 'head.php'; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="canonical" href="https://top-boost.com/placement-matches" />
 </head>
 <body>
 <?php include 'navbar.php'; ?>
@@ -10,7 +11,7 @@
     <h1>Placement Matches</h1>
 </div>
 
-<div class="jumbotron textura3" style="text-align: center">
+<div class="jumbotron textura3 container-fixed" style="text-align: center">
     <br>
 
     <div class="row">

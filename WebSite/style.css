@@ -78,7 +78,7 @@ body {
     background-image: url("images/banners/bg_1500.png")
 }
 
-.jumbotron.bg2 {
+.bg2 {
     background-image: url("images/banners/bg_2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -336,32 +336,43 @@ img.img-kocka {
 .jumbotron.textura{
     background-image: url("images/teksturi/bg_division_boost.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .jumbotron.textura2{
     background-image: url("images/teksturi/bg_win_boost.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .jumbotron.textura3{
     background-image: url("images/teksturi/bg_placement_matches.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .jumbotron.textura4{
     background-image: url("images/teksturi/bg_level_boost_new.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .jumbotron.textura5{
     background-image: url("images/teksturi/bg_champion_mastery_boost.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .jumbotron.textura6{
     background-image: url("images/teksturi/bg_mission_completion.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
+}
+
+.container-fixed {
+    margin: 0 auto;
+    max-width: 1480px;
 }
 
 

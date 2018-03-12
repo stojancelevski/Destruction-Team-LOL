@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
+    <link rel="canonical" href="https://top-boost.com/win-boost" />
 </head>
 <body>
 <?php include 'navbar.php'; ?>
 <div class="jumbotron banertext bg3">
     <h1>Win boosting</h1>
 </div>
-<div class="jumbotron textura2">
+<div class="jumbotron textura2 container-fixed">
     <div class="container">
         <div class="row">
             <div class="col-md-4">

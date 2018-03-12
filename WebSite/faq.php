@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
+    <link rel="canonical" href="https://top-boost.com/faq" />
 </head>
 <body style="text-align: justify;">
 <?php include 'navbar.php'; ?>

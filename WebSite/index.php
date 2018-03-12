@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
+    <link rel="canonical" href="https://top-boost.com/" />
 </head>
 <body style="background: #030C15">
 
@@ -13,7 +14,7 @@
 
 
     <div class="containter">
-        <img src="images/banners/Top Boost/HOMEg.png" class="img-responsive" id="jumbotron">
+        <img src="images/banners/HOMEg.png" class="img-responsive" id="jumbotron">
         <h1>
             <a href="boosting" class="centered bottom-right"><span class="badge zolta">Boost Me</span></a>
         </h1>
@@ -30,8 +31,7 @@
                     <div class="col-md-8">
                         <h1 style="text-align: center"><h1 style="background:#0B141B;" id="sina">How can you benefit
                                 from using our
-                                site</h1  style="background: #0B141B
-                            ;">
+                                site</h1>
                         </h1>
                         <ul class="no_bullet">
                             <div id="accordion">
@@ -385,7 +385,7 @@
                                 <div class="modal-body">
                                     <img name="thirdImg"
                                          src=""
-                                         id="slikam1" class="img-responsive">
+                                         id="slikam1" class="img-fluid">
                                 </div>
                             </div>
 
@@ -411,7 +411,7 @@
                                 <div class="modal-body">
                                     <img name="thirdImg"
                                          src=""
-                                         id="slikam2" class="img-responsive">
+                                         id="slikam2" class="img-fluid">
                                 </div>
                             </div>
 
@@ -437,7 +437,7 @@
                                 <div class="modal-body">
                                     <img name="thirdImg"
                                          src=""
-                                         id="slikam3" class="img-responsive">
+                                         id="slikam3" class="img-fluid">
                                 </div>
                             </div>
 
@@ -465,7 +465,7 @@
                                 <div class="modal-body">
                                     <img name="thirdImg"
                                          src=""
-                                         id="slikam4" class="img-responsive">
+                                         id="slikam4" class="img-fluid">
                                 </div>
                             </div>
 
@@ -491,7 +491,7 @@
                                 <div class="modal-body">
                                     <img name="thirdImg"
                                          src=""
-                                         id="slikam5" class="img-responsive">
+                                         id="slikam5" class="img-fluid">
                                 </div>
                             </div>
 
@@ -517,7 +517,7 @@
                                 <div class="modal-body">
                                     <img name="thirdImg"
                                          src=""
-                                         id="slikam6" class="img-responsive">
+                                         id="slikam6" class="img-fluid">
                                 </div>
                             </div>
 
@@ -528,7 +528,7 @@
 
         </div>
         <br><br>
-        <img src="images/banners/Top%20Boost/bg_2.png" class="img-responsive" id="jumbotron">
+        <img src="images/banners/Top%20Boost/bg_2.png" class="img-fluid" id="jumbotron">
         <h1>
             <a href="boosting" class="bottomm bottom-right"><span class="badge zolta">Boost Me</span></a>
         </h1>

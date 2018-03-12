@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
+    <link rel="canonical" href="https://top-boost.com/division-boosting" />
 </head>
 <body>
 <?php include 'navbar.php'; ?>
-<div class="jumbotron banertext bg2">
+<div class="banertext bg2 img-fluid">
     <h1 style="text-align: center;">Division boosting</h1><br>
 </div>
-<div class="jumbotron textura">
+<br>
+<div class="jumbotron textura container-fixed">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 ">
             <div class="card-header">
                 <select class="form-control" name="from" id="from"></select>
             </div>
@@ -18,7 +20,7 @@
                 <img class="card-img-top" alt="fromImg" id="fromImg">
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 ">
 
             <select class="form-control" name="lp" id="lp">
                 <option value="0">0-40</option>
@@ -70,7 +72,7 @@
             </div>
 
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 ">
             <div class="card-header">
                 <select class="form-control" name="to" id="to"></select>
             </div>

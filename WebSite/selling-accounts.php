@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
+    <link rel="canonical" href="https://top-boost.com/selling-accounts" />
 </head>
 <body>
 <?php include 'navbar.php'; ?>

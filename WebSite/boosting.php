@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <?php include 'head.php'; ?>
+    <link rel="canonical" href="https://top-boost.com/boosting" />
 </head>
 <body style="background: #0d3349">
 <?php include 'navbar.php'; ?>
-<div class="jumbotron banertext bg1">
+<div class="jumbotron banertext bg1 img-fluid">
     <h1>Boosting</h1>
 </div>
 <div class="container" style="color: white;">

@@ -3,14 +3,14 @@
 <head>
 
     <?php include 'head.php'; ?>
-
+    <link rel="canonical" href="https://top-boost.com/level-boost" />
 </head>
 <body>
 <?php include 'navbar.php'; ?>
 <div class="jumbotron banertext bg5">
     <h1>Level boosting</h1>
 </div>
-<div class="jumbotron textura4" style="text-align: center">
+<div class="jumbotron textura4 container-fixed" style="text-align: center">
     <div class="container">
         <div class="row">
             <div class="col-md-3">

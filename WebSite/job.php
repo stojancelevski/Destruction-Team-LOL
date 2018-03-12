@@ -3,6 +3,7 @@
 <head>
     <?php include 'head.php'; ?>
     <link rel="stylesheet" href="country-select-js-master/build/css/countrySelect.min.css">
+    <link rel="canonical" href="https://top-boost.com/job" />
 </head>
 <body>
 <?php include 'navbar.php'; ?>
