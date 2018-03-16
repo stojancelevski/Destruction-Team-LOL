@@ -7,22 +7,6 @@
     width: 99.9%;
     height: 50%;
 }
-
-
-.centered {
-    position: inherit;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.bottomm{
-    position: inherit;
-    top: 380%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 body {
     font-family: myFont;
 }
@@ -159,20 +143,6 @@ body {
         width: 90%;
         max-width: 300px;
     }
-
-    .centered {
-        position: inherit;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .bottomm{
-        position: inherit;
-        top: 610%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
     .dropdown:hover > .dropdown-menu {
         display: none;
     }
@@ -198,6 +168,7 @@ body {
     }
 }
 
+
 .special-card {
     background-color: rgba(245, 245, 245, 1);
     opacity: .4;
@@ -212,6 +183,8 @@ ul.no_bullet {
     padding: 0;
     margin: 0;
 }
+
+
 
 li.leaf:after {
     content: url('images/ok.png');
@@ -283,6 +256,10 @@ img.img-kocka {
 .sina {
     color:#fff;
     background: #375990;
+}
+.bela {
+    color:black;
+    background: #fff;
 }
 .dropdown-item:hover{
     background: #E9D300;
