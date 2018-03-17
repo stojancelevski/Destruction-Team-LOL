@@ -10,7 +10,7 @@
     <h1>Selling Accounts</h1>
 </div>
 <div class="jumbotron">
-    <div class="container">
+    <div class="container-fixed">
         <div class="card-deck">
             <div class="card border-success">
                 <div class="card-header">

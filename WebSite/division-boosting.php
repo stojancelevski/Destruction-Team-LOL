@@ -4,7 +4,7 @@
     <?php include 'head.php'; ?>
     <link rel="canonical" href="https://top-boost.com/division-boosting" />
 </head>
-<body>
+<body class="bgg">
 <?php include 'navbar.php'; ?>
 <div class="banertext bg2 img-fluid">
     <h1 style="text-align: center;">Division boosting</h1><br>

@@ -264,7 +264,9 @@ img.img-kocka {
 .dropdown-item:hover{
     background: #E9D300;
 }
-
+li.icon1:before{
+    content: url("images/facebook.png");
+}
 
 #sina {
     color: #375990;
@@ -315,6 +317,11 @@ img.img-kocka {
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+.bgg{
+    background-image: url("images/teksturi/bg_division_boost.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .jumbotron.textura2{
     background-image: url("images/teksturi/bg_win_boost.png");

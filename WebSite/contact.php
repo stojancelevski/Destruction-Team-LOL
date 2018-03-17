@@ -10,7 +10,7 @@
     <h1>Contact</h1>
 </div>
 <div class="jumbotron">
-    <div class="container">
+    <div class="container-fixed">
         <div class="row">
             <div class="col-md-5">
                 <form action="" id="form">

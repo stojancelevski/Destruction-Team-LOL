@@ -44,7 +44,6 @@ $(document).ready(function(){
             $("<option>" + divisions[i].div+"</option>").appendTo(to);
         }
     }
-    to.val(divisions[divisions.length-1].div);
     var selectedTo = to.val();
     console.log('Document ready');
     var selectedFrom = from.val();

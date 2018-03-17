@@ -3,7 +3,7 @@
 <head>
 
     <?php include 'head.php'; ?>
-    <link rel="canonical" href="https://top-boost.com/level-boost" />
+    <link rel="canonical" href="https://top-boost.com/level-boost"/>
 </head>
 <body>
 <?php include 'navbar.php'; ?>
@@ -21,11 +21,11 @@
                 </div>
                 <div class="imgContainer">
                     <div>
-                        <img src="" id="fromLevelImg" alt="From" style="width:100%"> 
+                        <img src="" id="fromLevelImg" alt="From" style="width:100%">
                     </div>
-                    <h1 id="fromLevelText" class="centered"  style="color: #375990">
+                    <h1 id="fromLevelText" class="centered" style="color: #375990">
 
-                    </h1>            
+                    </h1>
                 </div>
             </div>
             <div class="col-md-6 shield" style="color: #375990"><br><br><br><br><br>
@@ -50,7 +50,8 @@
                         </div>
                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn sinabg active" id="regularButton">
-                                <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular boost
+                                <input type="radio" name="options" autocomplete="off" id="regular" checked> Regular
+                                boost
                             </label>
                             <label class="btn btn-success " id="safeButton">
                                 <input type="radio" name="options" autocomplete="off" id="safe"> Safe boost
@@ -75,7 +76,7 @@
                 </div>
                 <div class="imgContainer">
                     <div>
-                        <img src="" id="toLevelImg" alt="From" style="width:100%"> 
+                        <img src="" id="toLevelImg" alt="From" style="width:100%">
                     </div>
                     <h1 id="toLevelText" class="centered" style="color: #375990">
 
@@ -112,7 +113,8 @@
             </a>
         </div>
         <div class="col-md-2">
-            <a href="champion-mastery-boost"> <img src="images/Packs/box-champion_mastery_boost.png" alt="" width="125" height="196">
+            <a href="champion-mastery-boost"> <img src="images/Packs/box-champion_mastery_boost.png" alt="" width="125"
+                                                   height="196">
             </a>
         </div>
         <div class="col-md-1"></div>

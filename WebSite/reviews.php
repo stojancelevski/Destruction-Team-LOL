@@ -23,7 +23,7 @@
         <h1>Reviews</h1>
     </div>
 
-    <div class="container">
+    <div class="container-fixed">
         <div class="card-deck" id="card-deck">
             <div class="card" id="Card1">
                 <div class="card-header" id="cardName1">Name</div>
