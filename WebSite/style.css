@@ -1,20 +1,42 @@
-
-#jumbotron {
-
-    background-image: url("images/banners/Top Boost/HOMEg.png");
-
-    background-repeat: no-repeat;
-    width: 99.9%;
-    height: 50%;
-}
 body {
     font-family: myFont;
 }
 
 #slikaa {
     width: 350px;
-    height:250px;
+    height: 250px;
 }
+
+.bgg1 {
+    background-image: url("images/Boosting/img bg/img bg 1_hd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgg2 {
+    background-image: url("images/Boosting/img bg/img bg 2_hd.png");
+    background-size: cover;
+}
+
+.bgg3 {
+    background-image: url("images/Boosting/img bg/img bg_hd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.listi {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: hsla(224, 16%, 53%, 0.7);"
+}
+
+.listi:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px
+}
+
 .sticky {
     position: absolute;
     top: 80%;
@@ -24,6 +46,7 @@ body {
     margin-top: -250px; /* Half the height */
     margin-left: -250px; /* Half the width */
 }
+
 .backgroundP {
     background-image: url("images/Packs/box-placement_matches.png");
     background-size: contain;
@@ -143,9 +166,11 @@ body {
         width: 90%;
         max-width: 300px;
     }
+
     .dropdown:hover > .dropdown-menu {
         display: none;
     }
+
     .sticky {
         position: fixed;
         top: 100%;
@@ -153,6 +178,11 @@ body {
         z-index: 1;
         margin-top: 0px; /* Half the height */
         margin-left: -250px; /* Half the width */
+    }
+
+    .zed {
+        width: 100px;
+        height: 300px;
     }
 }
 
@@ -168,11 +198,11 @@ body {
     }
 }
 
-
 .special-card {
     background-color: rgba(245, 245, 245, 1);
     opacity: .4;
 }
+
 .col-centered {
     float: none;
     margin: 0 auto;
@@ -184,18 +214,19 @@ ul.no_bullet {
     margin: 0;
 }
 
-
-
 li.leaf:after {
     content: url('images/ok.png');
 }
-a.fb{
+
+a.fb {
     content: url("images/facebook.png");
 }
-a.instagram{
+
+a.instagram {
     content: url("images/instagram.png");
 }
-a.twitter{
+
+a.twitter {
     content: url("images/twitter.png");
 }
 
@@ -244,27 +275,33 @@ img.img-kocka {
 
 .zolta {
     color: #E9D300;
-    background:#375990 ;
+    background: #375990;
 }
-.bgReview{
-    background:  #909090;
+
+.bgReview {
+    background: #909090;
 }
+
 .sinabg {
-    color:#E9D300;
+    color: #E9D300;
     background: #375990;
 }
+
 .sina {
-    color:#fff;
+    color: #fff;
     background: #375990;
 }
+
 .bela {
-    color:black;
+    color: black;
     background: #fff;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     background: #E9D300;
 }
-li.icon1:before{
+
+li.icon1:before {
     content: url("images/facebook.png");
 }
 
@@ -307,47 +344,55 @@ li.icon1:before{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .col-md-6.shield {
     background-image: url("images/baner.png");
     background-repeat: no-repeat;
     background-position: center;
 }
-.jumbotron.textura{
+
+.jumbotron.textura {
     background-image: url("images/teksturi/bg_division_boost.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.bgg{
+
+.bgg {
     background-image: url("images/teksturi/bg_division_boost.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.jumbotron.textura2{
+
+.jumbotron.textura2 {
     background-image: url("images/teksturi/bg_win_boost.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.jumbotron.textura3{
+
+.jumbotron.textura3 {
     background-image: url("images/teksturi/bg_placement_matches.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.jumbotron.textura4{
+
+.jumbotron.textura4 {
     background-image: url("images/teksturi/bg_level_boost_new.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.jumbotron.textura5{
+
+.jumbotron.textura5 {
     background-image: url("images/teksturi/bg_champion_mastery_boost.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.jumbotron.textura6{
+
+.jumbotron.textura6 {
     background-image: url("images/teksturi/bg_mission_completion.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -356,16 +401,19 @@ li.icon1:before{
 
 .container-fixed {
     margin: 0 auto;
-    max-width: 1480px;
+    max-width: 1366px;
 }
-
-
 
 .jumbotron.banertext {
     text-align: center;
     color: white;
     font-family: myFont;
     font-style: bold;
+}
+
+.zed {
+    width: 400px;
+    height: 700px;
 }
 
 @font-face {
@@ -394,6 +442,7 @@ li.icon1:before{
 textarea {
     resize: none;
 }
+
 #scrollBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -410,9 +459,7 @@ textarea {
     font-size: 18px; /* Increase font size */
 }
 
-
-
-.imgContainer{
+.imgContainer {
     position: relative;
     text-align: center;
 }

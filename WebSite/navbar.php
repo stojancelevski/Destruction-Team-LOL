@@ -2,7 +2,7 @@
 
 </head>
 <nav class="navbar navbar-expand-lg navbar-light zoltabg">
-    <a class="navbar-brand" href="#" id="sina">
+    <a class="navbar-brand" href="/" id="sina">
         <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         Top Boost
     </a>

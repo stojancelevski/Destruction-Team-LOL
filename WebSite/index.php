@@ -10,420 +10,440 @@
 
 <div id="loader"></div>
 
-<div id="content">
+<div class="container-fixed" id="content">
     <br><br>
-    <div class="container-fixed">
 
-        <div class="row col-centered" style="background: #ff8123;">
-            <div class="col-md-1"></div>
-            <div class="col-md-3"><br><br><br>
-                <button class="btn sina">30% discount</button>
+    <div class="row col-centered bgg2">
+        <div class="col-md-1"></div>
+        <div class="col-md-3"><br><br><br>
+            <button class="btn sina">30% discount</button>
+        </div>
+        <div class="col-md-4 ">
+            <h1 style="text-align: center;">Season 8 Exclusive Deals
+                Available for the first 100 customers
+            </h1>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3 "><br><br><br>
+            <button class="btn sina">Solo/Duo Boost</button>
+        </div>
+    </div>
+    <hr style="background:black; height:5px;margin: 0">
+    <div style="text-align: center;">
+        <div class="row" id="accordion">
+            <div class="col-md-3">
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">Earn Free Skins and Prizes</h4>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <p style="text-align: justify">When you make your first purchase you are given a referral code
+                        that
+                        you share with your friends they get additional 10% discount and you get points that you can
+                        exchange for free skins and other prizes.</p>
+                </div>
             </div>
-            <div class="col-md-4 ">
-                <h1 style="text-align: center;">Season 8 Exclusive Deals
-                    Available for the first 100 customers
-                </h1>
+            <div class="col-md-3">
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="true" aria-controls="collapseTwo">Free Elo Boosts with every purchase.</h4>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <ul>
+                        <li><a href="division-boosting">-Division Elo Boost. <br>
+                                Order 3+ get one free</a>
+                        </li>
+                        <li><a href="level-boost">Level Boost <br> For every 6 get one level free</a></li>
+                        <li><a href="win-boost">Win Boost <br>
+                                Every 10 wins gives 1 free</a></li>
+                        <li><a href="mission-completition">Mission <br>
+                                For every 11 you get 1 free</a></li>
+                        <li><a href="coaches">Coaching <br>
+                                Every 5 hours you purchased you are given 1 for free</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3 "><br><br><br>
-                <button class="btn sina">Solo/Duo Boost</button>
+            <div class="col-md-3">
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading" id="headingThree" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="true" aria-controls="collapseThree">Champion Selection (3-10) FREE</h4>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading" id="headingFour" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="true" aria-controls="collapseFour">We cure your weakness as a gift.</h4>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <p style="text-align: justify">With every purchase you make we help you improve your skill and
+                        gameplay for free. Our master+
+                        lol players analyze your game play and gives you tips on how you can become better, and
+                        stronger
+                        player.</p>
+                </div>
             </div>
         </div>
-        <div style="text-align: center;background: #d84b6b;">
-            <div class="row">
-                <div class="col-md-3" id="accordion">
-                    <div class="alert alert-success" role="alert">
-                        <h4 class="alert-heading" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
-                            aria-expanded="true" aria-controls="collapseOne">Earn Free Skins and Prizes</h4>
-                    </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                        <p style="text-align: justify">When you make your first purchase you are given a referral code
-                            that
-                            you share with your friends they get additional 10% discount and you get points that you can
-                            exchange for free skins and other prizes.</p>
-                    </div>
-                </div>
-                <div class="col-md-3" id="accordion">
-                    <div class="alert alert-success" role="alert">
-                        <h4 class="alert-heading" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
-                            aria-expanded="true" aria-controls="collapseTwo">Free Elo Boosts with every purchase.</h4>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <ul>
-                            <li><a href="division-boosting">-Division Elo Boost. <br>
-                                    Order 3+ get one free</a>
-                            </li>
-                            <li><a href="level-boost">Level Boost <br> For every 6 get one level free</a></li>
-                            <li><a href="win-boost">Win Boost <br>
-                                    Every 10 wins gives 1 free</a></li>
-                            <li><a href="mission-completition">Mission <br>
-                                    For every 11 you get 1 free</a></li>
-                            <li><a href="coaches">Coaching <br>
-                                    Every 5 hours you purchased you are given 1 for free</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3" id="accordion">
-                    <div class="alert alert-success" role="alert">
-                        <h4 class="alert-heading" id="headingThree" data-toggle="collapse" data-target="#collapseThree"
-                            aria-expanded="true" aria-controls="collapseThree">Champion Selection (3-10) FREE</h4>
-                    </div>
-                </div>
+        <br>
 
-
-                <div class="col-md-3" id="accordion">
-                    <div class="alert alert-success" role="alert">
-                        <h4 class="alert-heading" id="headingFour" data-toggle="collapse" data-target="#collapseFour"
-                            aria-expanded="true" aria-controls="collapseFour">We cure your weakness as a gift.</h4>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                        <p style="text-align: justify">With every purchase you make we help you improve your skill and
-                            gameplay for free. Our master+
-                            lol players analyze your game play and gives you tips on how you can become better, and
-                            stronger
-                            player.</p>
+        <h1>Would you be interested in this offers ?</h1>
+        <h1><a href="boosting" class="badge sina">YES!</a></h1><br>
+        <h1>Offers are only available for the first 100 customers</h1>
+        <hr style="background:black; height:5px;margin: 0">
+    </div>
+    <div class="bgg2">
+        <div class="row">
+            <div class="col-md-3">
+                <div style="background-color: hsla(210, 55%, 38%, 0.8);">
+                    <div class="card-body">
+                        <img class="card-img-top" src="images/index-circle/circle_1.png" alt="Card image cap">
+                        <h5 class="card-title">Enjoy the pleasure of being a higher division, a place where you
+                            belong
+                            in
+                            the high ranks.</h5>
                     </div>
                 </div>
             </div>
-            <br>
-
-            <h1>Would you be interested in this offers ?</h1>
-            <h1><a href="boosting" class="badge sina">YES!</a></h1><br>
-            <h1>Offers are only available for the first 100 customers</h1>
-        </div>
-
-
-        <br><br>
-        <div class="card-deck" style="text-align: justify;background: #ffcd35;">
-            <div class="card">
-                <img class="card-img-top" src="images/index-circle/circle_2.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Enjoy the pleasure of being a higher division, a place where you belong in
-                        the high ranks.</h5>
+            <div class="col-md-3">
+                <div style="background-color: hsla(210, 55%, 38%, 0.8);">
+                    <div class="card-body">
+                        <h5 class="card-title">Become stronger by playing together with a more experienced player
+                            Duo
+                            Boost.</h5>
+                        <img class="card-img-bottom" src="images/index-circle/circle_2.png" alt="Card image cap">
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Become stronger by playing together with a more experienced player Duo
-                        Boost.</h5>
-                </div>
-                <img class="card-img-bottom" src="images/index-circle/krug_test.png" alt="Card image cap">
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="images/index-circle/krug_test.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Have the Skins and Shiny borders that higher divisions players have</h5>
+            <div class="col-md-3">
+                <div style="background-color: hsla(210, 55%, 38%, 0.8);">
+                    <div class="card-body">
+                        <img class="card-img-top" src="images/index-circle/circle_3.png" alt="Card image cap">
+                        <h5 class="card-title">Have the Skins and Shiny borders that higher divisions players
+                            have</h5>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">One way of improving your self is by playing with more experienced
-                        players</h5>
+            <div class="col-md-3">
+                <div style="background-color: hsla(210, 55%, 38%, 0.8);">
+                    <div class="card-body">
+                        <h5 class="card-title">One way of improving your self is by playing with more experienced
+                            players</h5>
+                        <img class="card-img-bottom" src="images/index-circle/circle_4.png" alt="Card image cap">
+                    </div>
                 </div>
-                <img class="card-img-bottom" src="images/index-circle/krug_test.png" alt="Card image cap">
             </div>
         </div>
-        <br><br>
-        <div class="row " style="text-align: justify;background: #ff3123;">
-            <div class="col-md-4"><br><br><br><br><br><br>
+    </div>
+    <hr style="background:black; height:5px;margin: 0">
+    <div class="bgg1" style="text-align: justify">
+        <div class="row ">
+            <div class="col-md-4"><br><br><br><br><br><br><br>
                 <ul class="no_bullet">
-                    <div class="list-group-item">
-                        <li class="icon1 list-group-item"> Would my account be Safe?</li>
-                        Yes, while you have access to your email your account is 100% safe. Also the boosters use VPN,
+                    <div class="listi">
+                        <li class="icon1 listi"> Would my account be Safe?</li>
+                        Yes, while you have access to your email your account is 100% safe. Also the boosters use
+                        VPN,
                         follow our unique TopBoost boosting method .
                     </div>
-                    <div class="list-group-item">
-                        <li class="icon1 list-group-item"> What guarantees do i have?</li>
-                        You have Time & Cash Back Guarantee for every lol elo boost you buy. If the booster pases the
-                        time limit even by a minute we give you 100% of your money back and you get your boost for free.
+                    <div class="listi">
+                        <li class="icon1 listi"> What guarantees do i have?</li>
+                        You have Time & Cash Back Guarantee for every lol elo boost you buy. If the booster pases
+                        the
+                        time limit even by a minute we give you 100% of your money back and you get your boost for
+                        free.
                     </div>
-
-
                 </ul>
+                <br><br><br>
             </div>
             <div class="col-md-4" style="text-align: center"><br>
-                <img src="images/index-circle/zed.png" width="400" height="700" alt="">
+                <!--<img class="zed" src="images/index-circle/zed.png" alt="">-->
             </div>
             <div class="col-md-4">
-                <br><br><br><br><br><br>
+                <br><br><br><br><br>
                 <ul class="no_bullet">
-                    <div class="list-group-item">
-                        <li class="icon1 list-group-item"> Will i be able to spectate and pause and select Champions?.
+                    <div class="listi">
+                        <li class="icon1 listi"> Will i be able to spectate and pause and select
+                            Champions?.
                         </li>
                         Absolutely YES, you will be able to pause, easy spectate and select 3-10 champions that the
                         booster will play.
                     </div>
 
-                    <div class="list-group-item">
-                        <li class="icon1 list-group-item"> How fast will i get my boost?</li>
+                    <div class="listi">
+                        <li class="icon1 listi"> How fast will i get my boost?</li>
                         Our booster will finish your boost in few days. They are 100% committed to give the BEST and
-                        FASTEST results. We try our best to be the best. I know we are offering a lot of good stuff but
+                        FASTEST results. We try our best to be the best. I know we are offering a lot of good stuff
+                        but
                         to be honest that's what you deserve only the best.
                     </div>
-
                 </ul>
+                <br><br><br>
             </div>
         </div>
-        <h1 style="text-align: center">
-            <a href="boosting" class="bottom-right"><span class="badge zolta">Get Boost</span></a>
-        </h1>
-        <div>
-            ovde za praenje iam
-        </div>
-        <h1 style="text-align: center;">What our customer think about us.</h1>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container">
-                        <div class="card-deck" id="card-deck">
-                            <div class="card" id="Card1">
-                                <div class="card-header" id="cardName1">Name</div>
-                                <img class="card-img-top bgReview" id="cardImg1" src='' alt="Card image cap"
-                                     data-toggle="modal"
-                                     data-target="#myModal">
-                                <div class="card-body bgReview">
-                                    <p class="card-text" id="Review1">Review</p>
-                                </div>
-                                <div id="myModal" class="modal fade" tabindex="-1" role="dialog"
-                                     aria-labelledby="myModalLabel"
-                                     aria-hidden="true">
-                                    <div class="modal-dialog  modal-xl" style="text-align: center">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img name="thirdImg"
-                                                     src=""
-                                                     id="slikam1" class="img-fluid">
-                                            </div>
-                                        </div>
 
+    </div>
+    <hr style="background:black; height:5px;margin: 0">
+    <h1 style="text-align: center">
+        <a href="boosting" class="bottom-right"><span class="badge zolta">Get Boost</span></a>
+    </h1>
+    <hr style="background:black; height:5px;margin: 0">
+    <div>
+        ovde za praenje iam
+    </div>
+    <hr style="background:black; height:5px;margin: 0">
+    <h1 style="text-align: center;">What our customer think about us.</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="card-deck" id="card-deck">
+                        <div class="card" id="Card1">
+                            <div class="card-header" id="cardName1">Name</div>
+                            <img class="card-img-top bgReview" id="cardImg1" src='' alt="Card image cap"
+                                 data-toggle="modal"
+                                 data-target="#myModal">
+                            <div class="card-body bgReview">
+                                <p class="card-text" id="Review1">Review</p>
+                            </div>
+                            <div id="myModal" class="modal fade" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src=""
+                                                 id="slikam1" class="img-fluid">
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
-                            <div class="card" id="Card2">
-                                <div class="card-header" id="cardName2">Name</div>
-                                <img class="card-img-top bgReview" id="cardImg2" src='' alt="Card image cap"
-                                     data-toggle="modal"
-                                     data-target="#myModal2">
-                                <div class="card-body bgReview">
-                                    <p class="card-text" id="Review2">Review</p>
-                                </div>
-                                <div id="myModal2" class="modal fade" tabindex="-1" role="dialog"
-                                     aria-labelledby="myModalLabel"
-                                     aria-hidden="true">
-                                    <div class="modal-dialog  modal-xl" style="text-align: center">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img name="thirdImg"
-                                                     src=""
-                                                     id="slikam2" class="img-fluid">
-                                            </div>
+                        </div>
+                        <div class="card" id="Card2">
+                            <div class="card-header" id="cardName2">Name</div>
+                            <img class="card-img-top bgReview" id="cardImg2" src='' alt="Card image cap"
+                                 data-toggle="modal"
+                                 data-target="#myModal2">
+                            <div class="card-body bgReview">
+                                <p class="card-text" id="Review2">Review</p>
+                            </div>
+                            <div id="myModal2" class="modal fade" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
                                         </div>
-
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src=""
+                                                 id="slikam2" class="img-fluid">
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
-                            <div class="card" id="Card3">
-                                <div class="card-header" id="cardName3">Name</div>
-                                <img class="card-img-top bgReview" id="cardImg3" src='' alt="Card image cap"
-                                     data-toggle="modal"
-                                     data-target="#myModal3">
-                                <div class="card-body bgReview">
-                                    <p class="card-text" id="Review3">Review</p>
-                                </div>
-                                <div id="myModal3" class="modal fade" tabindex="-1" role="dialog"
-                                     aria-labelledby="myModalLabel"
-                                     aria-hidden="true">
-                                    <div class="modal-dialog  modal-xl" style="text-align: center">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img name="thirdImg"
-                                                     src=""
-                                                     id="slikam3" class="img-fluid">
-                                            </div>
+                        </div>
+                        <div class="card" id="Card3">
+                            <div class="card-header" id="cardName3">Name</div>
+                            <img class="card-img-top bgReview" id="cardImg3" src='' alt="Card image cap"
+                                 data-toggle="modal"
+                                 data-target="#myModal3">
+                            <div class="card-body bgReview">
+                                <p class="card-text" id="Review3">Review</p>
+                            </div>
+                            <div id="myModal3" class="modal fade" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
                                         </div>
-
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src=""
+                                                 id="slikam3" class="img-fluid">
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="card-deck" id="card-deck">
-                            <div class="card" id="Card4">
-                                <div class="card-header" id="cardName4">Name</div>
-                                <img class="card-img-top bgReview" id="cardImg4" src='' alt="Card image cap"
-                                     data-toggle="modal"
-                                     data-target="#myModal4">
-                                <div class="card-body bgReview">
-                                    <p class="card-text" id="Review4">Review</p>
-                                </div>
-                                <div id="myModal4" class="modal fade" tabindex="-1" role="dialog"
-                                     aria-labelledby="myModalLabel"
-                                     aria-hidden="true">
-                                    <div class="modal-dialog  modal-xl" style="text-align: center">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img name="thirdImg"
-                                                     src=""
-                                                     id="slikam4" class="img-fluid">
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="card-deck" id="card-deck">
+                        <div class="card" id="Card4">
+                            <div class="card-header" id="cardName4">Name</div>
+                            <img class="card-img-top bgReview" id="cardImg4" src='' alt="Card image cap"
+                                 data-toggle="modal"
+                                 data-target="#myModal4">
+                            <div class="card-body bgReview">
+                                <p class="card-text" id="Review4">Review</p>
                             </div>
-                            <div class="card" id="Card5">
-                                <div class="card-header" id="cardName5">Name</div>
-                                <img class="card-img-top bgReview" id="cardImg5" src='' alt="Card image cap"
-                                     data-toggle="modal"
-                                     data-target="#myModal5">
-                                <div class="card-body bgReview ">
-                                    <p class="card-text" id="Review5">Review</p>
-                                </div>
-                                <div id="myModal5" class="modal fade" tabindex="-1" role="dialog"
-                                     aria-labelledby="myModalLabel"
-                                     aria-hidden="true">
-                                    <div class="modal-dialog  modal-xl" style="text-align: center">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img name="thirdImg"
-                                                     src=""
-                                                     id="slikam5" class="img-fluid">
-                                            </div>
+                            <div id="myModal4" class="modal fade" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
                                         </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card" id="Card6">
-                                <div class="card-header" id="cardName6">Name</div>
-                                <img class="card-img-top bgReview" id="cardImg6" src='' alt="Card image cap"
-                                     data-toggle="modal"
-                                     data-target="#myModal6">
-                                <div class="card-body bgReview">
-                                    <p class="card-text" id="Review6">Review</p>
-                                </div>
-                                <div id="myModal6" class="modal fade" tabindex="-1" role="dialog"
-                                     aria-labelledby="myModalLabel"
-                                     aria-hidden="true">
-                                    <div class="modal-dialog  modal-xl" style="text-align: center">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img name="thirdImg"
-                                                     src=""
-                                                     id="slikam6" class="img-fluid">
-                                            </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src=""
+                                                 id="slikam4" class="img-fluid">
                                         </div>
-
                                     </div>
+
                                 </div>
                             </div>
                         </div>
+                        <div class="card" id="Card5">
+                            <div class="card-header" id="cardName5">Name</div>
+                            <img class="card-img-top bgReview" id="cardImg5" src='' alt="Card image cap"
+                                 data-toggle="modal"
+                                 data-target="#myModal5">
+                            <div class="card-body bgReview ">
+                                <p class="card-text" id="Review5">Review</p>
+                            </div>
+                            <div id="myModal5" class="modal fade" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src=""
+                                                 id="slikam5" class="img-fluid">
+                                        </div>
+                                    </div>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="Card6">
+                            <div class="card-header" id="cardName6">Name</div>
+                            <img class="card-img-top bgReview" id="cardImg6" src='' alt="Card image cap"
+                                 data-toggle="modal"
+                                 data-target="#myModal6">
+                            <div class="card-body bgReview">
+                                <p class="card-text" id="Review6">Review</p>
+                            </div>
+                            <div id="myModal6" class="modal fade" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog  modal-xl" style="text-align: center">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img name="thirdImg"
+                                                 src=""
+                                                 id="slikam6" class="img-fluid">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-            <ul class="pagination justify-content-center">
-                <li class="page-item">
-                    <a class="page-link" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        Previous
-                    </a>
-                </li>
-                <a class="page-link" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    Next
+
+        </div>
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    Previous
                 </a>
-                </li>
-            </ul>
-        </div>
+            </li>
+            <a class="page-link" href="#carouselExampleIndicators" role="button" data-slide="next">
+                Next
+            </a>
+            </li>
+        </ul>
+    </div>
+    <hr style="background:black; height:5px;margin: 0">
+    <div style="text-align: center">
+        If you like to get free skins, free boosts, be a higher division and save 30% on your purchase I encourage
+        you to buy now <br>
+        Offers only available for the first 100 customers <br>
+        <div class="row">
 
-        <div style="text-align: center">
-            If you like to get free skins, free boosts, be a higher division and save 30% on your purchase I encourage
-            you to buy now <br>
-            Offers only available for the first 100 customers <br>
-            <div class="row">
-
-                <div class="col-md-2">
-                    <a href="placement-matches"> <img src="images/Packs/box-division_boost.png" alt="" width="125"
-                                                      height="196"></a>
-                </div>
-                <div class="col-md-2">
-                    <a href="placement-matches"> <img src="images/Packs/box-placement_matches.png" alt="" width="125"
-                                                      height="196"></a>
-                </div>
-                <div class="col-md-2">
-                    <a href="win-boost"> <img src="images/Packs/box-win_boost.png" alt="" width="125" height="196">
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="champion-mastery-boost"> <img src="images/Packs/box-champion_mastery_boost.png" alt="" width="125"
-                                                           height="196">
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="mission-completition"> <img src="images/Packs/box-mission_completion.png" alt="" width="125"
-                                                         height="196">
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="level-boost"> <img src="images/Packs/box-honor_boost.png" alt="" width="125" height="196">
-                    </a>
-                </div>
-
+            <div class="col-md-2">
+                <a href="placement-matches"> <img src="images/Packs/box-division_boost.png" alt="" width="125"
+                                                  height="196"></a>
+            </div>
+            <div class="col-md-2">
+                <a href="placement-matches"> <img src="images/Packs/box-placement_matches.png" alt="" width="125"
+                                                  height="196"></a>
+            </div>
+            <div class="col-md-2">
+                <a href="win-boost"> <img src="images/Packs/box-win_boost.png" alt="" width="125" height="196">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="champion-mastery-boost"> <img src="images/Packs/box-champion_mastery_boost.png" alt=""
+                                                       width="125"
+                                                       height="196">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="mission-completition"> <img src="images/Packs/box-mission_completion.png" alt=""
+                                                     width="125"
+                                                     height="196">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="level-boost"> <img src="images/Packs/box-honor_boost.png" alt="" width="125" height="196">
+                </a>
             </div>
 
         </div>
-        <br><br>
+        <br>
     </div>
 
-
-    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
     <footer id="myFooter">
         <?php include 'footer.php'; ?>
 
     </footer>
+
+
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
+
 </div>
 
 </body>
