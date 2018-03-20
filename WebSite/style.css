@@ -10,18 +10,24 @@ body {
 .bgg1 {
     background-image: url("images/Boosting/img bg/img bg 1_hd.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .bgg2 {
     background-image: url("images/Boosting/img bg/img bg 2_hd.png");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .bgg3 {
     background-image: url("images/Boosting/img bg/img bg_hd.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bgg4{
+    background-image: url("images/Boosting/img bg/fixed bg 1_h.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .listi {
@@ -277,6 +283,14 @@ img.img-kocka {
     color: #E9D300;
     background: #375990;
 }
+.dugmenp{
+    border-radius: 8px;
+    padding: 12px 28px;
+    width: 250px;
+}
+.dugmenp:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 .bgReview {
     background: #909090;
@@ -302,8 +316,14 @@ img.img-kocka {
 }
 
 li.icon1:before {
-    content: url("images/facebook.png");
+    content: url("images/SHARED/img 10_h_95x109.png");
+    align-items: center;
 }
+.dugmedd{
+    background: #d4edda;
+    color:black;
+}
+
 
 #sina {
     color: #375990;
@@ -412,7 +432,7 @@ li.icon1:before {
 }
 
 .zed {
-    width: 400px;
+    width: 500px;
     height: 700px;
 }
 
