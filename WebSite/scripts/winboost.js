@@ -99,7 +99,7 @@ function getPrice()
 function extra()
 {
     var price = getPrice();
-    var extra = Math.ceil(price + (price * 0.15));
+    var extra = Math.ceil(price + (price * 0.30));
     $("#extraval").html('Original price: ' + extra +'€')
 }
 

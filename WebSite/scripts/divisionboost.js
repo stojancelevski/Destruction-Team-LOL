@@ -178,7 +178,7 @@ function triggerValue()
         value+= value*0.21;
     }
     value = Math.ceil(value);
-    var extraprice = Math.ceil(value + (value * 0.15));
+    var extraprice = Math.ceil(value + (value * 0.30));
 
     $("#value").html('Price: '+value+'€');
     $("#extraval").html('Original price: ' + extraprice + '€')
